@@ -1,0 +1,626 @@
+//background
+
+.#{$background-position} {
+  &-t {
+    background-position: top;
+  }
+
+  &-r {
+    background-position: right;
+  }
+
+  &-rb {
+    background-position: right bottom;
+  }
+
+  &-rt {
+    background-position: right top;
+  }
+
+  &-b {
+    background-position: bottom;
+  }
+
+  &-l {
+    background-position: left;
+  }
+
+  &-lb {
+    background-position: left bottom;
+  }
+
+  &-lt {
+    background-position: left top;
+  }
+
+  &-c {
+    background-position: center;
+  }
+}
+
+.#{$background-size} {
+  &-auto {
+    background-size: auto;
+  }
+
+  &-cover {
+    background-size: cover;
+  }
+
+  &-contain {
+    background-size: contain;
+  }
+}
+
+.#{$background-repeat} {
+  & {
+    background-repeat: repeat;
+  }
+
+  &-x {
+    background-repeat: repeat-x;
+  }
+
+  &-y {
+    background-repeat: repeat-y;
+  }
+
+  &-no {
+    background-repeat: no-repeat;
+  }
+}
+
+.#{$background-origin} {
+  &-border {
+    background-origin: border-box;
+  }
+
+  &-content {
+    background-origin: content-box;
+  }
+
+  &-padding {
+    background-origin: padding-box;
+  }
+}
+
+.#{$background-clip} {
+  &-border {
+    background-clip: border-box;
+  }
+
+  &-content {
+    background-clip: content-box;
+  }
+
+  &-padding {
+    background-clip: padding-box;
+  }
+}
+
+.#{$background-attachment} {
+  &-scroll {
+    background-attachment: scroll;
+  }
+
+  &-fixed {
+    background-attachment: fixed;
+  }
+
+  &-local {
+    background-attachment: local;
+  }
+}
+
+.#{$background-image} {
+  &-n {
+    background-image: none;
+  }
+}
+
+//responsive-pc
+
+@media (max-width: 1199px) {
+  //Extra large devices (large desktops, 992px and 1200px)
+  .#{$background-position} {
+    &-t-lg {
+      background-position: top;
+    }
+
+    &-r-lg {
+      background-position: right;
+    }
+
+    &-rb-lg {
+      background-position: right bottom;
+    }
+
+    &-rt-lg {
+      background-position: right top;
+    }
+
+    &-b-lg {
+      background-position: bottom;
+    }
+
+    &-l-lg {
+      background-position: left;
+    }
+
+    &-lb-lg {
+      background-position: left bottom;
+    }
+
+    &-lt-lg {
+      background-position: left top;
+    }
+
+    &-c-lg {
+      background-position: center;
+    }
+  }
+
+  .#{$background-size} {
+    &-auto-lg {
+      background-size: auto;
+    }
+
+    &-cover-lg {
+      background-size: cover;
+    }
+
+    &-contain-lg {
+      background-size: contain;
+    }
+  }
+
+  .#{$background-repeat} {
+    &-lg {
+      background-repeat: repeat;
+    }
+
+    &-x-lg {
+      background-repeat: repeat-x;
+    }
+
+    &-y-lg {
+      background-repeat: repeat-y;
+    }
+
+    &-no-lg {
+      background-repeat: no-repeat;
+    }
+  }
+
+  .#{$background-origin} {
+    &-border-lg {
+      background-origin: border-box;
+    }
+
+    &-content-lg {
+      background-origin: content-box;
+    }
+
+    &-padding-lg {
+      background-origin: padding-box;
+    }
+  }
+
+  .#{$background-clip} {
+    &-border-lg {
+      background-clip: border-box;
+    }
+
+    &-content-lg {
+      background-clip: content-box;
+    }
+
+    &-padding-lg {
+      background-clip: padding-box;
+    }
+  }
+
+  .#{$background-attachment} {
+    &-scroll-lg {
+      background-attachment: scroll;
+    }
+
+    &-fixed-lg {
+      background-attachment: fixed;
+    }
+
+    &-local-lg {
+      background-attachment: local;
+    }
+  }
+
+  .#{$background-image} {
+    &-n-lg {
+      background-image: none;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  //Large devices (desktops, 768px and 992px)
+  .#{$background-position} {
+    &-t-md {
+      background-position: top;
+    }
+
+    &-r-md {
+      background-position: right;
+    }
+
+    &-rb-md {
+      background-position: right bottom;
+    }
+
+    &-rt-md {
+      background-position: right top;
+    }
+
+    &-b-md {
+      background-position: bottom;
+    }
+
+    &-l-md {
+      background-position: left;
+    }
+
+    &-lb-md {
+      background-position: left bottom;
+    }
+
+    &-lt-md {
+      background-position: left top;
+    }
+
+    &-c-md {
+      background-position: center;
+    }
+  }
+
+  .#{$background-size} {
+    &-auto-md {
+      background-size: auto;
+    }
+
+    &-cover-md {
+      background-size: cover;
+    }
+
+    &-contain-md {
+      background-size: contain;
+    }
+  }
+
+  .#{$background-repeat} {
+    &-md {
+      background-repeat: repeat;
+    }
+
+    &-x-md {
+      background-repeat: repeat-x;
+    }
+
+    &-y-md {
+      background-repeat: repeat-y;
+    }
+
+    &-no-md {
+      background-repeat: no-repeat;
+    }
+  }
+
+  .#{$background-origin} {
+    &-border-md {
+      background-origin: border-box;
+    }
+
+    &-content-md {
+      background-origin: content-box;
+    }
+
+    &-padding-md {
+      background-origin: padding-box;
+    }
+  }
+
+  .#{$background-clip} {
+    &-border-md {
+      background-clip: border-box;
+    }
+
+    &-content-md {
+      background-clip: content-box;
+    }
+
+    &-padding-md {
+      background-clip: padding-box;
+    }
+  }
+
+  .#{$background-attachment} {
+    &-scroll-md {
+      background-attachment: scroll;
+    }
+
+    &-fixed-md {
+      background-attachment: fixed;
+    }
+
+    &-local-md {
+      background-attachment: local;
+    }
+  }
+
+  .#{$background-image} {
+    &-n-md {
+      background-image: none;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  //Medium devices (tablets, 576px and 768px)
+  .#{$background-position} {
+    &-t-sm {
+      background-position: top;
+    }
+
+    &-r-sm {
+      background-position: right;
+    }
+
+    &-rb-sm {
+      background-position: right bottom;
+    }
+
+    &-rt-sm {
+      background-position: right top;
+    }
+
+    &-b-sm {
+      background-position: bottom;
+    }
+
+    &-l-sm {
+      background-position: left;
+    }
+
+    &-lb-sm {
+      background-position: left bottom;
+    }
+
+    &-lt-sm {
+      background-position: left top;
+    }
+
+    &-c-sm {
+      background-position: center;
+    }
+  }
+
+  .#{$background-size} {
+    &-auto-sm {
+      background-size: auto;
+    }
+
+    &-cover-sm {
+      background-size: cover;
+    }
+
+    &-contain-sm {
+      background-size: contain;
+    }
+  }
+
+  .#{$background-repeat} {
+    &-sm {
+      background-repeat: repeat;
+    }
+
+    &-x-sm {
+      background-repeat: repeat-x;
+    }
+
+    &-y-sm {
+      background-repeat: repeat-y;
+    }
+
+    &-no-sm {
+      background-repeat: no-repeat;
+    }
+  }
+
+  .#{$background-origin} {
+    &-border-sm {
+      background-origin: border-box;
+    }
+
+    &-content-sm {
+      background-origin: content-box;
+    }
+
+    &-padding-sm {
+      background-origin: padding-box;
+    }
+  }
+
+  .#{$background-clip} {
+    &-border-sm {
+      background-clip: border-box;
+    }
+
+    &-content-sm {
+      background-clip: content-box;
+    }
+
+    &-padding-sm {
+      background-clip: padding-box;
+    }
+  }
+
+  .#{$background-attachment} {
+    &-scroll-sm {
+      background-attachment: scroll;
+    }
+
+    &-fixed-sm {
+      background-attachment: fixed;
+    }
+
+    &-local-sm {
+      background-attachment: local;
+    }
+  }
+
+  .#{$background-image} {
+    &-n-sm {
+      background-image: none;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  //Small devices (landscape phones, max-width 576px)
+  .#{$background-position} {
+    &-t-xs {
+      background-position: top;
+    }
+
+    &-r-xs {
+      background-position: right;
+    }
+
+    &-rb-xs {
+      background-position: right bottom;
+    }
+
+    &-rt-xs {
+      background-position: right top;
+    }
+
+    &-b-xs {
+      background-position: bottom;
+    }
+
+    &-l-xs {
+      background-position: left;
+    }
+
+    &-lb-xs {
+      background-position: left bottom;
+    }
+
+    &-lt-xs {
+      background-position: left top;
+    }
+
+    &-c-xs {
+      background-position: center;
+    }
+  }
+
+  .#{$background-size} {
+    &-auto-xs {
+      background-size: auto;
+    }
+
+    &-cover-xs {
+      background-size: cover;
+    }
+
+    &-contain-xs {
+      background-size: contain;
+    }
+  }
+
+  .#{$background-repeat} {
+    &-xs {
+      background-repeat: repeat;
+    }
+
+    &-x-xs {
+      background-repeat: repeat-x;
+    }
+
+    &-y-xs {
+      background-repeat: repeat-y;
+    }
+
+    &-no-xs {
+      background-repeat: no-repeat;
+    }
+  }
+
+  .#{$background-origin} {
+    &-border-xs {
+      background-origin: border-box;
+    }
+
+    &-content-xs {
+      background-origin: content-box;
+    }
+
+    &-padding-xs {
+      background-origin: padding-box;
+    }
+  }
+
+  .#{$background-clip} {
+    &-border-xs {
+      background-clip: border-box;
+    }
+
+    &-content-xs {
+      background-clip: content-box;
+    }
+
+    &-padding-xs {
+      background-clip: padding-box;
+    }
+  }
+
+  .#{$background-attachment} {
+    &-scroll-xs {
+      background-attachment: scroll;
+    }
+
+    &-fixed-xs {
+      background-attachment: fixed;
+    }
+
+    &-local-xs {
+      background-attachment: local;
+    }
+  }
+
+  .#{$background-image} {
+    &-n-xs {
+      background-image: none;
+    }
+  }
+}
+
+//responsive-mobile
+
+//Extra small devices (portrait phones, less than 576px)
+//No media query for `xs` since this is the default
+
+@media (min-width: 576px) {
+  //Small devices (landscape phones, 576px and up)
+}
+
+@media (min-width: 768px) {
+  //Medium devices (tablets, 768px and up)
+}
+
+@media (min-width: 992px) {
+  //Large devices (desktops, 992px and up)
+}
+
+@media (min-width: 1200px) {
+  //Extra large devices (large desktops, 1200px and up)
+}

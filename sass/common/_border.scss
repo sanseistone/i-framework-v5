@@ -1,0 +1,884 @@
+//border
+
+.#{$border} {
+  & {
+    border: 1px solid $color-d;
+  }
+}
+
+.#{$border} {
+  &.n {
+    border: none !important;
+  }
+
+  &.t-n {
+    border-top: none !important;
+  }
+
+  &.r-n {
+    border-right: none !important;
+  }
+
+  &.b-n {
+    border-bottom: none !important;
+  }
+
+  &.l-n {
+    border-left: none !important;
+  }
+
+  &.tr-n {
+    border-top: none !important;
+    border-right: none !important;
+  }
+
+  &.tb-n {
+    border-top: none !important;
+    border-bottom: none !important;
+  }
+
+  &.tl-n {
+    border-top: none !important;
+    border-left: none !important;
+  }
+
+  &.lr-n {
+    border-left: none !important;
+    border-right: none !important;
+  }
+
+  &.rb-n {
+    border-right: none !important;
+    border-bottom: none !important;
+  }
+
+  &.bl-n {
+    border-bottom: none !important;
+    border-left: none !important;
+  }
+}
+
+//border-solid
+
+.#{$border} {
+  &.#{$solid} {
+    border-style: solid;
+  }
+
+  &.t-#{$solid} {
+    border-right: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-top-style: solid;
+  }
+
+  &.r-#{$solid} {
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right-style: solid;
+  }
+
+  &.b-#{$solid} {
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom-style: solid;
+  }
+
+  &.l-#{$solid} {
+    border-top: none;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-left-style: solid;
+  }
+}
+
+//border-dashed
+
+.#{$border} {
+  &.#{$dashed} {
+    border-style: dashed;
+  }
+
+  &.t-#{$dashed} {
+    border-right: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-top-style: dashed;
+  }
+
+  &.r-#{$dashed} {
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right-style: dashed;
+  }
+
+  &.b-#{$dashed} {
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom-style: dashed;
+  }
+
+  &.l-#{$dashed} {
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-left-style: dashed;
+  }
+}
+
+//border-dotted
+
+.#{$border} {
+  &.#{$dotted} {
+    border-style: dotted;
+  }
+
+  &.t-#{$dotted} {
+    border-right: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-top-style: dotted;
+  }
+
+  &.r-#{$dotted} {
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right-style: dotted;
+  }
+
+  &.b-#{$dotted} {
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom-style: dotted;
+  }
+
+  &.l-#{$dotted} {
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-left-style: dotted;
+  }
+}
+
+//border-width
+
+.#{$border} {
+  @each $key, $value in $border-width-series {
+    &-#{$key} {
+      @include border-width-variant($value);
+    }
+  }
+}
+
+//responsive-pc
+
+@media (max-width: 1199px) {
+  //Extra large devices (large desktops, 992px and 1200px)
+  .#{$border} {
+    &-lg {
+      border: 1px solid $color-d;
+    }
+  }
+
+  .#{$border} {
+    &.n-lg {
+      border: none !important;
+    }
+
+    &.t-n-lg {
+      border-top: none !important;
+    }
+
+    &.r-n-lg {
+      border-right: none !important;
+    }
+
+    &.b-n-lg {
+      border-bottom: none !important;
+    }
+
+    &.l-n-lg {
+      border-left: none !important;
+    }
+
+    &.tr-n-lg {
+      border-top: none !important;
+      border-right: none !important;
+    }
+
+    &.tb-n-lg {
+      border-top: none !important;
+      border-bottom: none !important;
+    }
+
+    &.tl-n-lg {
+      border-top: none !important;
+      border-left: none !important;
+    }
+
+    &.lr-n-lg {
+      border-left: none !important;
+      border-right: none !important;
+    }
+
+    &.rb-n-lg {
+      border-right: none !important;
+      border-bottom: none !important;
+    }
+
+    &.bl-n-lg {
+      border-bottom: none !important;
+      border-left: none !important;
+    }
+  }
+
+  .#{$border} {
+    &.#{$solid}-lg {
+      border-style: solid;
+    }
+
+    &.t-#{$solid}-lg {
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-top-style: solid;
+    }
+
+    &.r-#{$solid}-lg {
+      border-top: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-right-style: solid;
+    }
+
+    &.b-#{$solid}-lg {
+      border-top: none !important;
+      border-right: none !important;
+      border-left: none !important;
+      border-bottom-style: solid;
+    }
+
+    &.l-#{$solid}-lg {
+      border-top: none;
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left-style: solid;
+    }
+  }
+
+  .#{$border} {
+    &.#{$dashed}-lg {
+      border-style: dashed;
+    }
+
+    &.t-#{$dashed}-lg {
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-top-style: dashed;
+    }
+
+    &.r-#{$dashed}-lg {
+      border-top: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-right-style: dashed;
+    }
+
+    &.b-#{$dashed}-lg {
+      border-top: none !important;
+      border-right: none !important;
+      border-left: none !important;
+      border-bottom-style: dashed;
+    }
+
+    &.l-#{$dashed}-lg {
+      border-top: none !important;
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left-style: dashed;
+    }
+  }
+
+  .#{$border} {
+    &.#{$dotted}-lg {
+      border-style: dotted;
+    }
+
+    &.t-#{$dotted}-lg {
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-top-style: dotted;
+    }
+
+    &.r-#{$dotted}-lg {
+      border-top: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-right-style: dotted;
+    }
+
+    &.b-#{$dotted}-lg {
+      border-top: none !important;
+      border-right: none !important;
+      border-left: none !important;
+      border-bottom-style: dotted;
+    }
+
+    &.l-#{$dotted}-lg {
+      border-top: none !important;
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left-style: dotted;
+    }
+  }
+
+  .#{$border} {
+    @each $key, $value in $border-width-series {
+      &-#{$key}-lg {
+        @include border-width-variant($value);
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  //Large devices (desktops, 768px and 992px)
+  .#{$border} {
+    &-md {
+      border: 1px solid $color-d;
+    }
+  }
+
+  .#{$border} {
+    &.n-md {
+      border: none !important;
+    }
+
+    &.t-n-md {
+      border-top: none !important;
+    }
+
+    &.r-n-md {
+      border-right: none !important;
+    }
+
+    &.b-n-md {
+      border-bottom: none !important;
+    }
+
+    &.l-n-md {
+      border-left: none !important;
+    }
+
+    &.tr-n-md {
+      border-top: none !important;
+      border-right: none !important;
+    }
+
+    &.tb-n-md {
+      border-top: none !important;
+      border-bottom: none !important;
+    }
+
+    &.tl-n-md {
+      border-top: none !important;
+      border-left: none !important;
+    }
+
+    &.lr-n-md {
+      border-left: none !important;
+      border-right: none !important;
+    }
+
+    &.rb-n-md {
+      border-right: none !important;
+      border-bottom: none !important;
+    }
+
+    &.bl-n-md {
+      border-bottom: none !important;
+      border-left: none !important;
+    }
+  }
+
+  .#{$border} {
+    &.#{$solid}-md {
+      border-style: solid;
+    }
+
+    &.t-#{$solid}-md {
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-top-style: solid;
+    }
+
+    &.r-#{$solid}-md {
+      border-top: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-right-style: solid;
+    }
+
+    &.b-#{$solid}-md {
+      border-top: none !important;
+      border-right: none !important;
+      border-left: none !important;
+      border-bottom-style: solid;
+    }
+
+    &.l-#{$solid}-md {
+      border-top: none;
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left-style: solid;
+    }
+  }
+
+  .#{$border} {
+    &.#{$dashed}-md {
+      border-style: dashed;
+    }
+
+    &.t-#{$dashed}-md {
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-top-style: dashed;
+    }
+
+    &.r-#{$dashed}-md {
+      border-top: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-right-style: dashed;
+    }
+
+    &.b-#{$dashed}-md {
+      border-top: none !important;
+      border-right: none !important;
+      border-left: none !important;
+      border-bottom-style: dashed;
+    }
+
+    &.l-#{$dashed}-md {
+      border-top: none !important;
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left-style: dashed;
+    }
+  }
+
+  .#{$border} {
+    &.#{$dotted}-md {
+      border-style: dotted;
+    }
+
+    &.t-#{$dotted}-md {
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-top-style: dotted;
+    }
+
+    &.r-#{$dotted}-md {
+      border-top: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-right-style: dotted;
+    }
+
+    &.b-#{$dotted}-md {
+      border-top: none !important;
+      border-right: none !important;
+      border-left: none !important;
+      border-bottom-style: dotted;
+    }
+
+    &.l-#{$dotted}-md {
+      border-top: none !important;
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left-style: dotted;
+    }
+  }
+
+  .#{$border} {
+    @each $key, $value in $border-width-series {
+      &-#{$key}-md {
+        @include border-width-variant($value);
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  //Medium devices (tablets, 576px and 768px)
+  .#{$border} {
+    &-sm {
+      border: 1px solid $color-d;
+    }
+  }
+
+  .#{$border} {
+    &.n-sm {
+      border: none !important;
+    }
+
+    &.t-n-sm {
+      border-top: none !important;
+    }
+
+    &.r-n-sm {
+      border-right: none !important;
+    }
+
+    &.b-n-sm {
+      border-bottom: none !important;
+    }
+
+    &.l-n-sm {
+      border-left: none !important;
+    }
+
+    &.tr-n-sm {
+      border-top: none !important;
+      border-right: none !important;
+    }
+
+    &.tb-n-sm {
+      border-top: none !important;
+      border-bottom: none !important;
+    }
+
+    &.tl-n-sm {
+      border-top: none !important;
+      border-left: none !important;
+    }
+
+    &.lr-n-sm {
+      border-left: none !important;
+      border-right: none !important;
+    }
+
+    &.rb-n-sm {
+      border-right: none !important;
+      border-bottom: none !important;
+    }
+
+    &.bl-n-sm {
+      border-bottom: none !important;
+      border-left: none !important;
+    }
+  }
+
+  .#{$border} {
+    &.#{$solid}-sm {
+      border-style: solid;
+    }
+
+    &.t-#{$solid}-sm {
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-top-style: solid;
+    }
+
+    &.r-#{$solid}-sm {
+      border-top: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-right-style: solid;
+    }
+
+    &.b-#{$solid}-sm {
+      border-top: none !important;
+      border-right: none !important;
+      border-left: none !important;
+      border-bottom-style: solid;
+    }
+
+    &.l-#{$solid}-sm {
+      border-top: none;
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left-style: solid;
+    }
+  }
+
+  .#{$border} {
+    &.#{$dashed}-sm {
+      border-style: dashed;
+    }
+
+    &.t-#{$dashed}-sm {
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-top-style: dashed;
+    }
+
+    &.r-#{$dashed}-sm {
+      border-top: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-right-style: dashed;
+    }
+
+    &.b-#{$dashed}-sm {
+      border-top: none !important;
+      border-right: none !important;
+      border-left: none !important;
+      border-bottom-style: dashed;
+    }
+
+    &.l-#{$dashed}-sm {
+      border-top: none !important;
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left-style: dashed;
+    }
+  }
+
+  .#{$border} {
+    &.#{$dotted}-sm {
+      border-style: dotted;
+    }
+
+    &.t-#{$dotted}-sm {
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-top-style: dotted;
+    }
+
+    &.r-#{$dotted}-sm {
+      border-top: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-right-style: dotted;
+    }
+
+    &.b-#{$dotted}-sm {
+      border-top: none !important;
+      border-right: none !important;
+      border-left: none !important;
+      border-bottom-style: dotted;
+    }
+
+    &.l-#{$dotted}-sm {
+      border-top: none !important;
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left-style: dotted;
+    }
+  }
+
+  .#{$border} {
+    @each $key, $value in $border-width-series {
+      &-#{$key}-sm {
+        @include border-width-variant($value);
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  //Small devices (landscape phones, max-width 576px)
+  .#{$border} {
+    &-xs {
+      border: 1px solid $color-d;
+    }
+  }
+
+  .#{$border} {
+    &.n-xs {
+      border: none !important;
+    }
+
+    &.t-n-xs {
+      border-top: none !important;
+    }
+
+    &.r-n-xs {
+      border-right: none !important;
+    }
+
+    &.b-n-xs {
+      border-bottom: none !important;
+    }
+
+    &.l-n-xs {
+      border-left: none !important;
+    }
+
+    &.tr-n-xs {
+      border-top: none !important;
+      border-right: none !important;
+    }
+
+    &.tb-n-xs {
+      border-top: none !important;
+      border-bottom: none !important;
+    }
+
+    &.tl-n-xs {
+      border-top: none !important;
+      border-left: none !important;
+    }
+
+    &.lr-n-xs {
+      border-left: none !important;
+      border-right: none !important;
+    }
+
+    &.rb-n-xs {
+      border-right: none !important;
+      border-bottom: none !important;
+    }
+
+    &.bl-n-xs {
+      border-bottom: none !important;
+      border-left: none !important;
+    }
+  }
+
+  .#{$border} {
+    &.#{$solid}-xs {
+      border-style: solid;
+    }
+
+    &.t-#{$solid}-xs {
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-top-style: solid;
+    }
+
+    &.r-#{$solid}-xs {
+      border-top: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-right-style: solid;
+    }
+
+    &.b-#{$solid}-xs {
+      border-top: none !important;
+      border-right: none !important;
+      border-left: none !important;
+      border-bottom-style: solid;
+    }
+
+    &.l-#{$solid}-xs {
+      border-top: none;
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left-style: solid;
+    }
+  }
+
+  .#{$border} {
+    &.#{$dashed}-xs {
+      border-style: dashed;
+    }
+
+    &.t-#{$dashed}-xs {
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-top-style: dashed;
+    }
+
+    &.r-#{$dashed}-xs {
+      border-top: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-right-style: dashed;
+    }
+
+    &.b-#{$dashed}-xs {
+      border-top: none !important;
+      border-right: none !important;
+      border-left: none !important;
+      border-bottom-style: dashed;
+    }
+
+    &.l-#{$dashed}-xs {
+      border-top: none !important;
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left-style: dashed;
+    }
+  }
+
+  .#{$border} {
+    &.#{$dotted}-xs {
+      border-style: dotted;
+    }
+
+    &.t-#{$dotted}-xs {
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-top-style: dotted;
+    }
+
+    &.r-#{$dotted}-xs {
+      border-top: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      border-right-style: dotted;
+    }
+
+    &.b-#{$dotted}-xs {
+      border-top: none !important;
+      border-right: none !important;
+      border-left: none !important;
+      border-bottom-style: dotted;
+    }
+
+    &.l-#{$dotted}-xs {
+      border-top: none !important;
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left-style: dotted;
+    }
+  }
+
+  .#{$border} {
+    @each $key, $value in $border-width-series {
+      &-#{$key}-xs {
+        @include border-width-variant($value);
+      }
+    }
+  }
+}
+
+//responsive-mobile
+
+//Extra small devices (portrait phones, less than 576px)
+//No media query for `xs` since this is the default
+
+@media (min-width: 576px) {
+  //Small devices (landscape phones, 576px and up)
+}
+
+@media (min-width: 768px) {
+  //Medium devices (tablets, 768px and up)
+}
+
+@media (min-width: 992px) {
+  //Large devices (desktops, 992px and up)
+}
+
+@media (min-width: 1200px) {
+  //Extra large devices (large desktops, 1200px and up)
+}
