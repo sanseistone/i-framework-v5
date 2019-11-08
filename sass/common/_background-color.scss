@@ -8,13 +8,10 @@
   background-color: transparent;
 }
 
-.#{$background-white} {
-  background-color: $color-f;
-}
-
-.#{$background-black} {
-  color: $color-f;
-  background-color: $color-0;
+@each $key, $value in $black-white-series {
+  .#{$background}-#{$key} {
+    @include bg-variant($value);
+  }
 }
 
 @each $key, $value in $red-series {
@@ -145,13 +142,10 @@
     background-color: transparent;
   }
 
-  .#{$background-white}-lg {
-    background-color: $color-f;
-  }
-
-  .#{$background-black}-lg {
-    color: $color-f;
-    background-color: $color-0;
+  @each $key, $value in $black-white-series {
+    .#{$background}-#{$key}-lg {
+      @include bg-variant($value);
+    }
   }
 
   @each $key, $value in $red-series {
@@ -281,13 +275,10 @@
     background-color: transparent;
   }
 
-  .#{$background-white}-md {
-    background-color: $color-f;
-  }
-
-  .#{$background-black}-md {
-    color: $color-f;
-    background-color: $color-0;
+  @each $key, $value in $black-white-series {
+    .#{$background}-#{$key}-md {
+      @include bg-variant($value);
+    }
   }
 
   @each $key, $value in $red-series {
@@ -417,13 +408,10 @@
     background-color: transparent;
   }
 
-  .#{$background-white}-sm {
-    background-color: $color-f;
-  }
-
-  .#{$background-black}-sm {
-    color: $color-f;
-    background-color: $color-0;
+  @each $key, $value in $black-white-series {
+    .#{$background}-#{$key}-sm {
+      @include bg-variant($value);
+    }
   }
 
   @each $key, $value in $red-series {
@@ -553,13 +541,10 @@
     background-color: transparent;
   }
 
-  .#{$background-white}-xs {
-    background-color: $color-f;
-  }
-
-  .#{$background-black}-xs {
-    color: $color-f;
-    background-color: $color-0;
+  @each $key, $value in $black-white-series {
+    .#{$background}-#{$key}-xs {
+      @include bg-variant($value);
+    }
   }
 
   @each $key, $value in $red-series {

@@ -70,6 +70,12 @@
 
 //list link color
 
+@each $key, $value in $black-white-series {
+  .#{$key} > li > a {
+    @include font-variant($value);
+  }
+}
+
 @each $key, $value in $red-series {
   .#{$key} > li > a {
     @include font-variant($value);
@@ -500,6 +506,12 @@
     }
   }
 
+  @each $key, $value in $black-white-series {
+    .#{$key}-lg > li > a {
+      @include font-variant($value);
+    }
+  }
+
   @each $key, $value in $red-series {
     .#{$key}-lg > li > a {
       @include font-variant($value);
@@ -922,6 +934,12 @@
     & > li {
       width: 100%;
       float: left;
+    }
+  }
+
+  @each $key, $value in $black-white-series {
+    .#{$key}-md > li > a {
+      @include font-variant($value);
     }
   }
 
@@ -1350,6 +1368,12 @@
     }
   }
 
+  @each $key, $value in $black-white-series {
+    .#{$key}-sm > li > a {
+      @include font-variant($value);
+    }
+  }
+
   @each $key, $value in $red-series {
     .#{$key}-sm > li > a {
       @include font-variant($value);
@@ -1772,6 +1796,12 @@
     & > li {
       width: 100%;
       float: left;
+    }
+  }
+
+  @each $key, $value in $black-white-series {
+    .#{$key}-xs > li > a {
+      @include font-variant($value);
     }
   }
 

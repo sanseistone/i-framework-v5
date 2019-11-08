@@ -5,14 +5,10 @@ a.#{$hover} {
     text-decoration: underline;
   }
 
-  &.white:focus,
-  &.white:hover {
-    color: $color-f;
-  }
-
-  &.black:focus,
-  &.black:hover {
-    color: $color-0;
+  @each $key, $value in $black-white {
+    &.#{$key}:focus, &.#{$key}:hover {
+      @include font-variant($value);
+    }
   }
 
   @each $key, $value in $red-series {
@@ -139,14 +135,10 @@ a.#{$hover} {
       text-decoration: underline;
     }
 
-    &.white-lg:focus,
-    &.white-lg:hover {
-      color: $color-f;
-    }
-
-    &.black-lg:focus,
-    &.black-lg:hover {
-      color: $color-0;
+    @each $key, $value in $black-white {
+      &.#{$key}-lg:focus, &.#{$key}-lg:hover {
+        @include font-variant($value);
+      }
     }
 
     @each $key, $value in $red-series {
@@ -272,14 +264,10 @@ a.#{$hover} {
       text-decoration: underline;
     }
 
-    &.white-md:focus,
-    &.white-md:hover {
-      color: $color-f;
-    }
-
-    &.black-md:focus,
-    &.black-md:hover {
-      color: $color-0;
+    @each $key, $value in $black-white {
+      &.#{$key}-md:focus, &.#{$key}-md:hover {
+        @include font-variant($value);
+      }
     }
 
     @each $key, $value in $red-series {
@@ -405,14 +393,10 @@ a.#{$hover} {
       text-decoration: underline;
     }
 
-    &.white-sm:focus,
-    &.white-sm:hover {
-      color: $color-f;
-    }
-
-    &.black-sm:focus,
-    &.black-sm:hover {
-      color: $color-0;
+    @each $key, $value in $black-white {
+      &.#{$key}-sm:focus, &.#{$key}-sm:hover {
+        @include font-variant($value);
+      }
     }
 
     @each $key, $value in $red-series {
@@ -538,14 +522,10 @@ a.#{$hover} {
       text-decoration: underline;
     }
 
-    &.white-xs:focus,
-    &.white-xs:hover {
-      color: $color-f;
-    }
-
-    &.black-xs:focus,
-    &.black-xs:hover {
-      color: $color-0;
+    @each $key, $value in $black-white {
+      &.#{$key}-xs:focus, &.#{$key}-xs:hover {
+        @include font-variant($value);
+      }
     }
 
     @each $key, $value in $red-series {

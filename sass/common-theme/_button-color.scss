@@ -6,35 +6,9 @@
   background-color: $color-default;
 }
 
-.#{$button-white} {
-  color: $color-3;
-  border-color: $color-3;
-  background-color: $color-f;
-
-  &:focus,
-  &:hover,
-  &.active,
-  &.active:focus,
-  &.active:hover {
-    color: $color-3;
-    border-color: $color-3;
-    background-color: $color-f;
-  }
-}
-
-.#{$button-black} {
-  color: $color-f;
-  border-color: $color-3;
-  background-color: $color-3;
-
-  &:focus,
-  &:hover,
-  &.active,
-  &.active:focus,
-  &.active:hover {
-    color: $color-f;
-    border-color: $color-f;
-    background-color: $color-3;
+@each $key, $value in $black-white {
+  .#{$button}-#{$key} {
+    @include button-variant($value, $value, $value);
   }
 }
 
@@ -270,16 +244,10 @@
 
 @media (max-width: 1199px) {
   //Extra large devices (large desktops, 992px and 1200px)
-  .#{$button-white}-lg {
-    color: $color-3;
-    border-color: $color-3;
-    background-color: $color-f;
-  }
-
-  .#{$button-black}-lg {
-    color: $color-f;
-    border-color: $color-3;
-    background-color: $color-3;
+  @each $key, $value in $black-white {
+    .#{$button}-#{$key}-lg {
+      @include button-variant($value, $value, $value);
+    }
   }
 
   @each $key, $value in $red-series {
@@ -513,16 +481,10 @@
 
 @media (max-width: 991px) {
   //Large devices (desktops, 768px and 992px)
-  .#{$button-white}-md {
-    color: $color-3;
-    border-color: $color-3;
-    background-color: $color-f;
-  }
-
-  .#{$button-black}-md {
-    color: $color-f;
-    border-color: $color-3;
-    background-color: $color-3;
+  @each $key, $value in $black-white {
+    .#{$button}-#{$key}-md {
+      @include button-variant($value, $value, $value);
+    }
   }
 
   @each $key, $value in $red-series {
@@ -756,16 +718,10 @@
 
 @media (max-width: 767px) {
   //Medium devices (tablets, 576px and 768px)
-  .#{$button-white}-sm {
-    color: $color-3;
-    border-color: $color-3;
-    background-color: $color-f;
-  }
-
-  .#{$button-black}-sm {
-    color: $color-f;
-    border-color: $color-3;
-    background-color: $color-3;
+  @each $key, $value in $black-white {
+    .#{$button}-#{$key}-sm {
+      @include button-variant($value, $value, $value);
+    }
   }
 
   @each $key, $value in $red-series {
@@ -999,16 +955,10 @@
 
 @media (max-width: 575px) {
   //Small devices (landscape phones, max-width 576px)
-  .#{$button-white}-xs {
-    color: $color-3;
-    border-color: $color-3;
-    background-color: $color-f;
-  }
-
-  .#{$button-black}-xs {
-    color: $color-f;
-    border-color: $color-3;
-    background-color: $color-3;
+  @each $key, $value in $black-white {
+    .#{$button}-#{$key}-xs {
+      @include button-variant($value, $value, $value);
+    }
   }
 
   @each $key, $value in $red-series {

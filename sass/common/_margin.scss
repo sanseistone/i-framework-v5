@@ -126,41 +126,41 @@
 
 //margin
 
-.#{$margin} {
-  &-center {
-    margin: 0 auto;
-  }
+//.#{$margin} {
+//  &-center {
+//    margin: 0 auto;
+//  }
+//
+//  &-all-0,
+//  &-all-0 > *,
+//  &-all-0 * {
+//    margin: 0;
+//  }
+//
+//  @each $key, $value in $group-m-series {
+//    &-#{$key} {
+//      @include margin-pixel-variant($value);
+//    }
+//  }
+//}
 
-  &-all-0,
-  &-all-0 > *,
-  &-all-0 * {
-    margin: 0;
-  }
-
-  @each $key, $value in $group-m-series {
-    &-#{$key} {
-      @include margin-pixel-variant($value);
-    }
-  }
-}
-
-.#{$margin} {
-  &-center {
-    margin: 0 auto;
-  }
-
-  &-all-0,
-  &-all-0 > *,
-  &-all-0 * {
-    margin: 0;
-  }
-
-  @each $key, $value in $rem-size-series {
-    &-#{$key} {
-      @include margin-pixel-variant($value);
-    }
-  }
-}
+//.#{$margin} {
+//  &-center {
+//    margin: 0 auto;
+//  }
+//
+//  &-all-0,
+//  &-all-0 > *,
+//  &-all-0 * {
+//    margin: 0;
+//  }
+//
+//  @each $key, $value in $rem-size-series {
+//    &-#{$key} {
+//      @include margin-pixel-variant($value);
+//    }
+//  }
+//}
 
 //margin-top
 

@@ -39143,10 +39143,11 @@ Grid布局
   color: #1e88e5;
 }
 
-.font .font-white {
+.font-white {
   color: white;
 }
-.font .font-black {
+
+.font-black {
   color: black;
 }
 
@@ -39227,10 +39228,11 @@ Grid布局
 }
 
 @media (max-width: 1199px) {
-  .font .font-white-lg {
+  .font-white-lg {
     color: white;
   }
-  .font .font-black-lg {
+
+  .font-black-lg {
     color: black;
   }
 
@@ -39371,10 +39373,11 @@ Grid布局
   }
 }
 @media (max-width: 991px) {
-  .font .font-white-md {
+  .font-white-md {
     color: white;
   }
-  .font .font-black-md {
+
+  .font-black-md {
     color: black;
   }
 
@@ -39455,10 +39458,11 @@ Grid布局
   }
 }
 @media (max-width: 767px) {
-  .font .font-white-sm {
+  .font-white-sm {
     color: white;
   }
-  .font .font-black-sm {
+
+  .font-black-sm {
     color: black;
   }
 
@@ -39539,10 +39543,11 @@ Grid布局
   }
 }
 @media (max-width: 575px) {
-  .font .font-white-xs {
+  .font-white-xs {
     color: white;
   }
-  .font .font-black-xs {
+
+  .font-black-xs {
     color: black;
   }
 

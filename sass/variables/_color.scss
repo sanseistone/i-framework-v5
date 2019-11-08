@@ -37,9 +37,9 @@ $color-d: lighten($color-0, 86.7%) !default;
 $color-e: lighten($color-0, 93.3%) !default;
 $color-f: lighten($color-0, 100%) !default;
 
-$series: () !default;
+$black-white-series: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
-$series: map-merge(
+$black-white-series: map-merge(
                 (
                         "color0": $color-0,
                         "color1": $color-1,
@@ -58,7 +58,7 @@ $series: map-merge(
                         "colore": $color-e,
                         "colorf": $color-f,
                 ),
-                $series
+                $black-white-series
 );
 
 //red

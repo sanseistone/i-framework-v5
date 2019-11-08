@@ -4,17 +4,13 @@
   border-color: $color-default;
 }
 
-.#{$border} {
-  .#{$border-transparent} {
-    border-color: transparent;
-  }
+.#{$border-transparent} {
+  border-color: transparent;
+}
 
-  .#{$border-white} {
-    border-color: $color-f;
-  }
-
-  .#{$border-black} {
-    border-color: $color-0;
+@each $key, $value in $black-white {
+  .#{$border}-#{$key} {
+    @include border-variant($value);
   }
 }
 
@@ -140,12 +136,10 @@
     border-color: transparent;
   }
 
-  .#{$border-white}-lg {
-    border-color: $color-f;
-  }
-
-  .#{$border-black}-lg {
-    border-color: $color-0;
+  @each $key, $value in $black-white {
+    .#{$border}-#{$key}-lg {
+      @include border-variant($value);
+    }
   }
 
   @each $key, $value in $red-series {
@@ -269,12 +263,10 @@
     border-color: transparent;
   }
 
-  .#{$border-white}-md {
-    border-color: $color-f;
-  }
-
-  .#{$border-black}-md {
-    border-color: $color-0;
+  @each $key, $value in $black-white {
+    .#{$border}-#{$key}-md {
+      @include border-variant($value);
+    }
   }
 
   @each $key, $value in $red-series {
@@ -398,12 +390,10 @@
     border-color: transparent;
   }
 
-  .#{$border-white}-sm {
-    border-color: $color-f;
-  }
-
-  .#{$border-black}-sm {
-    border-color: $color-0;
+  @each $key, $value in $black-white {
+    .#{$border}-#{$key}-sm {
+      @include border-variant($value);
+    }
   }
 
   @each $key, $value in $red-series {
@@ -527,12 +517,10 @@
     border-color: transparent;
   }
 
-  .#{$border-white}-xs {
-    border-color: $color-f;
-  }
-
-  .#{$border-black}-xs {
-    border-color: $color-0;
+  @each $key, $value in $black-white {
+    .#{$border}-#{$key}-xs {
+      @include border-variant($value);
+    }
   }
 
   @each $key, $value in $red-series {

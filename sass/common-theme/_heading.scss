@@ -25,6 +25,12 @@
 //default-color
 
 .#{$heading} {
+  @each $key, $value in $black-white {
+    &.#{$key} {
+      @include heading-bg-variant($value,$value);
+    }
+  }
+
   @each $key, $value in $red-series {
     &.#{$key} {
       @include heading-bg-variant($value,$value);
@@ -300,6 +306,12 @@
 @media (max-width: 1199px) {
   //Extra large devices (large desktops, 992px and 1200px)
   .#{$heading} {
+    @each $key, $value in $black-white {
+      &.#{$key}-lg {
+        @include heading-bg-variant($value,$value);
+      }
+    }
+
     @each $key, $value in $red-series {
       &.#{$key}-lg {
         @include heading-bg-variant($value,$value);
@@ -535,6 +547,12 @@
 @media (max-width: 991px) {
   //Large devices (desktops, 768px and 992px)
   .#{$heading} {
+    @each $key, $value in $black-white {
+      &.#{$key}-md {
+        @include heading-bg-variant($value,$value);
+      }
+    }
+
     @each $key, $value in $red-series {
       &.#{$key}-md {
         @include heading-bg-variant($value,$value);
@@ -770,6 +788,12 @@
 @media (max-width: 767px) {
   //Medium devices (tablets, 576px and 768px)
   .#{$heading} {
+    @each $key, $value in $black-white {
+      &.#{$key}-sm {
+        @include heading-bg-variant($value,$value);
+      }
+    }
+
     @each $key, $value in $red-series {
       &.#{$key}-sm {
         @include heading-bg-variant($value,$value);
@@ -1005,6 +1029,12 @@
 @media (max-width: 575px) {
   //Small devices (landscape phones, max-width 576px)
   .#{$heading} {
+    @each $key, $value in $black-white {
+      &.#{$key}-xs {
+        @include heading-bg-variant($value,$value);
+      }
+    }
+
     @each $key, $value in $red-series {
       &.#{$key}-xs {
         @include heading-bg-variant($value,$value);
