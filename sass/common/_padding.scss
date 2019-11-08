@@ -126,141 +126,141 @@
 
 //padding
 
-.#{$padding} {
-  &-all-0,
-  &-all-0 > *,
-  &-all-0 * {
-    padding: 0;
-  }
+//.#{$padding} {
+//  &-all-0,
+//  &-all-0 > *,
+//  &-all-0 * {
+//    padding: 0;
+//  }
+//
+//  @each $key, $value in $group-p-series {
+//    &-#{$key} {
+//      @include padding-pixel-variant($value);
+//    }
+//  }
+//}
 
-  @each $key, $value in $group-p-series {
-    &-#{$key} {
-      @include padding-pixel-variant($value);
-    }
-  }
-}
-
-.#{$padding} {
-  &-all-0,
-  &-all-0 > *,
-  &-all-0 * {
-    padding: 0;
-  }
-
-  @each $key, $value in $rem-size-series {
-    &-#{$key} {
-      @include padding-pixel-variant($value);
-    }
-  }
-}
+//.#{$padding} {
+//  &-all-0,
+//  &-all-0 > *,
+//  &-all-0 * {
+//    padding: 0;
+//  }
+//
+//  @each $key, $value in $rem-size-series {
+//    &-#{$key} {
+//      @include padding-pixel-variant($value);
+//    }
+//  }
+//}
 
 //padding-top
 
-.#{$padding-top} {
-  @each $key, $value in $group-p-series {
-    &-#{$key} {
-      @include group-pt-variant($value);
-    }
-  }
-}
+//.#{$padding-top} {
+//  @each $key, $value in $group-p-series {
+//    &-#{$key} {
+//      @include group-pt-variant($value);
+//    }
+//  }
+//}
 
-.#{$padding-top} {
-  @each $key, $value in $rem-size-series {
-    &-#{$key} {
-      @include group-pt-variant($value);
-    }
-  }
-}
+//.#{$padding-top} {
+//  @each $key, $value in $rem-size-series {
+//    &-#{$key} {
+//      @include group-pt-variant($value);
+//    }
+//  }
+//}
 
 //padding-right
 
-.#{$padding-right} {
-  @each $key, $value in $group-p-series {
-    &-#{$key} {
-      @include group-pr-variant($value);
-    }
-  }
-}
+//.#{$padding-right} {
+//  @each $key, $value in $group-p-series {
+//    &-#{$key} {
+//      @include group-pr-variant($value);
+//    }
+//  }
+//}
 
-.#{$padding-right} {
-  @each $key, $value in $rem-size-series {
-    &-#{$key} {
-      @include group-pr-variant($value);
-    }
-  }
-}
+//.#{$padding-right} {
+//  @each $key, $value in $rem-size-series {
+//    &-#{$key} {
+//      @include group-pr-variant($value);
+//    }
+//  }
+//}
 
 //padding-bottom
 
-.#{$padding-bottom} {
-  @each $key, $value in $group-p-series {
-    &-#{$key} {
-      @include group-pb-variant($value);
-    }
-  }
-}
+//.#{$padding-bottom} {
+//  @each $key, $value in $group-p-series {
+//    &-#{$key} {
+//      @include group-pb-variant($value);
+//    }
+//  }
+//}
 
-.#{$padding-bottom} {
-  @each $key, $value in $rem-size-series {
-    &-#{$key} {
-      @include group-pb-variant($value);
-    }
-  }
-}
+//.#{$padding-bottom} {
+//  @each $key, $value in $rem-size-series {
+//    &-#{$key} {
+//      @include group-pb-variant($value);
+//    }
+//  }
+//}
 
 //padding-left
 
-.#{$padding-left} {
-  @each $key, $value in $group-p-series {
-    &-#{$key} {
-      @include group-pl-variant($value);
-    }
-  }
-}
+//.#{$padding-left} {
+//  @each $key, $value in $group-p-series {
+//    &-#{$key} {
+//      @include group-pl-variant($value);
+//    }
+//  }
+//}
 
-.#{$padding-left} {
-  @each $key, $value in $rem-size-series {
-    &-#{$key} {
-      @include group-pl-variant($value);
-    }
-  }
-}
+//.#{$padding-left} {
+//  @each $key, $value in $rem-size-series {
+//    &-#{$key} {
+//      @include group-pl-variant($value);
+//    }
+//  }
+//}
 
 //padding-x
 
-.#{$padding-x-axis} {
-  @each $key, $value in $group-p-series {
-    &-#{$key} {
-      @include group-px-variant($value, $value);
-    }
-  }
-}
+//.#{$padding-x-axis} {
+//  @each $key, $value in $group-p-series {
+//    &-#{$key} {
+//      @include group-px-variant($value, $value);
+//    }
+//  }
+//}
 
-.#{$padding-x-axis} {
-  @each $key, $value in $rem-size-series {
-    &-#{$key} {
-      @include group-px-variant($value, $value);
-    }
-  }
-}
+//.#{$padding-x-axis} {
+//  @each $key, $value in $rem-size-series {
+//    &-#{$key} {
+//      @include group-px-variant($value, $value);
+//    }
+//  }
+//}
 
 //padding-y
 
-.#{$padding-y-axis} {
-  @each $key, $value in $group-p-series {
-    &-#{$key} {
-      @include group-py-variant($value, $value);
-    }
-  }
-}
+//.#{$padding-y-axis} {
+//  @each $key, $value in $group-p-series {
+//    &-#{$key} {
+//      @include group-py-variant($value, $value);
+//    }
+//  }
+//}
 
-.#{$padding-y-axis} {
-  @each $key, $value in $rem-size-series {
-    &-#{$key} {
-      @include group-py-variant($value, $value);
-    }
-  }
-}
+//.#{$padding-y-axis} {
+//  @each $key, $value in $rem-size-series {
+//    &-#{$key} {
+//      @include group-py-variant($value, $value);
+//    }
+//  }
+//}
 
 //responsive-pc
 
@@ -378,129 +378,129 @@
     }
   }
 
-  .#{$padding} {
-    &-all-0-lg,
-    &-all-0-lg > *,
-    &-all-0-lg * {
-      padding: 0;
-    }
+  //.#{$padding} {
+  //  &-all-0-lg,
+  //  &-all-0-lg > *,
+  //  &-all-0-lg * {
+  //    padding: 0;
+  //  }
+  //
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-lg {
+  //      @include padding-pixel-variant($value);
+  //    }
+  //  }
+  //}
 
-    @each $key, $value in $group-p-series {
-      &-#{$key}-lg {
-        @include padding-pixel-variant($value);
-      }
-    }
-  }
+  //.#{$padding} {
+  //  &-all-0-lg,
+  //  &-all-0-lg > *,
+  //  &-all-0-lg * {
+  //    padding: 0;
+  //  }
+  //
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-lg {
+  //      @include padding-pixel-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding} {
-    &-all-0-lg,
-    &-all-0-lg > *,
-    &-all-0-lg * {
-      padding: 0;
-    }
+  //.#{$padding-top} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-lg {
+  //      @include group-pt-variant($value);
+  //    }
+  //  }
+  //}
 
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-lg {
-        @include padding-pixel-variant($value);
-      }
-    }
-  }
+  //.#{$padding-top} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-lg {
+  //      @include group-pt-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-top} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-lg {
-        @include group-pt-variant($value);
-      }
-    }
-  }
+  //.#{$padding-right} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-lg {
+  //      @include group-pr-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-top} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-lg {
-        @include group-pt-variant($value);
-      }
-    }
-  }
+  //.#{$padding-right} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-lg {
+  //      @include group-pr-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-right} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-lg {
-        @include group-pr-variant($value);
-      }
-    }
-  }
+  //.#{$padding-bottom} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-lg {
+  //      @include group-pb-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-right} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-lg {
-        @include group-pr-variant($value);
-      }
-    }
-  }
+  //.#{$padding-bottom} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-lg {
+  //      @include group-pb-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-bottom} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-lg {
-        @include group-pb-variant($value);
-      }
-    }
-  }
+  //.#{$padding-left} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-lg {
+  //      @include group-pl-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-bottom} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-lg {
-        @include group-pb-variant($value);
-      }
-    }
-  }
+  //.#{$padding-left} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-lg {
+  //      @include group-pl-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-left} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-lg {
-        @include group-pl-variant($value);
-      }
-    }
-  }
+  //.#{$padding-x-axis} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-lg {
+  //      @include group-px-variant($value, $value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-left} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-lg {
-        @include group-pl-variant($value);
-      }
-    }
-  }
+  //.#{$padding-x-axis} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-lg {
+  //      @include group-px-variant($value, $value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-x-axis} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-lg {
-        @include group-px-variant($value, $value);
-      }
-    }
-  }
+  //.#{$padding-y-axis} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-lg {
+  //      @include group-py-variant($value, $value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-x-axis} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-lg {
-        @include group-px-variant($value, $value);
-      }
-    }
-  }
-
-  .#{$padding-y-axis} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-lg {
-        @include group-py-variant($value, $value);
-      }
-    }
-  }
-
-  .#{$padding-y-axis} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-lg {
-        @include group-py-variant($value, $value);
-      }
-    }
-  }
+  //.#{$padding-y-axis} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-lg {
+  //      @include group-py-variant($value, $value);
+  //    }
+  //  }
+  //}
 }
 
 @media (max-width: 991px) {
@@ -617,129 +617,129 @@
     }
   }
 
-  .#{$padding} {
-    &-all-0-md,
-    &-all-0-md > *,
-    &-all-0-md * {
-      padding: 0;
-    }
+  //.#{$padding} {
+  //  &-all-0-md,
+  //  &-all-0-md > *,
+  //  &-all-0-md * {
+  //    padding: 0;
+  //  }
+  //
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-md {
+  //      @include padding-pixel-variant($value);
+  //    }
+  //  }
+  //}
 
-    @each $key, $value in $group-p-series {
-      &-#{$key}-md {
-        @include padding-pixel-variant($value);
-      }
-    }
-  }
+  //.#{$padding} {
+  //  &-all-0-md,
+  //  &-all-0-md > *,
+  //  &-all-0-md * {
+  //    padding: 0;
+  //  }
+  //
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-md {
+  //      @include padding-pixel-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding} {
-    &-all-0-md,
-    &-all-0-md > *,
-    &-all-0-md * {
-      padding: 0;
-    }
+  //.#{$padding-top} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-md {
+  //      @include group-pt-variant($value);
+  //    }
+  //  }
+  //}
 
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-md {
-        @include padding-pixel-variant($value);
-      }
-    }
-  }
+  //.#{$padding-top} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-md {
+  //      @include group-pt-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-top} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-md {
-        @include group-pt-variant($value);
-      }
-    }
-  }
+  //.#{$padding-right} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-md {
+  //      @include group-pr-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-top} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-md {
-        @include group-pt-variant($value);
-      }
-    }
-  }
+  //.#{$padding-right} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-md {
+  //      @include group-pr-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-right} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-md {
-        @include group-pr-variant($value);
-      }
-    }
-  }
+  //.#{$padding-bottom} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-md {
+  //      @include group-pb-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-right} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-md {
-        @include group-pr-variant($value);
-      }
-    }
-  }
+  //.#{$padding-bottom} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-md {
+  //      @include group-pb-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-bottom} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-md {
-        @include group-pb-variant($value);
-      }
-    }
-  }
+  //.#{$padding-left} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-md {
+  //      @include group-pl-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-bottom} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-md {
-        @include group-pb-variant($value);
-      }
-    }
-  }
+  //.#{$padding-left} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-md {
+  //      @include group-pl-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-left} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-md {
-        @include group-pl-variant($value);
-      }
-    }
-  }
+  //.#{$padding-x-axis} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-md {
+  //      @include group-px-variant($value, $value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-left} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-md {
-        @include group-pl-variant($value);
-      }
-    }
-  }
+  //.#{$padding-x-axis} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-md {
+  //      @include group-px-variant($value, $value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-x-axis} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-md {
-        @include group-px-variant($value, $value);
-      }
-    }
-  }
+  //.#{$padding-y-axis} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-md {
+  //      @include group-py-variant($value, $value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-x-axis} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-md {
-        @include group-px-variant($value, $value);
-      }
-    }
-  }
-
-  .#{$padding-y-axis} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-md {
-        @include group-py-variant($value, $value);
-      }
-    }
-  }
-
-  .#{$padding-y-axis} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-md {
-        @include group-py-variant($value, $value);
-      }
-    }
-  }
+  //.#{$padding-y-axis} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-md {
+  //      @include group-py-variant($value, $value);
+  //    }
+  //  }
+  //}
 }
 
 @media (max-width: 767px) {
@@ -856,129 +856,129 @@
     }
   }
 
-  .#{$padding} {
-    &-all-0-sm,
-    &-all-0-sm > *,
-    &-all-0-sm * {
-      padding: 0;
-    }
+  //.#{$padding} {
+  //  &-all-0-sm,
+  //  &-all-0-sm > *,
+  //  &-all-0-sm * {
+  //    padding: 0;
+  //  }
+  //
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-sm {
+  //      @include padding-pixel-variant($value);
+  //    }
+  //  }
+  //}
 
-    @each $key, $value in $group-p-series {
-      &-#{$key}-sm {
-        @include padding-pixel-variant($value);
-      }
-    }
-  }
+  //.#{$padding} {
+  //  &-all-0-sm,
+  //  &-all-0-sm > *,
+  //  &-all-0-sm * {
+  //    padding: 0;
+  //  }
+  //
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-sm {
+  //      @include padding-pixel-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding} {
-    &-all-0-sm,
-    &-all-0-sm > *,
-    &-all-0-sm * {
-      padding: 0;
-    }
+  //.#{$padding-top} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-sm {
+  //      @include group-pt-variant($value);
+  //    }
+  //  }
+  //}
 
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-sm {
-        @include padding-pixel-variant($value);
-      }
-    }
-  }
+  //.#{$padding-top} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-sm {
+  //      @include group-pt-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-top} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-sm {
-        @include group-pt-variant($value);
-      }
-    }
-  }
+  //.#{$padding-right} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-sm {
+  //      @include group-pr-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-top} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-sm {
-        @include group-pt-variant($value);
-      }
-    }
-  }
+  //.#{$padding-right} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-sm {
+  //      @include group-pr-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-right} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-sm {
-        @include group-pr-variant($value);
-      }
-    }
-  }
+  //.#{$padding-bottom} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-sm {
+  //      @include group-pb-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-right} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-sm {
-        @include group-pr-variant($value);
-      }
-    }
-  }
+  //.#{$padding-bottom} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-sm {
+  //      @include group-pb-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-bottom} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-sm {
-        @include group-pb-variant($value);
-      }
-    }
-  }
+  //.#{$padding-left} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-sm {
+  //      @include group-pl-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-bottom} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-sm {
-        @include group-pb-variant($value);
-      }
-    }
-  }
+  //.#{$padding-left} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-sm {
+  //      @include group-pl-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-left} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-sm {
-        @include group-pl-variant($value);
-      }
-    }
-  }
+  //.#{$padding-x-axis} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-sm {
+  //      @include group-px-variant($value, $value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-left} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-sm {
-        @include group-pl-variant($value);
-      }
-    }
-  }
+  //.#{$padding-x-axis} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-sm {
+  //      @include group-px-variant($value, $value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-x-axis} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-sm {
-        @include group-px-variant($value, $value);
-      }
-    }
-  }
+  //.#{$padding-y-axis} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-sm {
+  //      @include group-py-variant($value, $value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-x-axis} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-sm {
-        @include group-px-variant($value, $value);
-      }
-    }
-  }
-
-  .#{$padding-y-axis} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-sm {
-        @include group-py-variant($value, $value);
-      }
-    }
-  }
-
-  .#{$padding-y-axis} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-sm {
-        @include group-py-variant($value, $value);
-      }
-    }
-  }
+  //.#{$padding-y-axis} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-sm {
+  //      @include group-py-variant($value, $value);
+  //    }
+  //  }
+  //}
 }
 
 @media (max-width: 575px) {
@@ -1095,129 +1095,129 @@
     }
   }
 
-  .#{$padding} {
-    &-all-0-xs,
-    &-all-0-xs > *,
-    &-all-0-xs * {
-      padding: 0;
-    }
+  //.#{$padding} {
+  //  &-all-0-xs,
+  //  &-all-0-xs > *,
+  //  &-all-0-xs * {
+  //    padding: 0;
+  //  }
+  //
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-xs {
+  //      @include padding-pixel-variant($value);
+  //    }
+  //  }
+  //}
 
-    @each $key, $value in $group-p-series {
-      &-#{$key}-xs {
-        @include padding-pixel-variant($value);
-      }
-    }
-  }
+  //.#{$padding} {
+  //  &-all-0-xs,
+  //  &-all-0-xs > *,
+  //  &-all-0-xs * {
+  //    padding: 0;
+  //  }
+  //
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-xs {
+  //      @include padding-pixel-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding} {
-    &-all-0-xs,
-    &-all-0-xs > *,
-    &-all-0-xs * {
-      padding: 0;
-    }
+  //.#{$padding-top} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-xs {
+  //      @include group-pt-variant($value);
+  //    }
+  //  }
+  //}
 
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-xs {
-        @include padding-pixel-variant($value);
-      }
-    }
-  }
+  //.#{$padding-top} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-xs {
+  //      @include group-pt-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-top} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-xs {
-        @include group-pt-variant($value);
-      }
-    }
-  }
+  //.#{$padding-right} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-xs {
+  //      @include group-pr-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-top} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-xs {
-        @include group-pt-variant($value);
-      }
-    }
-  }
+  //.#{$padding-right} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-xs {
+  //      @include group-pr-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-right} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-xs {
-        @include group-pr-variant($value);
-      }
-    }
-  }
+  //.#{$padding-bottom} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-xs {
+  //      @include group-pb-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-right} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-xs {
-        @include group-pr-variant($value);
-      }
-    }
-  }
+  //.#{$padding-bottom} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-xs {
+  //      @include group-pb-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-bottom} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-xs {
-        @include group-pb-variant($value);
-      }
-    }
-  }
+  //.#{$padding-left} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-xs {
+  //      @include group-pl-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-bottom} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-xs {
-        @include group-pb-variant($value);
-      }
-    }
-  }
+  //.#{$padding-left} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-xs {
+  //      @include group-pl-variant($value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-left} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-xs {
-        @include group-pl-variant($value);
-      }
-    }
-  }
+  //.#{$padding-x-axis} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-xs {
+  //      @include group-px-variant($value, $value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-left} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-xs {
-        @include group-pl-variant($value);
-      }
-    }
-  }
+  //.#{$padding-x-axis} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-xs {
+  //      @include group-px-variant($value, $value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-x-axis} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-xs {
-        @include group-px-variant($value, $value);
-      }
-    }
-  }
+  //.#{$padding-y-axis} {
+  //  @each $key, $value in $group-p-series {
+  //    &-#{$key}-xs {
+  //      @include group-py-variant($value, $value);
+  //    }
+  //  }
+  //}
 
-  .#{$padding-x-axis} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-xs {
-        @include group-px-variant($value, $value);
-      }
-    }
-  }
-
-  .#{$padding-y-axis} {
-    @each $key, $value in $group-p-series {
-      &-#{$key}-xs {
-        @include group-py-variant($value, $value);
-      }
-    }
-  }
-
-  .#{$padding-y-axis} {
-    @each $key, $value in $rem-size-series {
-      &-#{$key}-xs {
-        @include group-py-variant($value, $value);
-      }
-    }
-  }
+  //.#{$padding-y-axis} {
+  //  @each $key, $value in $rem-size-series {
+  //    &-#{$key}-xs {
+  //      @include group-py-variant($value, $value);
+  //    }
+  //  }
+  //}
 }
 
 //responsive-mobile
