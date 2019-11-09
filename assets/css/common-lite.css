@@ -42441,8 +42441,18 @@ Grid布局
   border-color: #ff1744;
   background-color: #ff1744;
 }
+.btn-red:focus, .btn-red:hover {
+  color: white;
+  border-color: #ff1744;
+  background-color: #ff1744;
+}
 
 .btn-pink {
+  color: white;
+  border-color: #f50057;
+  background-color: #f50057;
+}
+.btn-pink:focus, .btn-pink:hover {
   color: white;
   border-color: #f50057;
   background-color: #f50057;
@@ -42453,8 +42463,18 @@ Grid布局
   border-color: #d500f9;
   background-color: #d500f9;
 }
+.btn-purple:focus, .btn-purple:hover {
+  color: white;
+  border-color: #d500f9;
+  background-color: #d500f9;
+}
 
 .btn-d-purple {
+  color: white;
+  border-color: #651fff;
+  background-color: #651fff;
+}
+.btn-d-purple:focus, .btn-d-purple:hover {
   color: white;
   border-color: #651fff;
   background-color: #651fff;
@@ -42465,8 +42485,18 @@ Grid布局
   border-color: #3d5afe;
   background-color: #3d5afe;
 }
+.btn-indigo:focus, .btn-indigo:hover {
+  color: white;
+  border-color: #3d5afe;
+  background-color: #3d5afe;
+}
 
 .btn-blue {
+  color: white;
+  border-color: #2979ff;
+  background-color: #2979ff;
+}
+.btn-blue:focus, .btn-blue:hover {
   color: white;
   border-color: #2979ff;
   background-color: #2979ff;
@@ -42477,8 +42507,18 @@ Grid布局
   border-color: #00b0ff;
   background-color: #00b0ff;
 }
+.btn-l-blue:focus, .btn-l-blue:hover {
+  color: white;
+  border-color: #00b0ff;
+  background-color: #00b0ff;
+}
 
 .btn-cyan {
+  color: #222222;
+  border-color: #00e5ff;
+  background-color: #00e5ff;
+}
+.btn-cyan:focus, .btn-cyan:hover {
   color: #222222;
   border-color: #00e5ff;
   background-color: #00e5ff;
@@ -42489,8 +42529,18 @@ Grid布局
   border-color: #00695c;
   background-color: #00695c;
 }
+.btn-teal:focus, .btn-teal:hover {
+  color: white;
+  border-color: #00695c;
+  background-color: #00695c;
+}
 
 .btn-green {
+  color: white;
+  border-color: #2e7d32;
+  background-color: #2e7d32;
+}
+.btn-green:focus, .btn-green:hover {
   color: white;
   border-color: #2e7d32;
   background-color: #2e7d32;
@@ -42501,8 +42551,18 @@ Grid布局
   border-color: #76ff03;
   background-color: #76ff03;
 }
+.btn-l-green:focus, .btn-l-green:hover {
+  color: #222222;
+  border-color: #76ff03;
+  background-color: #76ff03;
+}
 
 .btn-lime {
+  color: #222222;
+  border-color: #aeea00;
+  background-color: #aeea00;
+}
+.btn-lime:focus, .btn-lime:hover {
   color: #222222;
   border-color: #aeea00;
   background-color: #aeea00;
@@ -42513,8 +42573,18 @@ Grid布局
   border-color: #ffea00;
   background-color: #ffea00;
 }
+.btn-yellow:focus, .btn-yellow:hover {
+  color: #222222;
+  border-color: #ffea00;
+  background-color: #ffea00;
+}
 
 .btn-amber {
+  color: #222222;
+  border-color: #ffc400;
+  background-color: #ffc400;
+}
+.btn-amber:focus, .btn-amber:hover {
   color: #222222;
   border-color: #ffc400;
   background-color: #ffc400;
@@ -42525,8 +42595,18 @@ Grid布局
   border-color: #ff9100;
   background-color: #ff9100;
 }
+.btn-orange:focus, .btn-orange:hover {
+  color: #222222;
+  border-color: #ff9100;
+  background-color: #ff9100;
+}
 
 .btn-d-orange {
+  color: white;
+  border-color: #ff3d00;
+  background-color: #ff3d00;
+}
+.btn-d-orange:focus, .btn-d-orange:hover {
   color: white;
   border-color: #ff3d00;
   background-color: #ff3d00;
@@ -42537,14 +42617,29 @@ Grid布局
   border-color: #5d4037;
   background-color: #5d4037;
 }
+.btn-brown:focus, .btn-brown:hover {
+  color: white;
+  border-color: #5d4037;
+  background-color: #5d4037;
+}
 
 .btn-grey {
   color: white;
   border-color: #616161;
   background-color: #616161;
 }
+.btn-grey:focus, .btn-grey:hover {
+  color: white;
+  border-color: #616161;
+  background-color: #616161;
+}
 
 .btn-blue-grey {
+  color: white;
+  border-color: #546e7a;
+  background-color: #546e7a;
+}
+.btn-blue-grey:focus, .btn-blue-grey:hover {
   color: white;
   border-color: #546e7a;
   background-color: #546e7a;
@@ -42777,8 +42872,18 @@ Grid布局
     border-color: #ff1744;
     background-color: #ff1744;
   }
+  .btn-red-lg:focus, .btn-red-lg:hover {
+    color: white;
+    border-color: #ff1744;
+    background-color: #ff1744;
+  }
 
   .btn-pink-lg {
+    color: white;
+    border-color: #f50057;
+    background-color: #f50057;
+  }
+  .btn-pink-lg:focus, .btn-pink-lg:hover {
     color: white;
     border-color: #f50057;
     background-color: #f50057;
@@ -42789,8 +42894,18 @@ Grid布局
     border-color: #d500f9;
     background-color: #d500f9;
   }
+  .btn-purple-lg:focus, .btn-purple-lg:hover {
+    color: white;
+    border-color: #d500f9;
+    background-color: #d500f9;
+  }
 
   .btn-d-purple-lg {
+    color: white;
+    border-color: #651fff;
+    background-color: #651fff;
+  }
+  .btn-d-purple-lg:focus, .btn-d-purple-lg:hover {
     color: white;
     border-color: #651fff;
     background-color: #651fff;
@@ -42801,8 +42916,18 @@ Grid布局
     border-color: #3d5afe;
     background-color: #3d5afe;
   }
+  .btn-indigo-lg:focus, .btn-indigo-lg:hover {
+    color: white;
+    border-color: #3d5afe;
+    background-color: #3d5afe;
+  }
 
   .btn-blue-lg {
+    color: white;
+    border-color: #2979ff;
+    background-color: #2979ff;
+  }
+  .btn-blue-lg:focus, .btn-blue-lg:hover {
     color: white;
     border-color: #2979ff;
     background-color: #2979ff;
@@ -42813,8 +42938,18 @@ Grid布局
     border-color: #00b0ff;
     background-color: #00b0ff;
   }
+  .btn-l-blue-lg:focus, .btn-l-blue-lg:hover {
+    color: white;
+    border-color: #00b0ff;
+    background-color: #00b0ff;
+  }
 
   .btn-cyan-lg {
+    color: #222222;
+    border-color: #00e5ff;
+    background-color: #00e5ff;
+  }
+  .btn-cyan-lg:focus, .btn-cyan-lg:hover {
     color: #222222;
     border-color: #00e5ff;
     background-color: #00e5ff;
@@ -42825,8 +42960,18 @@ Grid布局
     border-color: #00695c;
     background-color: #00695c;
   }
+  .btn-teal-lg:focus, .btn-teal-lg:hover {
+    color: white;
+    border-color: #00695c;
+    background-color: #00695c;
+  }
 
   .btn-green-lg {
+    color: white;
+    border-color: #2e7d32;
+    background-color: #2e7d32;
+  }
+  .btn-green-lg:focus, .btn-green-lg:hover {
     color: white;
     border-color: #2e7d32;
     background-color: #2e7d32;
@@ -42837,8 +42982,18 @@ Grid布局
     border-color: #76ff03;
     background-color: #76ff03;
   }
+  .btn-l-green-lg:focus, .btn-l-green-lg:hover {
+    color: #222222;
+    border-color: #76ff03;
+    background-color: #76ff03;
+  }
 
   .btn-lime-lg {
+    color: #222222;
+    border-color: #aeea00;
+    background-color: #aeea00;
+  }
+  .btn-lime-lg:focus, .btn-lime-lg:hover {
     color: #222222;
     border-color: #aeea00;
     background-color: #aeea00;
@@ -42849,8 +43004,18 @@ Grid布局
     border-color: #ffea00;
     background-color: #ffea00;
   }
+  .btn-yellow-lg:focus, .btn-yellow-lg:hover {
+    color: #222222;
+    border-color: #ffea00;
+    background-color: #ffea00;
+  }
 
   .btn-amber-lg {
+    color: #222222;
+    border-color: #ffc400;
+    background-color: #ffc400;
+  }
+  .btn-amber-lg:focus, .btn-amber-lg:hover {
     color: #222222;
     border-color: #ffc400;
     background-color: #ffc400;
@@ -42861,8 +43026,18 @@ Grid布局
     border-color: #ff9100;
     background-color: #ff9100;
   }
+  .btn-orange-lg:focus, .btn-orange-lg:hover {
+    color: #222222;
+    border-color: #ff9100;
+    background-color: #ff9100;
+  }
 
   .btn-d-orange-lg {
+    color: white;
+    border-color: #ff3d00;
+    background-color: #ff3d00;
+  }
+  .btn-d-orange-lg:focus, .btn-d-orange-lg:hover {
     color: white;
     border-color: #ff3d00;
     background-color: #ff3d00;
@@ -42873,14 +43048,29 @@ Grid布局
     border-color: #5d4037;
     background-color: #5d4037;
   }
+  .btn-brown-lg:focus, .btn-brown-lg:hover {
+    color: white;
+    border-color: #5d4037;
+    background-color: #5d4037;
+  }
 
   .btn-grey-lg {
     color: white;
     border-color: #616161;
     background-color: #616161;
   }
+  .btn-grey-lg:focus, .btn-grey-lg:hover {
+    color: white;
+    border-color: #616161;
+    background-color: #616161;
+  }
 
   .btn-blue-grey-lg {
+    color: white;
+    border-color: #546e7a;
+    background-color: #546e7a;
+  }
+  .btn-blue-grey-lg:focus, .btn-blue-grey-lg:hover {
     color: white;
     border-color: #546e7a;
     background-color: #546e7a;
@@ -43113,8 +43303,18 @@ Grid布局
     border-color: #ff1744;
     background-color: #ff1744;
   }
+  .btn-red-md:focus, .btn-red-md:hover {
+    color: white;
+    border-color: #ff1744;
+    background-color: #ff1744;
+  }
 
   .btn-pink-md {
+    color: white;
+    border-color: #f50057;
+    background-color: #f50057;
+  }
+  .btn-pink-md:focus, .btn-pink-md:hover {
     color: white;
     border-color: #f50057;
     background-color: #f50057;
@@ -43125,8 +43325,18 @@ Grid布局
     border-color: #d500f9;
     background-color: #d500f9;
   }
+  .btn-purple-md:focus, .btn-purple-md:hover {
+    color: white;
+    border-color: #d500f9;
+    background-color: #d500f9;
+  }
 
   .btn-d-purple-md {
+    color: white;
+    border-color: #651fff;
+    background-color: #651fff;
+  }
+  .btn-d-purple-md:focus, .btn-d-purple-md:hover {
     color: white;
     border-color: #651fff;
     background-color: #651fff;
@@ -43137,8 +43347,18 @@ Grid布局
     border-color: #3d5afe;
     background-color: #3d5afe;
   }
+  .btn-indigo-md:focus, .btn-indigo-md:hover {
+    color: white;
+    border-color: #3d5afe;
+    background-color: #3d5afe;
+  }
 
   .btn-blue-md {
+    color: white;
+    border-color: #2979ff;
+    background-color: #2979ff;
+  }
+  .btn-blue-md:focus, .btn-blue-md:hover {
     color: white;
     border-color: #2979ff;
     background-color: #2979ff;
@@ -43149,8 +43369,18 @@ Grid布局
     border-color: #00b0ff;
     background-color: #00b0ff;
   }
+  .btn-l-blue-md:focus, .btn-l-blue-md:hover {
+    color: white;
+    border-color: #00b0ff;
+    background-color: #00b0ff;
+  }
 
   .btn-cyan-md {
+    color: #222222;
+    border-color: #00e5ff;
+    background-color: #00e5ff;
+  }
+  .btn-cyan-md:focus, .btn-cyan-md:hover {
     color: #222222;
     border-color: #00e5ff;
     background-color: #00e5ff;
@@ -43161,8 +43391,18 @@ Grid布局
     border-color: #00695c;
     background-color: #00695c;
   }
+  .btn-teal-md:focus, .btn-teal-md:hover {
+    color: white;
+    border-color: #00695c;
+    background-color: #00695c;
+  }
 
   .btn-green-md {
+    color: white;
+    border-color: #2e7d32;
+    background-color: #2e7d32;
+  }
+  .btn-green-md:focus, .btn-green-md:hover {
     color: white;
     border-color: #2e7d32;
     background-color: #2e7d32;
@@ -43173,8 +43413,18 @@ Grid布局
     border-color: #76ff03;
     background-color: #76ff03;
   }
+  .btn-l-green-md:focus, .btn-l-green-md:hover {
+    color: #222222;
+    border-color: #76ff03;
+    background-color: #76ff03;
+  }
 
   .btn-lime-md {
+    color: #222222;
+    border-color: #aeea00;
+    background-color: #aeea00;
+  }
+  .btn-lime-md:focus, .btn-lime-md:hover {
     color: #222222;
     border-color: #aeea00;
     background-color: #aeea00;
@@ -43185,8 +43435,18 @@ Grid布局
     border-color: #ffea00;
     background-color: #ffea00;
   }
+  .btn-yellow-md:focus, .btn-yellow-md:hover {
+    color: #222222;
+    border-color: #ffea00;
+    background-color: #ffea00;
+  }
 
   .btn-amber-md {
+    color: #222222;
+    border-color: #ffc400;
+    background-color: #ffc400;
+  }
+  .btn-amber-md:focus, .btn-amber-md:hover {
     color: #222222;
     border-color: #ffc400;
     background-color: #ffc400;
@@ -43197,8 +43457,18 @@ Grid布局
     border-color: #ff9100;
     background-color: #ff9100;
   }
+  .btn-orange-md:focus, .btn-orange-md:hover {
+    color: #222222;
+    border-color: #ff9100;
+    background-color: #ff9100;
+  }
 
   .btn-d-orange-md {
+    color: white;
+    border-color: #ff3d00;
+    background-color: #ff3d00;
+  }
+  .btn-d-orange-md:focus, .btn-d-orange-md:hover {
     color: white;
     border-color: #ff3d00;
     background-color: #ff3d00;
@@ -43209,14 +43479,29 @@ Grid布局
     border-color: #5d4037;
     background-color: #5d4037;
   }
+  .btn-brown-md:focus, .btn-brown-md:hover {
+    color: white;
+    border-color: #5d4037;
+    background-color: #5d4037;
+  }
 
   .btn-grey-md {
     color: white;
     border-color: #616161;
     background-color: #616161;
   }
+  .btn-grey-md:focus, .btn-grey-md:hover {
+    color: white;
+    border-color: #616161;
+    background-color: #616161;
+  }
 
   .btn-blue-grey-md {
+    color: white;
+    border-color: #546e7a;
+    background-color: #546e7a;
+  }
+  .btn-blue-grey-md:focus, .btn-blue-grey-md:hover {
     color: white;
     border-color: #546e7a;
     background-color: #546e7a;
@@ -43449,8 +43734,18 @@ Grid布局
     border-color: #ff1744;
     background-color: #ff1744;
   }
+  .btn-red-sm:focus, .btn-red-sm:hover {
+    color: white;
+    border-color: #ff1744;
+    background-color: #ff1744;
+  }
 
   .btn-pink-sm {
+    color: white;
+    border-color: #f50057;
+    background-color: #f50057;
+  }
+  .btn-pink-sm:focus, .btn-pink-sm:hover {
     color: white;
     border-color: #f50057;
     background-color: #f50057;
@@ -43461,8 +43756,18 @@ Grid布局
     border-color: #d500f9;
     background-color: #d500f9;
   }
+  .btn-purple-sm:focus, .btn-purple-sm:hover {
+    color: white;
+    border-color: #d500f9;
+    background-color: #d500f9;
+  }
 
   .btn-d-purple-sm {
+    color: white;
+    border-color: #651fff;
+    background-color: #651fff;
+  }
+  .btn-d-purple-sm:focus, .btn-d-purple-sm:hover {
     color: white;
     border-color: #651fff;
     background-color: #651fff;
@@ -43473,8 +43778,18 @@ Grid布局
     border-color: #3d5afe;
     background-color: #3d5afe;
   }
+  .btn-indigo-sm:focus, .btn-indigo-sm:hover {
+    color: white;
+    border-color: #3d5afe;
+    background-color: #3d5afe;
+  }
 
   .btn-blue-sm {
+    color: white;
+    border-color: #2979ff;
+    background-color: #2979ff;
+  }
+  .btn-blue-sm:focus, .btn-blue-sm:hover {
     color: white;
     border-color: #2979ff;
     background-color: #2979ff;
@@ -43485,8 +43800,18 @@ Grid布局
     border-color: #00b0ff;
     background-color: #00b0ff;
   }
+  .btn-l-blue-sm:focus, .btn-l-blue-sm:hover {
+    color: white;
+    border-color: #00b0ff;
+    background-color: #00b0ff;
+  }
 
   .btn-cyan-sm {
+    color: #222222;
+    border-color: #00e5ff;
+    background-color: #00e5ff;
+  }
+  .btn-cyan-sm:focus, .btn-cyan-sm:hover {
     color: #222222;
     border-color: #00e5ff;
     background-color: #00e5ff;
@@ -43497,8 +43822,18 @@ Grid布局
     border-color: #00695c;
     background-color: #00695c;
   }
+  .btn-teal-sm:focus, .btn-teal-sm:hover {
+    color: white;
+    border-color: #00695c;
+    background-color: #00695c;
+  }
 
   .btn-green-sm {
+    color: white;
+    border-color: #2e7d32;
+    background-color: #2e7d32;
+  }
+  .btn-green-sm:focus, .btn-green-sm:hover {
     color: white;
     border-color: #2e7d32;
     background-color: #2e7d32;
@@ -43509,8 +43844,18 @@ Grid布局
     border-color: #76ff03;
     background-color: #76ff03;
   }
+  .btn-l-green-sm:focus, .btn-l-green-sm:hover {
+    color: #222222;
+    border-color: #76ff03;
+    background-color: #76ff03;
+  }
 
   .btn-lime-sm {
+    color: #222222;
+    border-color: #aeea00;
+    background-color: #aeea00;
+  }
+  .btn-lime-sm:focus, .btn-lime-sm:hover {
     color: #222222;
     border-color: #aeea00;
     background-color: #aeea00;
@@ -43521,8 +43866,18 @@ Grid布局
     border-color: #ffea00;
     background-color: #ffea00;
   }
+  .btn-yellow-sm:focus, .btn-yellow-sm:hover {
+    color: #222222;
+    border-color: #ffea00;
+    background-color: #ffea00;
+  }
 
   .btn-amber-sm {
+    color: #222222;
+    border-color: #ffc400;
+    background-color: #ffc400;
+  }
+  .btn-amber-sm:focus, .btn-amber-sm:hover {
     color: #222222;
     border-color: #ffc400;
     background-color: #ffc400;
@@ -43533,8 +43888,18 @@ Grid布局
     border-color: #ff9100;
     background-color: #ff9100;
   }
+  .btn-orange-sm:focus, .btn-orange-sm:hover {
+    color: #222222;
+    border-color: #ff9100;
+    background-color: #ff9100;
+  }
 
   .btn-d-orange-sm {
+    color: white;
+    border-color: #ff3d00;
+    background-color: #ff3d00;
+  }
+  .btn-d-orange-sm:focus, .btn-d-orange-sm:hover {
     color: white;
     border-color: #ff3d00;
     background-color: #ff3d00;
@@ -43545,14 +43910,29 @@ Grid布局
     border-color: #5d4037;
     background-color: #5d4037;
   }
+  .btn-brown-sm:focus, .btn-brown-sm:hover {
+    color: white;
+    border-color: #5d4037;
+    background-color: #5d4037;
+  }
 
   .btn-grey-sm {
     color: white;
     border-color: #616161;
     background-color: #616161;
   }
+  .btn-grey-sm:focus, .btn-grey-sm:hover {
+    color: white;
+    border-color: #616161;
+    background-color: #616161;
+  }
 
   .btn-blue-grey-sm {
+    color: white;
+    border-color: #546e7a;
+    background-color: #546e7a;
+  }
+  .btn-blue-grey-sm:focus, .btn-blue-grey-sm:hover {
     color: white;
     border-color: #546e7a;
     background-color: #546e7a;
@@ -43785,8 +44165,18 @@ Grid布局
     border-color: #ff1744;
     background-color: #ff1744;
   }
+  .btn-red-xs:focus, .btn-red-xs:hover {
+    color: white;
+    border-color: #ff1744;
+    background-color: #ff1744;
+  }
 
   .btn-pink-xs {
+    color: white;
+    border-color: #f50057;
+    background-color: #f50057;
+  }
+  .btn-pink-xs:focus, .btn-pink-xs:hover {
     color: white;
     border-color: #f50057;
     background-color: #f50057;
@@ -43797,8 +44187,18 @@ Grid布局
     border-color: #d500f9;
     background-color: #d500f9;
   }
+  .btn-purple-xs:focus, .btn-purple-xs:hover {
+    color: white;
+    border-color: #d500f9;
+    background-color: #d500f9;
+  }
 
   .btn-d-purple-xs {
+    color: white;
+    border-color: #651fff;
+    background-color: #651fff;
+  }
+  .btn-d-purple-xs:focus, .btn-d-purple-xs:hover {
     color: white;
     border-color: #651fff;
     background-color: #651fff;
@@ -43809,8 +44209,18 @@ Grid布局
     border-color: #3d5afe;
     background-color: #3d5afe;
   }
+  .btn-indigo-xs:focus, .btn-indigo-xs:hover {
+    color: white;
+    border-color: #3d5afe;
+    background-color: #3d5afe;
+  }
 
   .btn-blue-xs {
+    color: white;
+    border-color: #2979ff;
+    background-color: #2979ff;
+  }
+  .btn-blue-xs:focus, .btn-blue-xs:hover {
     color: white;
     border-color: #2979ff;
     background-color: #2979ff;
@@ -43821,8 +44231,18 @@ Grid布局
     border-color: #00b0ff;
     background-color: #00b0ff;
   }
+  .btn-l-blue-xs:focus, .btn-l-blue-xs:hover {
+    color: white;
+    border-color: #00b0ff;
+    background-color: #00b0ff;
+  }
 
   .btn-cyan-xs {
+    color: #222222;
+    border-color: #00e5ff;
+    background-color: #00e5ff;
+  }
+  .btn-cyan-xs:focus, .btn-cyan-xs:hover {
     color: #222222;
     border-color: #00e5ff;
     background-color: #00e5ff;
@@ -43833,8 +44253,18 @@ Grid布局
     border-color: #00695c;
     background-color: #00695c;
   }
+  .btn-teal-xs:focus, .btn-teal-xs:hover {
+    color: white;
+    border-color: #00695c;
+    background-color: #00695c;
+  }
 
   .btn-green-xs {
+    color: white;
+    border-color: #2e7d32;
+    background-color: #2e7d32;
+  }
+  .btn-green-xs:focus, .btn-green-xs:hover {
     color: white;
     border-color: #2e7d32;
     background-color: #2e7d32;
@@ -43845,8 +44275,18 @@ Grid布局
     border-color: #76ff03;
     background-color: #76ff03;
   }
+  .btn-l-green-xs:focus, .btn-l-green-xs:hover {
+    color: #222222;
+    border-color: #76ff03;
+    background-color: #76ff03;
+  }
 
   .btn-lime-xs {
+    color: #222222;
+    border-color: #aeea00;
+    background-color: #aeea00;
+  }
+  .btn-lime-xs:focus, .btn-lime-xs:hover {
     color: #222222;
     border-color: #aeea00;
     background-color: #aeea00;
@@ -43857,8 +44297,18 @@ Grid布局
     border-color: #ffea00;
     background-color: #ffea00;
   }
+  .btn-yellow-xs:focus, .btn-yellow-xs:hover {
+    color: #222222;
+    border-color: #ffea00;
+    background-color: #ffea00;
+  }
 
   .btn-amber-xs {
+    color: #222222;
+    border-color: #ffc400;
+    background-color: #ffc400;
+  }
+  .btn-amber-xs:focus, .btn-amber-xs:hover {
     color: #222222;
     border-color: #ffc400;
     background-color: #ffc400;
@@ -43869,8 +44319,18 @@ Grid布局
     border-color: #ff9100;
     background-color: #ff9100;
   }
+  .btn-orange-xs:focus, .btn-orange-xs:hover {
+    color: #222222;
+    border-color: #ff9100;
+    background-color: #ff9100;
+  }
 
   .btn-d-orange-xs {
+    color: white;
+    border-color: #ff3d00;
+    background-color: #ff3d00;
+  }
+  .btn-d-orange-xs:focus, .btn-d-orange-xs:hover {
     color: white;
     border-color: #ff3d00;
     background-color: #ff3d00;
@@ -43881,14 +44341,29 @@ Grid布局
     border-color: #5d4037;
     background-color: #5d4037;
   }
+  .btn-brown-xs:focus, .btn-brown-xs:hover {
+    color: white;
+    border-color: #5d4037;
+    background-color: #5d4037;
+  }
 
   .btn-grey-xs {
     color: white;
     border-color: #616161;
     background-color: #616161;
   }
+  .btn-grey-xs:focus, .btn-grey-xs:hover {
+    color: white;
+    border-color: #616161;
+    background-color: #616161;
+  }
 
   .btn-blue-grey-xs {
+    color: white;
+    border-color: #546e7a;
+    background-color: #546e7a;
+  }
+  .btn-blue-grey-xs:focus, .btn-blue-grey-xs:hover {
     color: white;
     border-color: #546e7a;
     background-color: #546e7a;

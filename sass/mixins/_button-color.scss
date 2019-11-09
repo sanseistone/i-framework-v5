@@ -14,6 +14,12 @@
   color: color-yiq($color);
   border-color: $border;
   @include gradient-bg($background);
+
+  &:focus, &:hover {
+    color: color-yiq($color);
+    border-color: $border;
+    @include gradient-bg($background);
+  }
 }
 
 @mixin button-variant-o(
