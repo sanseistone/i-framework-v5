@@ -126,12 +126,6 @@
   }
 }
 
-@each $key, $value in $namespace-color {
-  .#{$button}-#{$key} {
-    @include button-variant($value, $value, $value);
-  }
-}
-
 @each $key, $value in $red-series {
   .#{$button}-#{$key}-o {
     @include button-variant-o($value, $value, $value);
@@ -241,12 +235,6 @@
 }
 
 @each $key, $value in $blue-grey-series {
-  .#{$button}-#{$key}-o {
-    @include button-variant-o($value, $value, $value);
-  }
-}
-
-@each $key, $value in $namespace-color {
   .#{$button}-#{$key}-o {
     @include button-variant-o($value, $value, $value);
   }
@@ -376,12 +364,6 @@
     }
   }
 
-  @each $key, $value in $namespace-color {
-    .#{$button}-#{$key}-lg {
-      @include button-variant($value, $value, $value);
-    }
-  }
-
   @each $key, $value in $red-series {
     .#{$button}-#{$key}-o-lg {
       @include button-variant-o($value, $value, $value);
@@ -491,12 +473,6 @@
   }
 
   @each $key, $value in $blue-grey-series {
-    .#{$button}-#{$key}-o-lg {
-      @include button-variant-o($value, $value, $value);
-    }
-  }
-
-  @each $key, $value in $namespace-color {
     .#{$button}-#{$key}-o-lg {
       @include button-variant-o($value, $value, $value);
     }
@@ -625,12 +601,6 @@
     }
   }
 
-  @each $key, $value in $namespace-color {
-    .#{$button}-#{$key}-md {
-      @include button-variant($value, $value, $value);
-    }
-  }
-
   @each $key, $value in $red-series {
     .#{$button}-#{$key}-o-md {
       @include button-variant-o($value, $value, $value);
@@ -740,12 +710,6 @@
   }
 
   @each $key, $value in $blue-grey-series {
-    .#{$button}-#{$key}-o-md {
-      @include button-variant-o($value, $value, $value);
-    }
-  }
-
-  @each $key, $value in $namespace-color {
     .#{$button}-#{$key}-o-md {
       @include button-variant-o($value, $value, $value);
     }
@@ -874,12 +838,6 @@
     }
   }
 
-  @each $key, $value in $namespace-color {
-    .#{$button}-#{$key}-sm {
-      @include button-variant($value, $value, $value);
-    }
-  }
-
   @each $key, $value in $red-series {
     .#{$button}-#{$key}-o-sm {
       @include button-variant-o($value, $value, $value);
@@ -989,12 +947,6 @@
   }
 
   @each $key, $value in $blue-grey-series {
-    .#{$button}-#{$key}-o-sm {
-      @include button-variant-o($value, $value, $value);
-    }
-  }
-
-  @each $key, $value in $namespace-color {
     .#{$button}-#{$key}-o-sm {
       @include button-variant-o($value, $value, $value);
     }
@@ -1123,12 +1075,6 @@
     }
   }
 
-  @each $key, $value in $namespace-color {
-    .#{$button}-#{$key}-xs {
-      @include button-variant($value, $value, $value);
-    }
-  }
-
   @each $key, $value in $red-series {
     .#{$button}-#{$key}-o-xs {
       @include button-variant-o($value, $value, $value);
@@ -1238,12 +1184,6 @@
   }
 
   @each $key, $value in $blue-grey-series {
-    .#{$button}-#{$key}-o-xs {
-      @include button-variant-o($value, $value, $value);
-    }
-  }
-
-  @each $key, $value in $namespace-color {
     .#{$button}-#{$key}-o-xs {
       @include button-variant-o($value, $value, $value);
     }

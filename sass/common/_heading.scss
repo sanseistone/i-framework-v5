@@ -144,12 +144,6 @@
       @include heading-bg-variant($value,$value);
     }
   }
-
-  @each $key, $value in $namespace-color {
-    &.#{$key} {
-      @include heading-bg-variant($value,$value);
-    }
-  }
 }
 
 .#{$heading} {
@@ -262,12 +256,6 @@
   }
 
   @each $key, $value in $blue-grey-series {
-    &.#{$key}-o {
-      @include heading-bg-variant-o($value,$value);
-    }
-  }
-
-  @each $key, $value in $namespace-color {
     &.#{$key}-o {
       @include heading-bg-variant-o($value,$value);
     }
@@ -437,12 +425,6 @@
         @include heading-bg-variant($value,$value);
       }
     }
-
-    @each $key, $value in $namespace-color {
-      &.#{$key}-lg {
-        @include heading-bg-variant($value,$value);
-      }
-    }
   }
 
   .#{$heading} {
@@ -555,12 +537,6 @@
     }
 
     @each $key, $value in $blue-grey-series {
-      &.#{$key}-o-lg {
-        @include heading-bg-variant-o($value,$value);
-      }
-    }
-
-    @each $key, $value in $namespace-color {
       &.#{$key}-o-lg {
         @include heading-bg-variant-o($value,$value);
       }
@@ -690,12 +666,6 @@
         @include heading-bg-variant($value,$value);
       }
     }
-
-    @each $key, $value in $namespace-color {
-      &.#{$key}-md {
-        @include heading-bg-variant($value,$value);
-      }
-    }
   }
 
   .#{$heading} {
@@ -808,12 +778,6 @@
     }
 
     @each $key, $value in $blue-grey-series {
-      &.#{$key}-o-md {
-        @include heading-bg-variant-o($value,$value);
-      }
-    }
-
-    @each $key, $value in $namespace-color {
       &.#{$key}-o-md {
         @include heading-bg-variant-o($value,$value);
       }
@@ -943,12 +907,6 @@
         @include heading-bg-variant($value,$value);
       }
     }
-
-    @each $key, $value in $namespace-color {
-      &.#{$key}-sm {
-        @include heading-bg-variant($value,$value);
-      }
-    }
   }
 
   .#{$heading} {
@@ -1061,12 +1019,6 @@
     }
 
     @each $key, $value in $blue-grey-series {
-      &.#{$key}-o-sm {
-        @include heading-bg-variant-o($value,$value);
-      }
-    }
-
-    @each $key, $value in $namespace-color {
       &.#{$key}-o-sm {
         @include heading-bg-variant-o($value,$value);
       }
@@ -1196,12 +1148,6 @@
         @include heading-bg-variant($value,$value);
       }
     }
-
-    @each $key, $value in $namespace-color {
-      &.#{$key}-xs {
-        @include heading-bg-variant($value,$value);
-      }
-    }
   }
 
   .#{$heading} {
@@ -1314,12 +1260,6 @@
     }
 
     @each $key, $value in $blue-grey-series {
-      &.#{$key}-o-xs {
-        @include heading-bg-variant-o($value,$value);
-      }
-    }
-
-    @each $key, $value in $namespace-color {
       &.#{$key}-o-xs {
         @include heading-bg-variant-o($value,$value);
       }

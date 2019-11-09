@@ -124,12 +124,6 @@
   }
 }
 
-@each $key, $value in $namespace-color {
-  .#{$font}-#{$key} {
-    @include font-variant($value);
-  }
-}
-
 //responsive-pc
 
 @media (max-width: 1199px) {
@@ -249,12 +243,6 @@
   }
 
   @each $key, $value in $blue-grey-series {
-    .#{$font}-#{$key}-lg {
-      @include font-variant($value);
-    }
-  }
-
-  @each $key, $value in $namespace-color {
     .#{$font}-#{$key}-lg {
       @include font-variant($value);
     }
@@ -382,12 +370,6 @@
       @include font-variant($value);
     }
   }
-
-  @each $key, $value in $namespace-color {
-    .#{$font}-#{$key}-md {
-      @include font-variant($value);
-    }
-  }
 }
 
 @media (max-width: 767px) {
@@ -511,12 +493,6 @@
       @include font-variant($value);
     }
   }
-
-  @each $key, $value in $namespace-color {
-    .#{$font}-#{$key}-sm {
-      @include font-variant($value);
-    }
-  }
 }
 
 @media (max-width: 575px) {
@@ -636,12 +612,6 @@
   }
 
   @each $key, $value in $blue-grey-series {
-    .#{$font}-#{$key}-xs {
-      @include font-variant($value);
-    }
-  }
-
-  @each $key, $value in $namespace-color {
     .#{$font}-#{$key}-xs {
       @include font-variant($value);
     }

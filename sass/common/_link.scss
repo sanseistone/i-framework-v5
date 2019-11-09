@@ -124,12 +124,6 @@ a.#{$hover} {
       @include font-variant($value);
     }
   }
-
-  @each $key, $value in $namespace-color {
-    &.#{$key}:focus, &.#{$key}:hover {
-      @include font-variant($value);
-    }
-  }
 }
 
 //responsive-pc
@@ -256,12 +250,6 @@ a.#{$hover} {
     }
 
     @each $key, $value in $blue-grey-series {
-      &.#{$key}-lg:focus, &.#{$key}-lg:hover {
-        @include font-variant($value);
-      }
-    }
-
-    @each $key, $value in $namespace-color {
       &.#{$key}-lg:focus, &.#{$key}-lg:hover {
         @include font-variant($value);
       }
@@ -395,12 +383,6 @@ a.#{$hover} {
         @include font-variant($value);
       }
     }
-
-    @each $key, $value in $namespace-color {
-      &.#{$key}-md:focus, &.#{$key}-md:hover {
-        @include font-variant($value);
-      }
-    }
   }
 }
 
@@ -530,12 +512,6 @@ a.#{$hover} {
         @include font-variant($value);
       }
     }
-
-    @each $key, $value in $namespace-color {
-      &.#{$key}-sm:focus, &.#{$key}-sm:hover {
-        @include font-variant($value);
-      }
-    }
   }
 }
 
@@ -661,12 +637,6 @@ a.#{$hover} {
     }
 
     @each $key, $value in $blue-grey-series {
-      &.#{$key}-xs:focus, &.#{$key}-xs:hover {
-        @include font-variant($value);
-      }
-    }
-
-    @each $key, $value in $namespace-color {
       &.#{$key}-xs:focus, &.#{$key}-xs:hover {
         @include font-variant($value);
       }

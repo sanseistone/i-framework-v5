@@ -128,12 +128,6 @@
   }
 }
 
-@each $key, $value in $namespace-color {
-  .#{$border}-#{$key} {
-    @include border-variant($value);
-  }
-}
-
 //responsive-pc
 
 @media (max-width: 1199px) {
@@ -257,12 +251,6 @@
   }
 
   @each $key, $value in $blue-grey-series {
-    .#{$border}-#{$key}-lg {
-      @include border-variant($value);
-    }
-  }
-
-  @each $key, $value in $namespace-color {
     .#{$border}-#{$key}-lg {
       @include border-variant($value);
     }
@@ -394,12 +382,6 @@
       @include border-variant($value);
     }
   }
-
-  @each $key, $value in $namespace-color {
-    .#{$border}-#{$key}-md {
-      @include border-variant($value);
-    }
-  }
 }
 
 @media (max-width: 767px) {
@@ -527,12 +509,6 @@
       @include border-variant($value);
     }
   }
-
-  @each $key, $value in $namespace-color {
-    .#{$border}-#{$key}-sm {
-      @include border-variant($value);
-    }
-  }
 }
 
 @media (max-width: 575px) {
@@ -656,12 +632,6 @@
   }
 
   @each $key, $value in $blue-grey-series {
-    .#{$border}-#{$key}-xs {
-      @include border-variant($value);
-    }
-  }
-
-  @each $key, $value in $namespace-color {
     .#{$border}-#{$key}-xs {
       @include border-variant($value);
     }

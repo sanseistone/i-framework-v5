@@ -149,12 +149,6 @@ input[type="number"] {
       @include form-variant($value);
     }
   }
-
-  @each $key, $value in $namespace-color {
-    &.#{$key} {
-      @include form-variant($value);
-    }
-  }
 }
 
 //responsive-pc
@@ -277,12 +271,6 @@ input[type="number"] {
     }
 
     @each $key, $value in $blue-grey-series {
-      &.#{$key}-lg {
-        @include form-variant($value);
-      }
-    }
-
-    @each $key, $value in $namespace-color {
       &.#{$key}-lg {
         @include form-variant($value);
       }
@@ -412,12 +400,6 @@ input[type="number"] {
         @include form-variant($value);
       }
     }
-
-    @each $key, $value in $namespace-color {
-      &.#{$key}-md {
-        @include form-variant($value);
-      }
-    }
   }
 }
 
@@ -543,12 +525,6 @@ input[type="number"] {
         @include form-variant($value);
       }
     }
-
-    @each $key, $value in $namespace-color {
-      &.#{$key}-sm {
-        @include form-variant($value);
-      }
-    }
   }
 }
 
@@ -670,12 +646,6 @@ input[type="number"] {
     }
 
     @each $key, $value in $blue-grey-series {
-      &.#{$key}-xs {
-        @include form-variant($value);
-      }
-    }
-
-    @each $key, $value in $namespace-color {
       &.#{$key}-xs {
         @include form-variant($value);
       }

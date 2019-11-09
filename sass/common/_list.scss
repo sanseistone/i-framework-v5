@@ -190,12 +190,6 @@
   }
 }
 
-@each $key, $value in $namespace-color {
-  .#{$key} > li > a {
-    @include font-variant($value);
-  }
-}
-
 //list.hover color
 
 @each $key, $value in $red-series {
@@ -361,15 +355,6 @@
 }
 
 @each $key, $value in $blue-grey-series {
-  .#{$hover}.#{$key} {
-    > li > a:hover,
-    > li > a:focus {
-      @include font-variant($value);
-    }
-  }
-}
-
-@each $key, $value in $namespace-color {
   .#{$hover}.#{$key} {
     > li > a:hover,
     > li > a:focus {
@@ -626,12 +611,6 @@
     }
   }
 
-  @each $key, $value in $namespace-color {
-    .#{$key}-lg > li > a {
-      @include font-variant($value);
-    }
-  }
-
   @each $key, $value in $red-series {
     .#{$hover}.#{$key}-lg {
       > li > a:hover,
@@ -795,15 +774,6 @@
   }
 
   @each $key, $value in $blue-grey-series {
-    .#{$hover}.#{$key}-lg {
-      > li > a:hover,
-      > li > a:focus {
-        @include font-variant($value);
-      }
-    }
-  }
-
-  @each $key, $value in $namespace-color {
     .#{$hover}.#{$key}-lg {
       > li > a:hover,
       > li > a:focus {
@@ -1057,12 +1027,6 @@
     }
   }
 
-  @each $key, $value in $namespace-color {
-    .#{$key}-md > li > a {
-      @include font-variant($value);
-    }
-  }
-
   @each $key, $value in $red-series {
     .#{$hover}.#{$key}-md {
       > li > a:hover,
@@ -1226,15 +1190,6 @@
   }
 
   @each $key, $value in $blue-grey-series {
-    .#{$hover}.#{$key}-md {
-      > li > a:hover,
-      > li > a:focus {
-        @include font-variant($value);
-      }
-    }
-  }
-
-  @each $key, $value in $namespace-color {
     .#{$hover}.#{$key}-md {
       > li > a:hover,
       > li > a:focus {
@@ -1488,12 +1443,6 @@
     }
   }
 
-  @each $key, $value in $namespace-color {
-    .#{$key}-sm > li > a {
-      @include font-variant($value);
-    }
-  }
-
   @each $key, $value in $red-series {
     .#{$hover}.#{$key}-sm {
       > li > a:hover,
@@ -1657,15 +1606,6 @@
   }
 
   @each $key, $value in $blue-grey-series {
-    .#{$hover}.#{$key}-sm {
-      > li > a:hover,
-      > li > a:focus {
-        @include font-variant($value);
-      }
-    }
-  }
-
-  @each $key, $value in $namespace-color {
     .#{$hover}.#{$key}-sm {
       > li > a:hover,
       > li > a:focus {
@@ -1919,12 +1859,6 @@
     }
   }
 
-  @each $key, $value in $namespace-color {
-    .#{$key}-xs > li > a {
-      @include font-variant($value);
-    }
-  }
-
   @each $key, $value in $red-series {
     .#{$hover}.#{$key}-xs {
       > li > a:hover,
@@ -2088,15 +2022,6 @@
   }
 
   @each $key, $value in $blue-grey-series {
-    .#{$hover}.#{$key}-xs {
-      > li > a:hover,
-      > li > a:focus {
-        @include font-variant($value);
-      }
-    }
-  }
-
-  @each $key, $value in $namespace-color {
     .#{$hover}.#{$key}-xs {
       > li > a:hover,
       > li > a:focus {
