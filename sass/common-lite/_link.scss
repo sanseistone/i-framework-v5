@@ -5,6 +5,10 @@ a.#{$hover} {
     text-decoration: underline;
   }
 
+  &.no-underline {
+    text-decoration: none;
+  }
+
   &.white:focus,
   &.white:hover {
     color: $color-f;
@@ -29,6 +33,10 @@ a.#{$hover} {
   a.#{$hover} {
     &.underline-lg {
       text-decoration: underline;
+    }
+
+    &.no-underline-lg {
+      text-decoration: none;
     }
 
     &.white-lg:focus,
@@ -56,6 +64,10 @@ a.#{$hover} {
       text-decoration: underline;
     }
 
+    &.no-underline-md {
+      text-decoration: none;
+    }
+
     &.white-md:focus,
     &.white-md:hover {
       color: $color-f;
@@ -81,6 +93,10 @@ a.#{$hover} {
       text-decoration: underline;
     }
 
+    &.no-underline-sm {
+      text-decoration: none;
+    }
+
     &.white-sm:focus,
     &.white-sm:hover {
       color: $color-f;
@@ -104,6 +120,10 @@ a.#{$hover} {
   a.#{$hover} {
     &.underline-xs {
       text-decoration: underline;
+    }
+
+    &.no-underline-xs {
+      text-decoration: none;
     }
 
     &.white-xs:focus,

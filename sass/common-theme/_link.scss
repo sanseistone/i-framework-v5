@@ -5,6 +5,10 @@ a.#{$hover} {
     text-decoration: underline;
   }
 
+  &.no-underline {
+    text-decoration: none;
+  }
+
   @each $key, $value in $black-white {
     &.#{$key}:focus, &.#{$key}:hover {
       @include font-variant($value);
@@ -133,6 +137,10 @@ a.#{$hover} {
   a.#{$hover} {
     &.underline-lg {
       text-decoration: underline;
+    }
+
+    &.no-underline-lg {
+      text-decoration: none;
     }
 
     @each $key, $value in $black-white {
@@ -264,6 +272,10 @@ a.#{$hover} {
       text-decoration: underline;
     }
 
+    &.no-underline-md {
+      text-decoration: none;
+    }
+
     @each $key, $value in $black-white {
       &.#{$key}-md:focus, &.#{$key}-md:hover {
         @include font-variant($value);
@@ -393,6 +405,10 @@ a.#{$hover} {
       text-decoration: underline;
     }
 
+    &.no-underline-sm {
+      text-decoration: none;
+    }
+
     @each $key, $value in $black-white {
       &.#{$key}-sm:focus, &.#{$key}-sm:hover {
         @include font-variant($value);
@@ -520,6 +536,10 @@ a.#{$hover} {
   a.#{$hover} {
     &.underline-xs {
       text-decoration: underline;
+    }
+
+    &.no-underline-xs {
+      text-decoration: none;
     }
 
     @each $key, $value in $black-white {
