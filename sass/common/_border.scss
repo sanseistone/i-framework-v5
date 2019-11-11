@@ -87,7 +87,7 @@
   }
 
   &.l-#{$solid} {
-    border-top: none;
+    border-top: none !important;
     border-right: none !important;
     border-bottom: none !important;
     border-left-style: solid;
@@ -265,7 +265,7 @@
     }
 
     &.l-#{$solid}-lg {
-      border-top: none;
+      border-top: none !important;
       border-right: none !important;
       border-bottom: none !important;
       border-left-style: solid;
@@ -436,7 +436,7 @@
     }
 
     &.l-#{$solid}-md {
-      border-top: none;
+      border-top: none !important;
       border-right: none !important;
       border-bottom: none !important;
       border-left-style: solid;
@@ -607,7 +607,7 @@
     }
 
     &.l-#{$solid}-sm {
-      border-top: none;
+      border-top: none !important;
       border-right: none !important;
       border-bottom: none !important;
       border-left-style: solid;
@@ -778,7 +778,7 @@
     }
 
     &.l-#{$solid}-xs {
-      border-top: none;
+      border-top: none !important;
       border-right: none !important;
       border-bottom: none !important;
       border-left-style: solid;
