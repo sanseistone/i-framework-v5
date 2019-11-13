@@ -1,6 +1,6 @@
 //list
 
-.#{$list} {
+ul.#{$list} {
   & {
     padding-left: 15px;
   }
@@ -38,7 +38,7 @@
 
 }
 
-.#{$horizontal} {
+ul.#{$horizontal} {
   & > li {
     width: auto;
     float: left;
@@ -49,7 +49,7 @@
   }
 }
 
-.#{$vertical} {
+ul.#{$vertical} {
   & > li {
     width: 100%;
     float: left;
@@ -60,7 +60,7 @@
   }
 }
 
-.#{$list} {
+ul.#{$list} {
   &.#{$solid} > li:last-child,
   &.#{$dashed} > li:last-child,
   &.#{$dotted} > li:last-child {
@@ -70,7 +70,7 @@
 
 //list link color
 
-.#{$list} {
+ul.#{$list} {
   @each $key, $value in $black-white {
     .#{$key} > li > a {
       @include font-variant($value);
@@ -194,7 +194,7 @@
 
 //list.hover color
 
-.#{$list} {
+ul.#{$list} {
   @each $key, $value in $black-white {
     .#{$hover}.#{$key} {
       > li > a:hover,
@@ -378,83 +378,83 @@
 
 //list-style-type
 
-.disc {
+ul.disc {
   list-style-type: disc;
 }
 
-.circle {
+ul.circle {
   list-style-type: circle;
 }
 
-.square {
+ul.square {
   list-style-type: square;
 }
 
-.decimal {
+ul.decimal {
   list-style-type: decimal;
 }
 
-.decimal-leading-zero {
+ul.decimal-leading-zero {
   list-style-type: decimal-leading-zero;
 }
 
-.lower-roman {
+ul.lower-roman {
   list-style-type: lower-roman;
 }
 
-.upper-roman {
+ul.upper-roman {
   list-style-type: upper-roman;
 }
 
-.lower-alpha {
+ul.lower-alpha {
   list-style-type: lower-alpha;
 }
 
-.upper-alpha {
+ul.upper-alpha {
   list-style-type: upper-alpha;
 }
 
-.lower-greek {
+ul.lower-greek {
   list-style-type: lower-greek;
 }
 
-.lower-latin {
+ul.lower-latin {
   list-style-type: lower-latin;
 }
 
-.upper-latin {
+ul.upper-latin {
   list-style-type: upper-latin;
 }
 
-.hebrew {
+ul.hebrew {
   list-style-type: hebrew;
 }
 
-.armenian {
+ul.armenian {
   list-style-type: armenian;
 }
 
-.georgian {
+ul.georgian {
   list-style-type: georgian;
 }
 
-.cjk-ideographic {
+ul.cjk-ideographic {
   list-style-type: cjk-ideographic;
 }
 
-.hiragana {
+ul.hiragana {
   list-style-type: hiragana;
 }
 
-.katakana {
+ul.katakana {
   list-style-type: katakana;
 }
 
-.hiragana-iroha {
+ul.hiragana-iroha {
   list-style-type: hiragana-iroha;
 }
 
-.katakana-iroha {
+ul.katakana-iroha {
   list-style-type: katakana-iroha;
 }
 
@@ -462,7 +462,7 @@
 
 @media (max-width: 1199px) {
   //Extra large devices (large desktops, 992px and 1200px)
-  .#{$list} {
+  ul.#{$list} {
     &.#{$box}-lg > li {
       padding: 5px;
       border-radius: 4px;
@@ -490,21 +490,21 @@
     }
   }
 
-  .#{$horizontal}-lg {
+  ul.#{$horizontal}-lg {
     & > li {
       width: auto;
       float: left;
     }
   }
 
-  .#{$vertical}-lg {
+  ul.#{$vertical}-lg {
     & > li {
       width: 100%;
       float: left;
     }
   }
 
-  .#{$list} {
+  ul.#{$list} {
     @each $key, $value in $black-white {
       .#{$key}-lg > li > a {
         @include font-variant($value);
@@ -626,7 +626,7 @@
     }
   }
 
-  .#{$list} {
+  ul.#{$list} {
     @each $key, $value in $black-white {
       .#{$hover}.#{$key}-lg {
         > li > a:hover,
@@ -808,90 +808,90 @@
     }
   }
 
-  .disc-lg {
+  ul.disc-lg {
     list-style-type: disc;
   }
 
-  .circle-lg {
+  ul.circle-lg {
     list-style-type: circle;
   }
 
-  .square-lg {
+  ul.square-lg {
     list-style-type: square;
   }
 
-  .decimal-lg {
+  ul.decimal-lg {
     list-style-type: decimal;
   }
 
-  .decimal-leading-zero-lg {
+  ul.decimal-leading-zero-lg {
     list-style-type: decimal-leading-zero;
   }
 
-  .lower-roman-lg {
+  ul.lower-roman-lg {
     list-style-type: lower-roman;
   }
 
-  .upper-roman-lg {
+  ul.upper-roman-lg {
     list-style-type: upper-roman;
   }
 
-  .lower-alpha-lg {
+  ul.lower-alpha-lg {
     list-style-type: lower-alpha;
   }
 
-  .upper-alpha-lg {
+  ul.upper-alpha-lg {
     list-style-type: upper-alpha;
   }
 
-  .lower-greek-lg {
+  ul.lower-greek-lg {
     list-style-type: lower-greek;
   }
 
-  .lower-latin-lg {
+  ul.lower-latin-lg {
     list-style-type: lower-latin;
   }
 
-  .upper-latin-lg {
+  ul.upper-latin-lg {
     list-style-type: upper-latin;
   }
 
-  .hebrew-lg {
+  ul.hebrew-lg {
     list-style-type: hebrew;
   }
 
-  .armenian-lg {
+  ul.armenian-lg {
     list-style-type: armenian;
   }
 
-  .georgian-lg {
+  ul.georgian-lg {
     list-style-type: georgian;
   }
 
-  .cjk-ideographic-lg {
+  ul.cjk-ideographic-lg {
     list-style-type: cjk-ideographic;
   }
 
-  .hiragana-lg {
+  ul.hiragana-lg {
     list-style-type: hiragana;
   }
 
-  .katakana-lg {
+  ul.katakana-lg {
     list-style-type: katakana;
   }
 
-  .hiragana-iroha-lg {
+  ul.hiragana-iroha-lg {
     list-style-type: hiragana-iroha;
   }
 
-  .katakana-iroha-lg {
+  ul.katakana-iroha-lg {
     list-style-type: katakana-iroha;
   }
 }
 
 @media (max-width: 991px) {
   //Large devices (desktops, 768px and 992px)
-  .#{$list} {
+  ul.#{$list} {
     &.#{$box}-md > li {
       padding: 5px;
       border-radius: 4px;
@@ -919,21 +919,21 @@
     }
   }
 
-  .#{$horizontal}-md {
+  ul.#{$horizontal}-md {
     & > li {
       width: auto;
       float: left;
     }
   }
 
-  .#{$vertical}-md {
+  ul.#{$vertical}-md {
     & > li {
       width: 100%;
       float: left;
     }
   }
 
-  .#{$list} {
+  ul.#{$list} {
     @each $key, $value in $black-white {
       .#{$key}-md > li > a {
         @include font-variant($value);
@@ -1055,7 +1055,7 @@
     }
   }
 
-  .#{$list} {
+  ul.#{$list} {
     @each $key, $value in $black-white {
       .#{$hover}.#{$key}-md {
         > li > a:hover,
@@ -1237,90 +1237,90 @@
     }
   }
 
-  .disc-md {
+  ul.disc-md {
     list-style-type: disc;
   }
 
-  .circle-md {
+  ul.circle-md {
     list-style-type: circle;
   }
 
-  .square-md {
+  ul.square-md {
     list-style-type: square;
   }
 
-  .decimal-md {
+  ul.decimal-md {
     list-style-type: decimal;
   }
 
-  .decimal-leading-zero-md {
+  ul.decimal-leading-zero-md {
     list-style-type: decimal-leading-zero;
   }
 
-  .lower-roman-md {
+  ul.lower-roman-md {
     list-style-type: lower-roman;
   }
 
-  .upper-roman-md {
+  ul.upper-roman-md {
     list-style-type: upper-roman;
   }
 
-  .lower-alpha-md {
+  ul.lower-alpha-md {
     list-style-type: lower-alpha;
   }
 
-  .upper-alpha-md {
+  ul.upper-alpha-md {
     list-style-type: upper-alpha;
   }
 
-  .lower-greek-md {
+  ul.lower-greek-md {
     list-style-type: lower-greek;
   }
 
-  .lower-latin-md {
+  ul.lower-latin-md {
     list-style-type: lower-latin;
   }
 
-  .upper-latin-md {
+  ul.upper-latin-md {
     list-style-type: upper-latin;
   }
 
-  .hebrew-md {
+  ul.hebrew-md {
     list-style-type: hebrew;
   }
 
-  .armenian-md {
+  ul.armenian-md {
     list-style-type: armenian;
   }
 
-  .georgian-md {
+  ul.georgian-md {
     list-style-type: georgian;
   }
 
-  .cjk-ideographic-md {
+  ul.cjk-ideographic-md {
     list-style-type: cjk-ideographic;
   }
 
-  .hiragana-md {
+  ul.hiragana-md {
     list-style-type: hiragana;
   }
 
-  .katakana-md {
+  ul.katakana-md {
     list-style-type: katakana;
   }
 
-  .hiragana-iroha-md {
+  ul.hiragana-iroha-md {
     list-style-type: hiragana-iroha;
   }
 
-  .katakana-iroha-md {
+  ul.katakana-iroha-md {
     list-style-type: katakana-iroha;
   }
 }
 
 @media (max-width: 767px) {
   //Medium devices (tablets, 576px and 768px)
-  .#{$list} {
+  ul.#{$list} {
     &.#{$box}-sm > li {
       padding: 5px;
       border-radius: 4px;
@@ -1348,21 +1348,21 @@
     }
   }
 
-  .#{$horizontal}-sm {
+  ul.#{$horizontal}-sm {
     & > li {
       width: auto;
       float: left;
     }
   }
 
-  .#{$vertical}-sm {
+  ul.#{$vertical}-sm {
     & > li {
       width: 100%;
       float: left;
     }
   }
 
-  .#{$list} {
+  ul.#{$list} {
     @each $key, $value in $black-white {
       .#{$key}-sm > li > a {
         @include font-variant($value);
@@ -1484,7 +1484,7 @@
     }
   }
 
-  .#{$list} {
+  ul.#{$list} {
     @each $key, $value in $black-white {
       .#{$hover}.#{$key}-sm {
         > li > a:hover,
@@ -1666,90 +1666,90 @@
     }
   }
 
-  .disc-sm {
+  ul.disc-sm {
     list-style-type: disc;
   }
 
-  .circle-sm {
+  ul.circle-sm {
     list-style-type: circle;
   }
 
-  .square-sm {
+  ul.square-sm {
     list-style-type: square;
   }
 
-  .decimal-sm {
+  ul.decimal-sm {
     list-style-type: decimal;
   }
 
-  .decimal-leading-zero-sm {
+  ul.decimal-leading-zero-sm {
     list-style-type: decimal-leading-zero;
   }
 
-  .lower-roman-sm {
+  ul.lower-roman-sm {
     list-style-type: lower-roman;
   }
 
-  .upper-roman-sm {
+  ul.upper-roman-sm {
     list-style-type: upper-roman;
   }
 
-  .lower-alpha-sm {
+  ul.lower-alpha-sm {
     list-style-type: lower-alpha;
   }
 
-  .upper-alpha-sm {
+  ul.upper-alpha-sm {
     list-style-type: upper-alpha;
   }
 
-  .lower-greek-sm {
+  ul.lower-greek-sm {
     list-style-type: lower-greek;
   }
 
-  .lower-latin-sm {
+  ul.lower-latin-sm {
     list-style-type: lower-latin;
   }
 
-  .upper-latin-sm {
+  ul.upper-latin-sm {
     list-style-type: upper-latin;
   }
 
-  .hebrew-sm {
+  ul.hebrew-sm {
     list-style-type: hebrew;
   }
 
-  .armenian-sm {
+  ul.armenian-sm {
     list-style-type: armenian;
   }
 
-  .georgian-sm {
+  ul.georgian-sm {
     list-style-type: georgian;
   }
 
-  .cjk-ideographic-sm {
+  ul.cjk-ideographic-sm {
     list-style-type: cjk-ideographic;
   }
 
-  .hiragana-sm {
+  ul.hiragana-sm {
     list-style-type: hiragana;
   }
 
-  .katakana-sm {
+  ul.katakana-sm {
     list-style-type: katakana;
   }
 
-  .hiragana-iroha-sm {
+  ul.hiragana-iroha-sm {
     list-style-type: hiragana-iroha;
   }
 
-  .katakana-iroha-sm {
+  ul.katakana-iroha-sm {
     list-style-type: katakana-iroha;
   }
 }
 
 @media (max-width: 575px) {
   //Small devices (landscape phones, max-width 576px)
-  .#{$list} {
+  ul.#{$list} {
     &.#{$box}-xs > li {
       padding: 5px;
       border-radius: 4px;
@@ -1777,21 +1777,21 @@
     }
   }
 
-  .#{$horizontal}-xs {
+  ul.#{$horizontal}-xs {
     & > li {
       width: auto;
       float: left;
     }
   }
 
-  .#{$vertical}-xs {
+  ul.#{$vertical}-xs {
     & > li {
       width: 100%;
       float: left;
     }
   }
 
-  .#{$list} {
+  ul.#{$list} {
     @each $key, $value in $black-white {
       .#{$key}-xs > li > a {
         @include font-variant($value);
@@ -1913,7 +1913,7 @@
     }
   }
 
-  .#{$list} {
+  ul.#{$list} {
     @each $key, $value in $black-white {
       .#{$hover}.#{$key}-xs {
         > li > a:hover,
@@ -2095,83 +2095,83 @@
     }
   }
 
-  .disc-xs {
+  ul.disc-xs {
     list-style-type: disc;
   }
 
-  .circle-xs {
+  ul.circle-xs {
     list-style-type: circle;
   }
 
-  .square-xs {
+  ul.square-xs {
     list-style-type: square;
   }
 
-  .decimal-xs {
+  ul.decimal-xs {
     list-style-type: decimal;
   }
 
-  .decimal-leading-zero-xs {
+  ul.decimal-leading-zero-xs {
     list-style-type: decimal-leading-zero;
   }
 
-  .lower-roman-xs {
+  ul.lower-roman-xs {
     list-style-type: lower-roman;
   }
 
-  .upper-roman-xs {
+  ul.upper-roman-xs {
     list-style-type: upper-roman;
   }
 
-  .lower-alpha-xs {
+  ul.lower-alpha-xs {
     list-style-type: lower-alpha;
   }
 
-  .upper-alpha-xs {
+  ul.upper-alpha-xs {
     list-style-type: upper-alpha;
   }
 
-  .lower-greek-xs {
+  ul.lower-greek-xs {
     list-style-type: lower-greek;
   }
 
-  .lower-latin-xs {
+  ul.lower-latin-xs {
     list-style-type: lower-latin;
   }
 
-  .upper-latin-xs {
+  ul.upper-latin-xs {
     list-style-type: upper-latin;
   }
 
-  .hebrew-xs {
+  ul.hebrew-xs {
     list-style-type: hebrew;
   }
 
-  .armenian-xs {
+  ul.armenian-xs {
     list-style-type: armenian;
   }
 
-  .georgian-xs {
+  ul.georgian-xs {
     list-style-type: georgian;
   }
 
-  .cjk-ideographic-xs {
+  ul.cjk-ideographic-xs {
     list-style-type: cjk-ideographic;
   }
 
-  .hiragana-xs {
+  ul.hiragana-xs {
     list-style-type: hiragana;
   }
 
-  .katakana-xs {
+  ul.katakana-xs {
     list-style-type: katakana;
   }
 
-  .hiragana-iroha-xs {
+  ul.hiragana-iroha-xs {
     list-style-type: hiragana-iroha;
   }
 
-  .katakana-iroha-xs {
+  ul.katakana-iroha-xs {
     list-style-type: katakana-iroha;
   }
 }
