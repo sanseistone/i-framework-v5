@@ -49,6 +49,7 @@
 
   &[class*="#{$right}"]::after,
   &[class*="#{$right}"] > li::after {
+    float: right;
     padding-left: 5px;
   }
 }

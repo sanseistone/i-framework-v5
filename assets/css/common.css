@@ -1173,6 +1173,7 @@
   padding-right: 5px;
 }
 .icon[class*="r"]::after, .icon[class*="r"] > li::after {
+  float: right;
   padding-left: 5px;
 }
 
