@@ -1165,6 +1165,10 @@
   color: #4872a3;
 }
 
+[class*="fa-line"] {
+  color: #00c300;
+}
+
 .icon {
   font-family: "Font Awesome 5 Pro";
 }

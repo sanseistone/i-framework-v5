@@ -2262,6 +2262,7 @@ $linkedin: #027ba5 !default;
 $vimeo: #4c75a3 !default;
 $instagram: #d10869 !default;
 $vk: #4872a3 !default;
+$line: #00c300 !default;
 $rss: #fd9f13 !default;
 $wordpress: #00a0d2 !default;
 
@@ -2279,6 +2280,7 @@ $social-series: map_merge(
                         "vimeo": $vimeo,
                         "instagram": $instagram,
                         "vk": $vk,
+                        "line": $line,
                         "rss": $rss,
                         "wp": $wordpress,
                 ),

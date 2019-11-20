@@ -35,6 +35,10 @@
   color: $vk;
 }
 
+[class*="#{$fa}-line"] {
+  color: $line;
+}
+
 .#{$icon} {
   & {
     font-family: "Font Awesome 5 Pro";
