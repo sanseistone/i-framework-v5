@@ -47,6 +47,18 @@
   }
 }
 
+//width-flex-pixel
+
+.flex {
+  & .#{$width} {
+    @each $key, $value in $width-pixel-series {
+      &-#{$key} {
+        @include width-flex-pixel-variant($value);
+      }
+    }
+  }
+}
+
 //other
 
 .#{$max-width} {
@@ -93,6 +105,16 @@
     @each $key, $value in $width-pixel-series {
       &-#{$key}-lg {
         @include width-pixel-variant($value);
+      }
+    }
+  }
+
+  .flex {
+    & .#{$width} {
+      @each $key, $value in $width-pixel-series {
+        &-#{$key}-lg {
+          @include width-flex-pixel-variant($value);
+        }
       }
     }
   }
@@ -144,6 +166,16 @@
     }
   }
 
+  .flex {
+    & .#{$width} {
+      @each $key, $value in $width-pixel-series {
+        &-#{$key}-md {
+          @include width-flex-pixel-variant($value);
+        }
+      }
+    }
+  }
+
   .#{$max-width} {
     &-full-md {
       max-width: 100%;
@@ -191,6 +223,16 @@
     }
   }
 
+  .flex {
+    & .#{$width} {
+      @each $key, $value in $width-pixel-series {
+        &-#{$key}-sm {
+          @include width-flex-pixel-variant($value);
+        }
+      }
+    }
+  }
+
   .#{$max-width} {
     &-full-sm {
       max-width: 100%;
@@ -234,6 +276,16 @@
     @each $key, $value in $width-pixel-series {
       &-#{$key}-xs {
         @include width-pixel-variant($value);
+      }
+    }
+  }
+
+  .flex {
+    & .#{$width} {
+      @each $key, $value in $width-pixel-series {
+        &-#{$key}-xs {
+          @include width-flex-pixel-variant($value);
+        }
       }
     }
   }

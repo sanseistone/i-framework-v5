@@ -29,6 +29,10 @@
 }
 
 @mixin width-pixel-variant($width) {
+  width: $width;
+}
+
+@mixin width-flex-pixel-variant($width) {
   width: 100%;
   max-width: $width;
 }
