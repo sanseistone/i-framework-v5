@@ -29,5 +29,6 @@
 }
 
 @mixin width-pixel-variant($width) {
-  width: $width;
+  width: 100%;
+  max-width: $width;
 }
