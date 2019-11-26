@@ -126,6 +126,12 @@
   }
 }
 
+@each $key, $value in $black-white {
+  .#{$button}-#{$key}-o {
+    @include button-variant($value, $value, $value);
+  }
+}
+
 @each $key, $value in $red-series {
   .#{$button}-#{$key}-o {
     @include button-variant-o($value, $value, $value);
@@ -360,6 +366,12 @@
 
   @each $key, $value in $blue-grey-series {
     .#{$button}-#{$key}-lg {
+      @include button-variant($value, $value, $value);
+    }
+  }
+
+  @each $key, $value in $black-white {
+    .#{$button}-#{$key}-o-lg {
       @include button-variant($value, $value, $value);
     }
   }
@@ -601,6 +613,12 @@
     }
   }
 
+  @each $key, $value in $black-white {
+    .#{$button}-#{$key}-o-md {
+      @include button-variant($value, $value, $value);
+    }
+  }
+
   @each $key, $value in $red-series {
     .#{$button}-#{$key}-o-md {
       @include button-variant-o($value, $value, $value);
@@ -838,6 +856,12 @@
     }
   }
 
+  @each $key, $value in $black-white {
+    .#{$button}-#{$key}-o-sm {
+      @include button-variant($value, $value, $value);
+    }
+  }
+
   @each $key, $value in $red-series {
     .#{$button}-#{$key}-o-sm {
       @include button-variant-o($value, $value, $value);
@@ -1071,6 +1095,12 @@
 
   @each $key, $value in $blue-grey-series {
     .#{$button}-#{$key}-xs {
+      @include button-variant($value, $value, $value);
+    }
+  }
+
+  @each $key, $value in $black-white {
+    .#{$button}-#{$key}-o-xs {
       @include button-variant($value, $value, $value);
     }
   }
