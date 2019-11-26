@@ -75,8 +75,8 @@ $form-item: "form-item" !default; //_form.scss
 $form-control: "form" !default; //_form.scss
 
 //table
-$border-collapse: "border-collapse" !default; //_table.scss
-$border-separate: "border-separate" !default; //_table.scss
+$border-collapse: "bd-collapse" !default; //_table.scss
+$border-separate: "bd-separate" !default; //_table.scss
 $table-auto: "table-auto" !default; //_table.scss
 $table-fixed: "table-fixed" !default; //_table.scss
 
@@ -193,7 +193,7 @@ $cursor-help: "help" !default; //_font.scss
 $line-height: "line" !default; //_line-height.scss
 
 //border
-$border: "border" !default; //_border.scss  //_border-color.scss
+$border: "bd" !default; //_border.scss  //_border-color.scss
 $solid: "solid" !default; //_border.scss  //_list.scss
 $dashed: "dashed" !default; //_border.scss  //_list.scss
 $dotted: "dotted" !default; //_border.scss  //_list.scss
@@ -246,28 +246,28 @@ $font-grey: "font-grey" !default; //_font-color.scss
 $font-blue-grey: "font-blue-grey" !default; //_font-color.scss
 
 //border-color
-$border-transparent: "border-transparent" !default; //_border-color.scss
-$border-white: "border-white" !default; //_border-color.scss
-$border-black: "border-black" !default; //_border-color.scss
-$border-red: "border-red" !default; //_border-color.scss
-$border-pink: "border-pink" !default; //_border-color.scss
-$border-purple: "border-purple" !default; //_border-color.scss
-$border-deep-purple: "border-d-purple" !default; //_border-color.scss
-$border-indigo: "border-indigo" !default; //_border-color.scss
-$border-blue: "border-blue" !default; //_border-color.scss
-$border-light-blue: "border-l-blue" !default; //_border-color.scss
-$border-cyan: "border-cyan" !default; //_border-color.scss
-$border-teal: "border-teal" !default; //_border-color.scss
-$border-green: "border-green" !default; //_border-color.scss
-$border-light-green: "border-l-green" !default; //_border-color.scss
-$border-lime: "border-lime" !default; //_border-color.scss
-$border-yellow: "border-yellow" !default; //_border-color.scss
-$border-amber: "border-amber" !default; //_border-color.scss
-$border-orange: "border-orange" !default; //_border-color.scss
-$border-deep-orange: "border-d-orange" !default; //_border-color.scss
-$border-brown: "border-brown" !default; //_border-color.scss
-$border-grey: "border-grey" !default; //_border-color.scss
-$border-blue-grey: "border-blue-grey" !default; //_border-color.scss
+$border-transparent: "bd-transparent" !default; //_border-color.scss
+$border-white: "bd-white" !default; //_border-color.scss
+$border-black: "bd-black" !default; //_border-color.scss
+$border-red: "bd-red" !default; //_border-color.scss
+$border-pink: "bd-pink" !default; //_border-color.scss
+$border-purple: "bd-purple" !default; //_border-color.scss
+$border-deep-purple: "bd-d-purple" !default; //_border-color.scss
+$border-indigo: "bd-indigo" !default; //_border-color.scss
+$border-blue: "bd-blue" !default; //_border-color.scss
+$border-light-blue: "bd-l-blue" !default; //_border-color.scss
+$border-cyan: "bd-cyan" !default; //_border-color.scss
+$border-teal: "bd-teal" !default; //_border-color.scss
+$border-green: "bd-green" !default; //_border-color.scss
+$border-light-green: "bd-l-green" !default; //_border-color.scss
+$border-lime: "bd-lime" !default; //_border-color.scss
+$border-yellow: "bd-yellow" !default; //_border-color.scss
+$border-amber: "bd-amber" !default; //_border-color.scss
+$border-orange: "bd-orange" !default; //_border-color.scss
+$border-deep-orange: "bd-d-orange" !default; //_border-color.scss
+$border-brown: "bd-brown" !default; //_border-color.scss
+$border-grey: "bd-grey" !default; //_border-color.scss
+$border-blue-grey: "bd-blue-grey" !default; //_border-color.scss
 
 //button-color
 $button-transparent: "btn-transparent" !default; //_button.scss
