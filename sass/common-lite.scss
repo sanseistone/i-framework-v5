@@ -7,65 +7,67 @@
  * Licensed under MIT (https://github.com/sanseistone/css-framework/blob/master/LICENSE)
  */
 
-//global
+//00 Global
 @import "variables/index";
 @import "mixins/index";
 
 //01 Display
 @import "common/display";
-@import "common/container";
-@import "common/overflow";
-
-//02 Modules
-@import "common-lite/icon";
-@import "common-lite/heading";
-@import "common-lite/link";
-@import "common/text";
-
-//03 Elements
-//@import "common/color";
-@import "common/img";
-@import "common-lite/list";
-@import "common-lite/form";
-@import "common/table";
-
-//04 Layout
-@import "common/position";
-@import "common/float";
 @import "common/flex";
 @import "common/grid";
+@import "common/float";
+
+//02 Position
+@import "common/position";
 @import "common/transform";
 
-//05 Box
+//03 Width & Height
 @import "common/width";
 @import "common/height";
-@import "common-lite/padding";
-@import "common-lite/margin";
+@import "common/overflow";
 
-//06 Grid
-@import "common/column";
-@import "common/average";
-//@import "common/col";
-@import "common/space";
+//04 Margin & Padding
+@import "common-lite/margin";
+@import "common-lite/padding";
+
+//05 Button
+@import "common/button";
+@import "common-lite/button-color";
+
+//06 Border
+@import "common/border";
+@import "common-lite/border-color";
+@import "common/radius";
 
 //07 Font
 @import "common/font";
 @import "common-lite/font-color";
 @import "common-lite/line-height";
 
-//08 Border
-@import "common/border";
-@import "common-lite/border-color";
-@import "common/radius";
-
-//09 Button
-@import "common/button";
-@import "common-lite/button-color";
-
-//10 Background
+//08 Background
 @import "common/background";
 @import "common-lite/background-color";
 @import "common/transparent";
 
-//11 Default
+//09 Pseudo-element
 @import "common/pseudo-class";
+
+//10 Layout
+@import "common/container";
+@import "common/column";
+@import "common/average";
+//@import "common/col";
+@import "common/space";
+
+//11 Elements
+//@import "common/color";
+@import "common/img";
+@import "common-lite/list";
+@import "common-lite/form";
+@import "common/table";
+
+//12 Modules
+@import "common-lite/icon";
+@import "common-lite/heading";
+@import "common-lite/link";
+@import "common/text";

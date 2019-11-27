@@ -7,65 +7,70 @@
  * Licensed under MIT (https://github.com/sanseistone/css-framework/blob/master/LICENSE)
  */
 
-//global
+//00 Global
 @import "variables-theme/index";
 @import "mixins/index";
 
 //01 Display
 @import "common/display";
-@import "common/container";
-@import "common/overflow";
-
-//02 Modules
-@import "common-theme/icon";
-@import "common-theme/heading";
-@import "common-theme/link";
-@import "common/text";
-
-//03 Elements
-//@import "common/color";
-@import "common/img";
-@import "common-theme/list";
-@import "common-theme/form";
-@import "common/table";
-
-//04 Layout
-@import "common/position";
-@import "common/float";
 @import "common/flex";
 @import "common/grid";
+@import "common/float";
+
+//02 Position
+@import "common/position";
 @import "common/transform";
 
-//05 Box
+//03 Width & Height
 @import "common/width";
 @import "common/height";
-@import "common/padding";
-@import "common/margin";
+@import "common/overflow";
 
-//06 Grid
-@import "common/column";
-@import "common/average";
-//@import "common/col";
-@import "common/space";
+//04 Margin & Padding
+@import "common/margin";
+@import "common/padding";
+
+//05 Button
+@import "common/button";
+@import "common-theme/button-color";
+
+//06 Border
+@import "common/border";
+@import "common-theme/border-color";
+@import "common/radius";
 
 //07 Font
 @import "common/font";
 @import "common-theme/font-color";
 @import "common/line-height";
 
-//08 Border
-@import "common/border";
-@import "common-theme/border-color";
-@import "common/radius";
-
-//09 Button
-@import "common/button";
-@import "common-theme/button-color";
-
-//10 Background
+//08 Background
 @import "common/background";
 @import "common-theme/background-color";
 @import "common/transparent";
 
-//11 Default
+//09 Pseudo-element
 @import "common/pseudo-class";
+
+//10 Layout
+@import "common/container";
+@import "common/column";
+@import "common/average";
+//@import "common/col";
+@import "common/space";
+
+//11 Elements
+//@import "common/color";
+@import "common/img";
+@import "common-theme/list";
+@import "common-theme/form";
+@import "common/table";
+
+//12 Modules
+@import "common-theme/icon";
+@import "common-theme/heading";
+@import "common-theme/link";
+@import "common/text";
+
+//13 Fix
+@import "common/fix";

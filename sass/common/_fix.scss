@@ -1,15 +1,21 @@
-//Grid布局
+//修复无法全局预设的样式，放置最后，以覆盖前面的预设。
 
-//display
+//button
 
-.grid {
-  display: -ms-grid;
-  display: grid
-}
+.#{$button-white} {
+  color: $color-0;
+  border-color: $color-0;
+  background-color: $color-f;
 
-.inline-grid {
-  display: -ms-inline-grid;
-  display: inline-grid
+  &:focus,
+  &:hover,
+  &.active,
+  &.active:focus,
+  &.active:hover {
+    color: $color-3;
+    border-color: $color-3;
+    background-color: $color-f;
+  }
 }
 
 //responsive-pc
