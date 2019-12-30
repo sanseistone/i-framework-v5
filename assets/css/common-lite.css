@@ -3232,797 +3232,357 @@ input[type="number"] {
     background: transparent;
   }
 }
-a:not([href]).underline,
-a:not([href]):hover.underline,
 a.hover.underline {
   text-decoration: underline;
 }
-a:not([href]).no-underline,
-a:not([href]):hover.no-underline,
 a.hover.no-underline {
   text-decoration: none;
 }
-a:not([href]).white:focus, a:not([href]).white:hover,
-a:not([href]):hover.white:focus,
-a:not([href]):hover.white:hover,
-a.hover.white:focus,
-a.hover.white:hover {
+a.hover.white:focus, a.hover.white:hover {
   color: white;
 }
-a:not([href]).black:focus, a:not([href]).black:hover,
-a:not([href]):hover.black:focus,
-a:not([href]):hover.black:hover,
-a.hover.black:focus,
-a.hover.black:hover {
+a.hover.black:focus, a.hover.black:hover {
   color: black;
 }
-a:not([href]).red:focus, a:not([href]).red:hover,
-a:not([href]):hover.red:focus,
-a:not([href]):hover.red:hover,
-a.hover.red:focus,
-a.hover.red:hover {
+a.hover.red:focus, a.hover.red:hover {
   color: #ff1744;
 }
-a:not([href]).pink:focus, a:not([href]).pink:hover,
-a:not([href]):hover.pink:focus,
-a:not([href]):hover.pink:hover,
-a.hover.pink:focus,
-a.hover.pink:hover {
+a.hover.pink:focus, a.hover.pink:hover {
   color: #f50057;
 }
-a:not([href]).purple:focus, a:not([href]).purple:hover,
-a:not([href]):hover.purple:focus,
-a:not([href]):hover.purple:hover,
-a.hover.purple:focus,
-a.hover.purple:hover {
+a.hover.purple:focus, a.hover.purple:hover {
   color: #d500f9;
 }
-a:not([href]).d-purple:focus, a:not([href]).d-purple:hover,
-a:not([href]):hover.d-purple:focus,
-a:not([href]):hover.d-purple:hover,
-a.hover.d-purple:focus,
-a.hover.d-purple:hover {
+a.hover.d-purple:focus, a.hover.d-purple:hover {
   color: #651fff;
 }
-a:not([href]).indigo:focus, a:not([href]).indigo:hover,
-a:not([href]):hover.indigo:focus,
-a:not([href]):hover.indigo:hover,
-a.hover.indigo:focus,
-a.hover.indigo:hover {
+a.hover.indigo:focus, a.hover.indigo:hover {
   color: #3d5afe;
 }
-a:not([href]).blue:focus, a:not([href]).blue:hover,
-a:not([href]):hover.blue:focus,
-a:not([href]):hover.blue:hover,
-a.hover.blue:focus,
-a.hover.blue:hover {
+a.hover.blue:focus, a.hover.blue:hover {
   color: #2979ff;
 }
-a:not([href]).l-blue:focus, a:not([href]).l-blue:hover,
-a:not([href]):hover.l-blue:focus,
-a:not([href]):hover.l-blue:hover,
-a.hover.l-blue:focus,
-a.hover.l-blue:hover {
+a.hover.l-blue:focus, a.hover.l-blue:hover {
   color: #00b0ff;
 }
-a:not([href]).cyan:focus, a:not([href]).cyan:hover,
-a:not([href]):hover.cyan:focus,
-a:not([href]):hover.cyan:hover,
-a.hover.cyan:focus,
-a.hover.cyan:hover {
+a.hover.cyan:focus, a.hover.cyan:hover {
   color: #00e5ff;
 }
-a:not([href]).teal:focus, a:not([href]).teal:hover,
-a:not([href]):hover.teal:focus,
-a:not([href]):hover.teal:hover,
-a.hover.teal:focus,
-a.hover.teal:hover {
+a.hover.teal:focus, a.hover.teal:hover {
   color: #00695c;
 }
-a:not([href]).green:focus, a:not([href]).green:hover,
-a:not([href]):hover.green:focus,
-a:not([href]):hover.green:hover,
-a.hover.green:focus,
-a.hover.green:hover {
+a.hover.green:focus, a.hover.green:hover {
   color: #2e7d32;
 }
-a:not([href]).l-green:focus, a:not([href]).l-green:hover,
-a:not([href]):hover.l-green:focus,
-a:not([href]):hover.l-green:hover,
-a.hover.l-green:focus,
-a.hover.l-green:hover {
+a.hover.l-green:focus, a.hover.l-green:hover {
   color: #76ff03;
 }
-a:not([href]).lime:focus, a:not([href]).lime:hover,
-a:not([href]):hover.lime:focus,
-a:not([href]):hover.lime:hover,
-a.hover.lime:focus,
-a.hover.lime:hover {
+a.hover.lime:focus, a.hover.lime:hover {
   color: #aeea00;
 }
-a:not([href]).yellow:focus, a:not([href]).yellow:hover,
-a:not([href]):hover.yellow:focus,
-a:not([href]):hover.yellow:hover,
-a.hover.yellow:focus,
-a.hover.yellow:hover {
+a.hover.yellow:focus, a.hover.yellow:hover {
   color: #ffea00;
 }
-a:not([href]).amber:focus, a:not([href]).amber:hover,
-a:not([href]):hover.amber:focus,
-a:not([href]):hover.amber:hover,
-a.hover.amber:focus,
-a.hover.amber:hover {
+a.hover.amber:focus, a.hover.amber:hover {
   color: #ffc400;
 }
-a:not([href]).orange:focus, a:not([href]).orange:hover,
-a:not([href]):hover.orange:focus,
-a:not([href]):hover.orange:hover,
-a.hover.orange:focus,
-a.hover.orange:hover {
+a.hover.orange:focus, a.hover.orange:hover {
   color: #ff9100;
 }
-a:not([href]).d-orange:focus, a:not([href]).d-orange:hover,
-a:not([href]):hover.d-orange:focus,
-a:not([href]):hover.d-orange:hover,
-a.hover.d-orange:focus,
-a.hover.d-orange:hover {
+a.hover.d-orange:focus, a.hover.d-orange:hover {
   color: #ff3d00;
 }
-a:not([href]).brown:focus, a:not([href]).brown:hover,
-a:not([href]):hover.brown:focus,
-a:not([href]):hover.brown:hover,
-a.hover.brown:focus,
-a.hover.brown:hover {
+a.hover.brown:focus, a.hover.brown:hover {
   color: #5d4037;
 }
-a:not([href]).grey:focus, a:not([href]).grey:hover,
-a:not([href]):hover.grey:focus,
-a:not([href]):hover.grey:hover,
-a.hover.grey:focus,
-a.hover.grey:hover {
+a.hover.grey:focus, a.hover.grey:hover {
   color: #616161;
 }
-a:not([href]).blue-grey:focus, a:not([href]).blue-grey:hover,
-a:not([href]):hover.blue-grey:focus,
-a:not([href]):hover.blue-grey:hover,
-a.hover.blue-grey:focus,
-a.hover.blue-grey:hover {
+a.hover.blue-grey:focus, a.hover.blue-grey:hover {
   color: #546e7a;
 }
 
 @media (max-width: 1199px) {
-  a:not([href]).underline-lg,
-  a:not([href]):hover.underline-lg,
   a.hover.underline-lg {
     text-decoration: underline;
   }
-  a:not([href]).no-underline-lg,
-  a:not([href]):hover.no-underline-lg,
   a.hover.no-underline-lg {
     text-decoration: none;
   }
-  a:not([href]).white-lg:focus, a:not([href]).white-lg:hover,
-  a:not([href]):hover.white-lg:focus,
-  a:not([href]):hover.white-lg:hover,
-  a.hover.white-lg:focus,
-  a.hover.white-lg:hover {
+  a.hover.white-lg:focus, a.hover.white-lg:hover {
     color: white;
   }
-  a:not([href]).black-lg:focus, a:not([href]).black-lg:hover,
-  a:not([href]):hover.black-lg:focus,
-  a:not([href]):hover.black-lg:hover,
-  a.hover.black-lg:focus,
-  a.hover.black-lg:hover {
+  a.hover.black-lg:focus, a.hover.black-lg:hover {
     color: black;
   }
-  a:not([href]).red-lg:focus, a:not([href]).red-lg:hover,
-  a:not([href]):hover.red-lg:focus,
-  a:not([href]):hover.red-lg:hover,
-  a.hover.red-lg:focus,
-  a.hover.red-lg:hover {
+  a.hover.red-lg:focus, a.hover.red-lg:hover {
     color: #ff1744;
   }
-  a:not([href]).pink-lg:focus, a:not([href]).pink-lg:hover,
-  a:not([href]):hover.pink-lg:focus,
-  a:not([href]):hover.pink-lg:hover,
-  a.hover.pink-lg:focus,
-  a.hover.pink-lg:hover {
+  a.hover.pink-lg:focus, a.hover.pink-lg:hover {
     color: #f50057;
   }
-  a:not([href]).purple-lg:focus, a:not([href]).purple-lg:hover,
-  a:not([href]):hover.purple-lg:focus,
-  a:not([href]):hover.purple-lg:hover,
-  a.hover.purple-lg:focus,
-  a.hover.purple-lg:hover {
+  a.hover.purple-lg:focus, a.hover.purple-lg:hover {
     color: #d500f9;
   }
-  a:not([href]).d-purple-lg:focus, a:not([href]).d-purple-lg:hover,
-  a:not([href]):hover.d-purple-lg:focus,
-  a:not([href]):hover.d-purple-lg:hover,
-  a.hover.d-purple-lg:focus,
-  a.hover.d-purple-lg:hover {
+  a.hover.d-purple-lg:focus, a.hover.d-purple-lg:hover {
     color: #651fff;
   }
-  a:not([href]).indigo-lg:focus, a:not([href]).indigo-lg:hover,
-  a:not([href]):hover.indigo-lg:focus,
-  a:not([href]):hover.indigo-lg:hover,
-  a.hover.indigo-lg:focus,
-  a.hover.indigo-lg:hover {
+  a.hover.indigo-lg:focus, a.hover.indigo-lg:hover {
     color: #3d5afe;
   }
-  a:not([href]).blue-lg:focus, a:not([href]).blue-lg:hover,
-  a:not([href]):hover.blue-lg:focus,
-  a:not([href]):hover.blue-lg:hover,
-  a.hover.blue-lg:focus,
-  a.hover.blue-lg:hover {
+  a.hover.blue-lg:focus, a.hover.blue-lg:hover {
     color: #2979ff;
   }
-  a:not([href]).l-blue-lg:focus, a:not([href]).l-blue-lg:hover,
-  a:not([href]):hover.l-blue-lg:focus,
-  a:not([href]):hover.l-blue-lg:hover,
-  a.hover.l-blue-lg:focus,
-  a.hover.l-blue-lg:hover {
+  a.hover.l-blue-lg:focus, a.hover.l-blue-lg:hover {
     color: #00b0ff;
   }
-  a:not([href]).cyan-lg:focus, a:not([href]).cyan-lg:hover,
-  a:not([href]):hover.cyan-lg:focus,
-  a:not([href]):hover.cyan-lg:hover,
-  a.hover.cyan-lg:focus,
-  a.hover.cyan-lg:hover {
+  a.hover.cyan-lg:focus, a.hover.cyan-lg:hover {
     color: #00e5ff;
   }
-  a:not([href]).teal-lg:focus, a:not([href]).teal-lg:hover,
-  a:not([href]):hover.teal-lg:focus,
-  a:not([href]):hover.teal-lg:hover,
-  a.hover.teal-lg:focus,
-  a.hover.teal-lg:hover {
+  a.hover.teal-lg:focus, a.hover.teal-lg:hover {
     color: #00695c;
   }
-  a:not([href]).green-lg:focus, a:not([href]).green-lg:hover,
-  a:not([href]):hover.green-lg:focus,
-  a:not([href]):hover.green-lg:hover,
-  a.hover.green-lg:focus,
-  a.hover.green-lg:hover {
+  a.hover.green-lg:focus, a.hover.green-lg:hover {
     color: #2e7d32;
   }
-  a:not([href]).l-green-lg:focus, a:not([href]).l-green-lg:hover,
-  a:not([href]):hover.l-green-lg:focus,
-  a:not([href]):hover.l-green-lg:hover,
-  a.hover.l-green-lg:focus,
-  a.hover.l-green-lg:hover {
+  a.hover.l-green-lg:focus, a.hover.l-green-lg:hover {
     color: #76ff03;
   }
-  a:not([href]).lime-lg:focus, a:not([href]).lime-lg:hover,
-  a:not([href]):hover.lime-lg:focus,
-  a:not([href]):hover.lime-lg:hover,
-  a.hover.lime-lg:focus,
-  a.hover.lime-lg:hover {
+  a.hover.lime-lg:focus, a.hover.lime-lg:hover {
     color: #aeea00;
   }
-  a:not([href]).yellow-lg:focus, a:not([href]).yellow-lg:hover,
-  a:not([href]):hover.yellow-lg:focus,
-  a:not([href]):hover.yellow-lg:hover,
-  a.hover.yellow-lg:focus,
-  a.hover.yellow-lg:hover {
+  a.hover.yellow-lg:focus, a.hover.yellow-lg:hover {
     color: #ffea00;
   }
-  a:not([href]).amber-lg:focus, a:not([href]).amber-lg:hover,
-  a:not([href]):hover.amber-lg:focus,
-  a:not([href]):hover.amber-lg:hover,
-  a.hover.amber-lg:focus,
-  a.hover.amber-lg:hover {
+  a.hover.amber-lg:focus, a.hover.amber-lg:hover {
     color: #ffc400;
   }
-  a:not([href]).orange-lg:focus, a:not([href]).orange-lg:hover,
-  a:not([href]):hover.orange-lg:focus,
-  a:not([href]):hover.orange-lg:hover,
-  a.hover.orange-lg:focus,
-  a.hover.orange-lg:hover {
+  a.hover.orange-lg:focus, a.hover.orange-lg:hover {
     color: #ff9100;
   }
-  a:not([href]).d-orange-lg:focus, a:not([href]).d-orange-lg:hover,
-  a:not([href]):hover.d-orange-lg:focus,
-  a:not([href]):hover.d-orange-lg:hover,
-  a.hover.d-orange-lg:focus,
-  a.hover.d-orange-lg:hover {
+  a.hover.d-orange-lg:focus, a.hover.d-orange-lg:hover {
     color: #ff3d00;
   }
-  a:not([href]).brown-lg:focus, a:not([href]).brown-lg:hover,
-  a:not([href]):hover.brown-lg:focus,
-  a:not([href]):hover.brown-lg:hover,
-  a.hover.brown-lg:focus,
-  a.hover.brown-lg:hover {
+  a.hover.brown-lg:focus, a.hover.brown-lg:hover {
     color: #5d4037;
   }
-  a:not([href]).grey-lg:focus, a:not([href]).grey-lg:hover,
-  a:not([href]):hover.grey-lg:focus,
-  a:not([href]):hover.grey-lg:hover,
-  a.hover.grey-lg:focus,
-  a.hover.grey-lg:hover {
+  a.hover.grey-lg:focus, a.hover.grey-lg:hover {
     color: #616161;
   }
-  a:not([href]).blue-grey-lg:focus, a:not([href]).blue-grey-lg:hover,
-  a:not([href]):hover.blue-grey-lg:focus,
-  a:not([href]):hover.blue-grey-lg:hover,
-  a.hover.blue-grey-lg:focus,
-  a.hover.blue-grey-lg:hover {
+  a.hover.blue-grey-lg:focus, a.hover.blue-grey-lg:hover {
     color: #546e7a;
   }
 }
 @media (max-width: 991px) {
-  a:not([href]).underline-md,
-  a:not([href]):hover.underline-md,
   a.hover.underline-md {
     text-decoration: underline;
   }
-  a:not([href]).no-underline-md,
-  a:not([href]):hover.no-underline-md,
   a.hover.no-underline-md {
     text-decoration: none;
   }
-  a:not([href]).white-md:focus, a:not([href]).white-md:hover,
-  a:not([href]):hover.white-md:focus,
-  a:not([href]):hover.white-md:hover,
-  a.hover.white-md:focus,
-  a.hover.white-md:hover {
+  a.hover.white-md:focus, a.hover.white-md:hover {
     color: white;
   }
-  a:not([href]).black-md:focus, a:not([href]).black-md:hover,
-  a:not([href]):hover.black-md:focus,
-  a:not([href]):hover.black-md:hover,
-  a.hover.black-md:focus,
-  a.hover.black-md:hover {
+  a.hover.black-md:focus, a.hover.black-md:hover {
     color: black;
   }
-  a:not([href]).red-md:focus, a:not([href]).red-md:hover,
-  a:not([href]):hover.red-md:focus,
-  a:not([href]):hover.red-md:hover,
-  a.hover.red-md:focus,
-  a.hover.red-md:hover {
+  a.hover.red-md:focus, a.hover.red-md:hover {
     color: #ff1744;
   }
-  a:not([href]).pink-md:focus, a:not([href]).pink-md:hover,
-  a:not([href]):hover.pink-md:focus,
-  a:not([href]):hover.pink-md:hover,
-  a.hover.pink-md:focus,
-  a.hover.pink-md:hover {
+  a.hover.pink-md:focus, a.hover.pink-md:hover {
     color: #f50057;
   }
-  a:not([href]).purple-md:focus, a:not([href]).purple-md:hover,
-  a:not([href]):hover.purple-md:focus,
-  a:not([href]):hover.purple-md:hover,
-  a.hover.purple-md:focus,
-  a.hover.purple-md:hover {
+  a.hover.purple-md:focus, a.hover.purple-md:hover {
     color: #d500f9;
   }
-  a:not([href]).d-purple-md:focus, a:not([href]).d-purple-md:hover,
-  a:not([href]):hover.d-purple-md:focus,
-  a:not([href]):hover.d-purple-md:hover,
-  a.hover.d-purple-md:focus,
-  a.hover.d-purple-md:hover {
+  a.hover.d-purple-md:focus, a.hover.d-purple-md:hover {
     color: #651fff;
   }
-  a:not([href]).indigo-md:focus, a:not([href]).indigo-md:hover,
-  a:not([href]):hover.indigo-md:focus,
-  a:not([href]):hover.indigo-md:hover,
-  a.hover.indigo-md:focus,
-  a.hover.indigo-md:hover {
+  a.hover.indigo-md:focus, a.hover.indigo-md:hover {
     color: #3d5afe;
   }
-  a:not([href]).blue-md:focus, a:not([href]).blue-md:hover,
-  a:not([href]):hover.blue-md:focus,
-  a:not([href]):hover.blue-md:hover,
-  a.hover.blue-md:focus,
-  a.hover.blue-md:hover {
+  a.hover.blue-md:focus, a.hover.blue-md:hover {
     color: #2979ff;
   }
-  a:not([href]).l-blue-md:focus, a:not([href]).l-blue-md:hover,
-  a:not([href]):hover.l-blue-md:focus,
-  a:not([href]):hover.l-blue-md:hover,
-  a.hover.l-blue-md:focus,
-  a.hover.l-blue-md:hover {
+  a.hover.l-blue-md:focus, a.hover.l-blue-md:hover {
     color: #00b0ff;
   }
-  a:not([href]).cyan-md:focus, a:not([href]).cyan-md:hover,
-  a:not([href]):hover.cyan-md:focus,
-  a:not([href]):hover.cyan-md:hover,
-  a.hover.cyan-md:focus,
-  a.hover.cyan-md:hover {
+  a.hover.cyan-md:focus, a.hover.cyan-md:hover {
     color: #00e5ff;
   }
-  a:not([href]).teal-md:focus, a:not([href]).teal-md:hover,
-  a:not([href]):hover.teal-md:focus,
-  a:not([href]):hover.teal-md:hover,
-  a.hover.teal-md:focus,
-  a.hover.teal-md:hover {
+  a.hover.teal-md:focus, a.hover.teal-md:hover {
     color: #00695c;
   }
-  a:not([href]).green-md:focus, a:not([href]).green-md:hover,
-  a:not([href]):hover.green-md:focus,
-  a:not([href]):hover.green-md:hover,
-  a.hover.green-md:focus,
-  a.hover.green-md:hover {
+  a.hover.green-md:focus, a.hover.green-md:hover {
     color: #2e7d32;
   }
-  a:not([href]).l-green-md:focus, a:not([href]).l-green-md:hover,
-  a:not([href]):hover.l-green-md:focus,
-  a:not([href]):hover.l-green-md:hover,
-  a.hover.l-green-md:focus,
-  a.hover.l-green-md:hover {
+  a.hover.l-green-md:focus, a.hover.l-green-md:hover {
     color: #76ff03;
   }
-  a:not([href]).lime-md:focus, a:not([href]).lime-md:hover,
-  a:not([href]):hover.lime-md:focus,
-  a:not([href]):hover.lime-md:hover,
-  a.hover.lime-md:focus,
-  a.hover.lime-md:hover {
+  a.hover.lime-md:focus, a.hover.lime-md:hover {
     color: #aeea00;
   }
-  a:not([href]).yellow-md:focus, a:not([href]).yellow-md:hover,
-  a:not([href]):hover.yellow-md:focus,
-  a:not([href]):hover.yellow-md:hover,
-  a.hover.yellow-md:focus,
-  a.hover.yellow-md:hover {
+  a.hover.yellow-md:focus, a.hover.yellow-md:hover {
     color: #ffea00;
   }
-  a:not([href]).amber-md:focus, a:not([href]).amber-md:hover,
-  a:not([href]):hover.amber-md:focus,
-  a:not([href]):hover.amber-md:hover,
-  a.hover.amber-md:focus,
-  a.hover.amber-md:hover {
+  a.hover.amber-md:focus, a.hover.amber-md:hover {
     color: #ffc400;
   }
-  a:not([href]).orange-md:focus, a:not([href]).orange-md:hover,
-  a:not([href]):hover.orange-md:focus,
-  a:not([href]):hover.orange-md:hover,
-  a.hover.orange-md:focus,
-  a.hover.orange-md:hover {
+  a.hover.orange-md:focus, a.hover.orange-md:hover {
     color: #ff9100;
   }
-  a:not([href]).d-orange-md:focus, a:not([href]).d-orange-md:hover,
-  a:not([href]):hover.d-orange-md:focus,
-  a:not([href]):hover.d-orange-md:hover,
-  a.hover.d-orange-md:focus,
-  a.hover.d-orange-md:hover {
+  a.hover.d-orange-md:focus, a.hover.d-orange-md:hover {
     color: #ff3d00;
   }
-  a:not([href]).brown-md:focus, a:not([href]).brown-md:hover,
-  a:not([href]):hover.brown-md:focus,
-  a:not([href]):hover.brown-md:hover,
-  a.hover.brown-md:focus,
-  a.hover.brown-md:hover {
+  a.hover.brown-md:focus, a.hover.brown-md:hover {
     color: #5d4037;
   }
-  a:not([href]).grey-md:focus, a:not([href]).grey-md:hover,
-  a:not([href]):hover.grey-md:focus,
-  a:not([href]):hover.grey-md:hover,
-  a.hover.grey-md:focus,
-  a.hover.grey-md:hover {
+  a.hover.grey-md:focus, a.hover.grey-md:hover {
     color: #616161;
   }
-  a:not([href]).blue-grey-md:focus, a:not([href]).blue-grey-md:hover,
-  a:not([href]):hover.blue-grey-md:focus,
-  a:not([href]):hover.blue-grey-md:hover,
-  a.hover.blue-grey-md:focus,
-  a.hover.blue-grey-md:hover {
+  a.hover.blue-grey-md:focus, a.hover.blue-grey-md:hover {
     color: #546e7a;
   }
 }
 @media (max-width: 767px) {
-  a:not([href]).underline-sm,
-  a:not([href]):hover.underline-sm,
   a.hover.underline-sm {
     text-decoration: underline;
   }
-  a:not([href]).no-underline-sm,
-  a:not([href]):hover.no-underline-sm,
   a.hover.no-underline-sm {
     text-decoration: none;
   }
-  a:not([href]).white-sm:focus, a:not([href]).white-sm:hover,
-  a:not([href]):hover.white-sm:focus,
-  a:not([href]):hover.white-sm:hover,
-  a.hover.white-sm:focus,
-  a.hover.white-sm:hover {
+  a.hover.white-sm:focus, a.hover.white-sm:hover {
     color: white;
   }
-  a:not([href]).black-sm:focus, a:not([href]).black-sm:hover,
-  a:not([href]):hover.black-sm:focus,
-  a:not([href]):hover.black-sm:hover,
-  a.hover.black-sm:focus,
-  a.hover.black-sm:hover {
+  a.hover.black-sm:focus, a.hover.black-sm:hover {
     color: black;
   }
-  a:not([href]).red-sm:focus, a:not([href]).red-sm:hover,
-  a:not([href]):hover.red-sm:focus,
-  a:not([href]):hover.red-sm:hover,
-  a.hover.red-sm:focus,
-  a.hover.red-sm:hover {
+  a.hover.red-sm:focus, a.hover.red-sm:hover {
     color: #ff1744;
   }
-  a:not([href]).pink-sm:focus, a:not([href]).pink-sm:hover,
-  a:not([href]):hover.pink-sm:focus,
-  a:not([href]):hover.pink-sm:hover,
-  a.hover.pink-sm:focus,
-  a.hover.pink-sm:hover {
+  a.hover.pink-sm:focus, a.hover.pink-sm:hover {
     color: #f50057;
   }
-  a:not([href]).purple-sm:focus, a:not([href]).purple-sm:hover,
-  a:not([href]):hover.purple-sm:focus,
-  a:not([href]):hover.purple-sm:hover,
-  a.hover.purple-sm:focus,
-  a.hover.purple-sm:hover {
+  a.hover.purple-sm:focus, a.hover.purple-sm:hover {
     color: #d500f9;
   }
-  a:not([href]).d-purple-sm:focus, a:not([href]).d-purple-sm:hover,
-  a:not([href]):hover.d-purple-sm:focus,
-  a:not([href]):hover.d-purple-sm:hover,
-  a.hover.d-purple-sm:focus,
-  a.hover.d-purple-sm:hover {
+  a.hover.d-purple-sm:focus, a.hover.d-purple-sm:hover {
     color: #651fff;
   }
-  a:not([href]).indigo-sm:focus, a:not([href]).indigo-sm:hover,
-  a:not([href]):hover.indigo-sm:focus,
-  a:not([href]):hover.indigo-sm:hover,
-  a.hover.indigo-sm:focus,
-  a.hover.indigo-sm:hover {
+  a.hover.indigo-sm:focus, a.hover.indigo-sm:hover {
     color: #3d5afe;
   }
-  a:not([href]).blue-sm:focus, a:not([href]).blue-sm:hover,
-  a:not([href]):hover.blue-sm:focus,
-  a:not([href]):hover.blue-sm:hover,
-  a.hover.blue-sm:focus,
-  a.hover.blue-sm:hover {
+  a.hover.blue-sm:focus, a.hover.blue-sm:hover {
     color: #2979ff;
   }
-  a:not([href]).l-blue-sm:focus, a:not([href]).l-blue-sm:hover,
-  a:not([href]):hover.l-blue-sm:focus,
-  a:not([href]):hover.l-blue-sm:hover,
-  a.hover.l-blue-sm:focus,
-  a.hover.l-blue-sm:hover {
+  a.hover.l-blue-sm:focus, a.hover.l-blue-sm:hover {
     color: #00b0ff;
   }
-  a:not([href]).cyan-sm:focus, a:not([href]).cyan-sm:hover,
-  a:not([href]):hover.cyan-sm:focus,
-  a:not([href]):hover.cyan-sm:hover,
-  a.hover.cyan-sm:focus,
-  a.hover.cyan-sm:hover {
+  a.hover.cyan-sm:focus, a.hover.cyan-sm:hover {
     color: #00e5ff;
   }
-  a:not([href]).teal-sm:focus, a:not([href]).teal-sm:hover,
-  a:not([href]):hover.teal-sm:focus,
-  a:not([href]):hover.teal-sm:hover,
-  a.hover.teal-sm:focus,
-  a.hover.teal-sm:hover {
+  a.hover.teal-sm:focus, a.hover.teal-sm:hover {
     color: #00695c;
   }
-  a:not([href]).green-sm:focus, a:not([href]).green-sm:hover,
-  a:not([href]):hover.green-sm:focus,
-  a:not([href]):hover.green-sm:hover,
-  a.hover.green-sm:focus,
-  a.hover.green-sm:hover {
+  a.hover.green-sm:focus, a.hover.green-sm:hover {
     color: #2e7d32;
   }
-  a:not([href]).l-green-sm:focus, a:not([href]).l-green-sm:hover,
-  a:not([href]):hover.l-green-sm:focus,
-  a:not([href]):hover.l-green-sm:hover,
-  a.hover.l-green-sm:focus,
-  a.hover.l-green-sm:hover {
+  a.hover.l-green-sm:focus, a.hover.l-green-sm:hover {
     color: #76ff03;
   }
-  a:not([href]).lime-sm:focus, a:not([href]).lime-sm:hover,
-  a:not([href]):hover.lime-sm:focus,
-  a:not([href]):hover.lime-sm:hover,
-  a.hover.lime-sm:focus,
-  a.hover.lime-sm:hover {
+  a.hover.lime-sm:focus, a.hover.lime-sm:hover {
     color: #aeea00;
   }
-  a:not([href]).yellow-sm:focus, a:not([href]).yellow-sm:hover,
-  a:not([href]):hover.yellow-sm:focus,
-  a:not([href]):hover.yellow-sm:hover,
-  a.hover.yellow-sm:focus,
-  a.hover.yellow-sm:hover {
+  a.hover.yellow-sm:focus, a.hover.yellow-sm:hover {
     color: #ffea00;
   }
-  a:not([href]).amber-sm:focus, a:not([href]).amber-sm:hover,
-  a:not([href]):hover.amber-sm:focus,
-  a:not([href]):hover.amber-sm:hover,
-  a.hover.amber-sm:focus,
-  a.hover.amber-sm:hover {
+  a.hover.amber-sm:focus, a.hover.amber-sm:hover {
     color: #ffc400;
   }
-  a:not([href]).orange-sm:focus, a:not([href]).orange-sm:hover,
-  a:not([href]):hover.orange-sm:focus,
-  a:not([href]):hover.orange-sm:hover,
-  a.hover.orange-sm:focus,
-  a.hover.orange-sm:hover {
+  a.hover.orange-sm:focus, a.hover.orange-sm:hover {
     color: #ff9100;
   }
-  a:not([href]).d-orange-sm:focus, a:not([href]).d-orange-sm:hover,
-  a:not([href]):hover.d-orange-sm:focus,
-  a:not([href]):hover.d-orange-sm:hover,
-  a.hover.d-orange-sm:focus,
-  a.hover.d-orange-sm:hover {
+  a.hover.d-orange-sm:focus, a.hover.d-orange-sm:hover {
     color: #ff3d00;
   }
-  a:not([href]).brown-sm:focus, a:not([href]).brown-sm:hover,
-  a:not([href]):hover.brown-sm:focus,
-  a:not([href]):hover.brown-sm:hover,
-  a.hover.brown-sm:focus,
-  a.hover.brown-sm:hover {
+  a.hover.brown-sm:focus, a.hover.brown-sm:hover {
     color: #5d4037;
   }
-  a:not([href]).grey-sm:focus, a:not([href]).grey-sm:hover,
-  a:not([href]):hover.grey-sm:focus,
-  a:not([href]):hover.grey-sm:hover,
-  a.hover.grey-sm:focus,
-  a.hover.grey-sm:hover {
+  a.hover.grey-sm:focus, a.hover.grey-sm:hover {
     color: #616161;
   }
-  a:not([href]).blue-grey-sm:focus, a:not([href]).blue-grey-sm:hover,
-  a:not([href]):hover.blue-grey-sm:focus,
-  a:not([href]):hover.blue-grey-sm:hover,
-  a.hover.blue-grey-sm:focus,
-  a.hover.blue-grey-sm:hover {
+  a.hover.blue-grey-sm:focus, a.hover.blue-grey-sm:hover {
     color: #546e7a;
   }
 }
 @media (max-width: 575px) {
-  a:not([href]).underline-xs,
-  a:not([href]):hover.underline-xs,
   a.hover.underline-xs {
     text-decoration: underline;
   }
-  a:not([href]).no-underline-xs,
-  a:not([href]):hover.no-underline-xs,
   a.hover.no-underline-xs {
     text-decoration: none;
   }
-  a:not([href]).white-xs:focus, a:not([href]).white-xs:hover,
-  a:not([href]):hover.white-xs:focus,
-  a:not([href]):hover.white-xs:hover,
-  a.hover.white-xs:focus,
-  a.hover.white-xs:hover {
+  a.hover.white-xs:focus, a.hover.white-xs:hover {
     color: white;
   }
-  a:not([href]).black-xs:focus, a:not([href]).black-xs:hover,
-  a:not([href]):hover.black-xs:focus,
-  a:not([href]):hover.black-xs:hover,
-  a.hover.black-xs:focus,
-  a.hover.black-xs:hover {
+  a.hover.black-xs:focus, a.hover.black-xs:hover {
     color: black;
   }
-  a:not([href]).red-xs:focus, a:not([href]).red-xs:hover,
-  a:not([href]):hover.red-xs:focus,
-  a:not([href]):hover.red-xs:hover,
-  a.hover.red-xs:focus,
-  a.hover.red-xs:hover {
+  a.hover.red-xs:focus, a.hover.red-xs:hover {
     color: #ff1744;
   }
-  a:not([href]).pink-xs:focus, a:not([href]).pink-xs:hover,
-  a:not([href]):hover.pink-xs:focus,
-  a:not([href]):hover.pink-xs:hover,
-  a.hover.pink-xs:focus,
-  a.hover.pink-xs:hover {
+  a.hover.pink-xs:focus, a.hover.pink-xs:hover {
     color: #f50057;
   }
-  a:not([href]).purple-xs:focus, a:not([href]).purple-xs:hover,
-  a:not([href]):hover.purple-xs:focus,
-  a:not([href]):hover.purple-xs:hover,
-  a.hover.purple-xs:focus,
-  a.hover.purple-xs:hover {
+  a.hover.purple-xs:focus, a.hover.purple-xs:hover {
     color: #d500f9;
   }
-  a:not([href]).d-purple-xs:focus, a:not([href]).d-purple-xs:hover,
-  a:not([href]):hover.d-purple-xs:focus,
-  a:not([href]):hover.d-purple-xs:hover,
-  a.hover.d-purple-xs:focus,
-  a.hover.d-purple-xs:hover {
+  a.hover.d-purple-xs:focus, a.hover.d-purple-xs:hover {
     color: #651fff;
   }
-  a:not([href]).indigo-xs:focus, a:not([href]).indigo-xs:hover,
-  a:not([href]):hover.indigo-xs:focus,
-  a:not([href]):hover.indigo-xs:hover,
-  a.hover.indigo-xs:focus,
-  a.hover.indigo-xs:hover {
+  a.hover.indigo-xs:focus, a.hover.indigo-xs:hover {
     color: #3d5afe;
   }
-  a:not([href]).blue-xs:focus, a:not([href]).blue-xs:hover,
-  a:not([href]):hover.blue-xs:focus,
-  a:not([href]):hover.blue-xs:hover,
-  a.hover.blue-xs:focus,
-  a.hover.blue-xs:hover {
+  a.hover.blue-xs:focus, a.hover.blue-xs:hover {
     color: #2979ff;
   }
-  a:not([href]).l-blue-xs:focus, a:not([href]).l-blue-xs:hover,
-  a:not([href]):hover.l-blue-xs:focus,
-  a:not([href]):hover.l-blue-xs:hover,
-  a.hover.l-blue-xs:focus,
-  a.hover.l-blue-xs:hover {
+  a.hover.l-blue-xs:focus, a.hover.l-blue-xs:hover {
     color: #00b0ff;
   }
-  a:not([href]).cyan-xs:focus, a:not([href]).cyan-xs:hover,
-  a:not([href]):hover.cyan-xs:focus,
-  a:not([href]):hover.cyan-xs:hover,
-  a.hover.cyan-xs:focus,
-  a.hover.cyan-xs:hover {
+  a.hover.cyan-xs:focus, a.hover.cyan-xs:hover {
     color: #00e5ff;
   }
-  a:not([href]).teal-xs:focus, a:not([href]).teal-xs:hover,
-  a:not([href]):hover.teal-xs:focus,
-  a:not([href]):hover.teal-xs:hover,
-  a.hover.teal-xs:focus,
-  a.hover.teal-xs:hover {
+  a.hover.teal-xs:focus, a.hover.teal-xs:hover {
     color: #00695c;
   }
-  a:not([href]).green-xs:focus, a:not([href]).green-xs:hover,
-  a:not([href]):hover.green-xs:focus,
-  a:not([href]):hover.green-xs:hover,
-  a.hover.green-xs:focus,
-  a.hover.green-xs:hover {
+  a.hover.green-xs:focus, a.hover.green-xs:hover {
     color: #2e7d32;
   }
-  a:not([href]).l-green-xs:focus, a:not([href]).l-green-xs:hover,
-  a:not([href]):hover.l-green-xs:focus,
-  a:not([href]):hover.l-green-xs:hover,
-  a.hover.l-green-xs:focus,
-  a.hover.l-green-xs:hover {
+  a.hover.l-green-xs:focus, a.hover.l-green-xs:hover {
     color: #76ff03;
   }
-  a:not([href]).lime-xs:focus, a:not([href]).lime-xs:hover,
-  a:not([href]):hover.lime-xs:focus,
-  a:not([href]):hover.lime-xs:hover,
-  a.hover.lime-xs:focus,
-  a.hover.lime-xs:hover {
+  a.hover.lime-xs:focus, a.hover.lime-xs:hover {
     color: #aeea00;
   }
-  a:not([href]).yellow-xs:focus, a:not([href]).yellow-xs:hover,
-  a:not([href]):hover.yellow-xs:focus,
-  a:not([href]):hover.yellow-xs:hover,
-  a.hover.yellow-xs:focus,
-  a.hover.yellow-xs:hover {
+  a.hover.yellow-xs:focus, a.hover.yellow-xs:hover {
     color: #ffea00;
   }
-  a:not([href]).amber-xs:focus, a:not([href]).amber-xs:hover,
-  a:not([href]):hover.amber-xs:focus,
-  a:not([href]):hover.amber-xs:hover,
-  a.hover.amber-xs:focus,
-  a.hover.amber-xs:hover {
+  a.hover.amber-xs:focus, a.hover.amber-xs:hover {
     color: #ffc400;
   }
-  a:not([href]).orange-xs:focus, a:not([href]).orange-xs:hover,
-  a:not([href]):hover.orange-xs:focus,
-  a:not([href]):hover.orange-xs:hover,
-  a.hover.orange-xs:focus,
-  a.hover.orange-xs:hover {
+  a.hover.orange-xs:focus, a.hover.orange-xs:hover {
     color: #ff9100;
   }
-  a:not([href]).d-orange-xs:focus, a:not([href]).d-orange-xs:hover,
-  a:not([href]):hover.d-orange-xs:focus,
-  a:not([href]):hover.d-orange-xs:hover,
-  a.hover.d-orange-xs:focus,
-  a.hover.d-orange-xs:hover {
+  a.hover.d-orange-xs:focus, a.hover.d-orange-xs:hover {
     color: #ff3d00;
   }
-  a:not([href]).brown-xs:focus, a:not([href]).brown-xs:hover,
-  a:not([href]):hover.brown-xs:focus,
-  a:not([href]):hover.brown-xs:hover,
-  a.hover.brown-xs:focus,
-  a.hover.brown-xs:hover {
+  a.hover.brown-xs:focus, a.hover.brown-xs:hover {
     color: #5d4037;
   }
-  a:not([href]).grey-xs:focus, a:not([href]).grey-xs:hover,
-  a:not([href]):hover.grey-xs:focus,
-  a:not([href]):hover.grey-xs:hover,
-  a.hover.grey-xs:focus,
-  a.hover.grey-xs:hover {
+  a.hover.grey-xs:focus, a.hover.grey-xs:hover {
     color: #616161;
   }
-  a:not([href]).blue-grey-xs:focus, a:not([href]).blue-grey-xs:hover,
-  a:not([href]):hover.blue-grey-xs:focus,
-  a:not([href]):hover.blue-grey-xs:hover,
-  a.hover.blue-grey-xs:focus,
-  a.hover.blue-grey-xs:hover {
+  a.hover.blue-grey-xs:focus, a.hover.blue-grey-xs:hover {
     color: #546e7a;
   }
 }
