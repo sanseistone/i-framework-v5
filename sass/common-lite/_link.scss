@@ -1,5 +1,7 @@
 //link
 
+a:not([href]),
+a:not([href]):hover,
 a.#{$hover} {
   &.underline {
     text-decoration: underline;
@@ -30,6 +32,8 @@ a.#{$hover} {
 
 @media (max-width: 1199px) {
   //Extra large devices (large desktops, 992px and 1200px)
+  a:not([href]),
+  a:not([href]):hover,
   a.#{$hover} {
     &.underline-lg {
       text-decoration: underline;
@@ -59,6 +63,8 @@ a.#{$hover} {
 
 @media (max-width: 991px) {
   //Large devices (desktops, 768px and 992px)
+  a:not([href]),
+  a:not([href]):hover,
   a.#{$hover} {
     &.underline-md {
       text-decoration: underline;
@@ -88,6 +94,8 @@ a.#{$hover} {
 
 @media (max-width: 767px) {
   //Medium devices (tablets, 576px and 768px)
+  a:not([href]),
+  a:not([href]):hover,
   a.#{$hover} {
     &.underline-sm {
       text-decoration: underline;
@@ -117,6 +125,8 @@ a.#{$hover} {
 
 @media (max-width: 575px) {
   //Small devices (landscape phones, max-width 576px)
+  a:not([href]),
+  a:not([href]):hover,
   a.#{$hover} {
     &.underline-xs {
       text-decoration: underline;

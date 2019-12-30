@@ -11,63 +11,63 @@
 @import "variables/index";
 @import "mixins/index";
 
-//01 Display
-@import "common/display";
-@import "common/flex";
-@import "common/grid";
-@import "common/float";
-
-//02 Position
-@import "common/position";
-@import "common/transform";
-
-//03 Width & Height
-@import "common/width";
-@import "common/height";
-@import "common/overflow";
-
-//04 Margin & Padding
-@import "common-lite/margin";
-@import "common-lite/padding";
-
-//05 Button
-@import "common/button";
-@import "common-lite/button-color";
-
-//06 Border
-@import "common/border";
-@import "common-lite/border-color";
-@import "common/radius";
-
-//07 Font
-@import "common/font";
-@import "common-lite/font-color";
-@import "common-lite/line-height";
-
-//08 Background
-@import "common/background";
-@import "common-lite/background-color";
-@import "common/transparent";
-
-//09 Pseudo-element
-@import "common/pseudo-class";
-
-//10 Layout
-@import "common/container";
-@import "common/column";
-@import "common/average";
-//@import "common/col";
-@import "common/space";
-
-//11 Elements
+//01 Elements
 //@import "common/color";
 @import "common/img";
 @import "common-lite/list";
 @import "common-lite/form";
 @import "common/table";
 
-//12 Modules
+//02 Modules
 @import "common-lite/icon";
 @import "common-lite/heading";
 @import "common-lite/link";
 @import "common/text";
+
+//03 Display
+@import "common/display";
+@import "common/flex";
+@import "common/grid";
+@import "common/float";
+
+//04 Position
+@import "common/position";
+@import "common/transform";
+
+//05 Width & Height
+@import "common/width";
+@import "common/height";
+@import "common/overflow";
+
+//06 Margin & Padding
+@import "common-lite/margin";
+@import "common-lite/padding";
+
+//07 Button
+@import "common/button";
+@import "common-lite/button-color";
+
+//08 Border
+@import "common/border";
+@import "common-lite/border-color";
+@import "common/radius";
+
+//09 Font
+@import "common/font";
+@import "common-lite/font-color";
+@import "common-lite/line-height";
+
+//10 Background
+@import "common/background";
+@import "common-lite/background-color";
+@import "common/transparent";
+
+//11 Pseudo-element
+@import "common/pseudo-class";
+
+//12 Layout
+@import "common/container";
+@import "common/column";
+@import "common/average";
+//@import "common/col";
+@import "common/space";
