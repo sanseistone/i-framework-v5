@@ -45964,7 +45964,7 @@ align-self属性允许单个项目有与其他项目不一样的对齐方式，�
 [class*="space-"]:after,
 [class*="clearfix-"]:before,
 [class*="clearfix-"]:after {
-  display: table;
+  display: block;
   content: " ";
 }
 
@@ -45980,7 +45980,7 @@ align-self属性允许单个项目有与其他项目不一样的对齐方式，�
 .layout:after,
 .row:before,
 .row:after {
-  display: table;
+  display: block;
   content: "";
 }
 
@@ -45993,7 +45993,7 @@ align-self属性允许单个项目有与其他项目不一样的对齐方式，�
 .wrapper:after,
 .package:before,
 .package:after {
-  display: table;
+  display: block;
   content: "";
 }
 
@@ -46004,7 +46004,7 @@ align-self属性允许单个项目有与其他项目不一样的对齐方式，�
 
 .average:before,
 .average:after {
-  display: table;
+  display: block;
   content: "";
 }
 

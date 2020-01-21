@@ -10,7 +10,7 @@
 [class*="#{$space}-"]:after,
 [class*="#{$clear-fix}-"]:before,
 [class*="#{$clear-fix}-"]:after {
-  display: table;
+  display: block;
   content: " ";
 }
 
@@ -26,7 +26,7 @@
 .#{$layout}:after,
 .#{$row}:before,
 .#{$row}:after {
-  display: table;
+  display: block;
   content: "";
 }
 
@@ -39,7 +39,7 @@
 .#{$wrapper}:after,
 .#{$package}:before,
 .#{$package}:after {
-  display: table;
+  display: block;
   content: "";
 }
 
@@ -50,7 +50,7 @@
 
 .#{$average}:before,
 .#{$average}:after {
-  display: table;
+  display: block;
   content: "";
 }
 
