@@ -136266,64 +136266,6 @@ align-self属性允许单个项目有与其他项目不一样的对齐方式，�
     background: rgba(0, 0, 0, 0.9);
   }
 }
-[class*="container"]:before,
-[class*="container"]:after,
-[class*="col-"]:before,
-[class*="col-"]:after,
-[class*="w-"]:before,
-[class*="w-"]:after,
-[class*="space-"]:before,
-[class*="space-"]:after,
-[class*="clearfix-"]:before,
-[class*="clearfix-"]:after {
-  display: block;
-  content: " ";
-}
-
-[class*="container"]:after,
-[class*="col-"]:after,
-[class*="w-"]:after,
-[class*="space-"]:after,
-[class*="clearfix-"]:after {
-  clear: both;
-}
-
-.layout:before,
-.layout:after,
-.row:before,
-.row:after {
-  display: block;
-  content: "";
-}
-
-.layout:after,
-.row:after {
-  clear: both;
-}
-
-.wrapper:before,
-.wrapper:after,
-.package:before,
-.package:after {
-  display: block;
-  content: "";
-}
-
-.wrapper:after,
-.package:after {
-  clear: both;
-}
-
-.average:before,
-.average:after {
-  display: block;
-  content: "";
-}
-
-.average:after {
-  clear: both;
-}
-
 .container {
   max-width: 1200px;
 }
