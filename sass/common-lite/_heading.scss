@@ -78,11 +78,22 @@
   }
 }
 
+.#{$heading} {
+  @each $key, $value in $namespace-color {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+}
+
 //responsive-pc
 
 @media (max-width: 1199px) {
   //Extra large devices (large desktops, 992px and 1200px)
-  .#{$heading} {
+  .#{$heading}:not(.through) {
     @each $key, $value in $namespace-color {
       &.#{$key}-lg {
         @include heading-bg-variant($value,$value)
@@ -95,11 +106,22 @@
       }
     }
   }
+
+  .#{$heading} {
+    @each $key, $value in $namespace-color {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 991px) {
   //Large devices (desktops, 768px and 992px)
-  .#{$heading} {
+  .#{$heading}:not(.through) {
     @each $key, $value in $namespace-color {
       &.#{$key}-md {
         @include heading-bg-variant($value,$value)
@@ -112,11 +134,22 @@
       }
     }
   }
+
+  .#{$heading} {
+    @each $key, $value in $namespace-color {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 767px) {
   //Medium devices (tablets, 576px and 768px)
-  .#{$heading} {
+  .#{$heading}:not(.through) {
     @each $key, $value in $namespace-color {
       &.#{$key}-sm {
         @include heading-bg-variant($value,$value)
@@ -129,11 +162,22 @@
       }
     }
   }
+
+  .#{$heading} {
+    @each $key, $value in $namespace-color {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 575px) {
   //Small devices (landscape phones, max-width 576px)
-  .#{$heading} {
+  .#{$heading}:not(.through) {
     @each $key, $value in $namespace-color {
       &.#{$key}-xs {
         @include heading-bg-variant($value,$value)
@@ -143,6 +187,17 @@
     @each $key, $value in $namespace-color {
       &.#{$key}-o-xs {
         @include heading-bg-variant-o($value,$value);
+      }
+    }
+  }
+
+  .#{$heading} {
+    @each $key, $value in $namespace-color {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
       }
     }
   }

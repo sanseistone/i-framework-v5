@@ -24,7 +24,7 @@
 
 //default-color
 
-.#{$heading} {
+.#{$heading}:not(.through) {
   @each $key, $value in $black-white-series {
     &.#{$key} {
       @include heading-bg-variant($value,$value);
@@ -146,7 +146,13 @@
   }
 }
 
-.#{$heading} {
+.#{$heading}:not(.through) {
+  @each $key, $value in $black-white-series {
+    &.#{$key}-o {
+      @include heading-bg-variant-o($value,$value);
+    }
+  }
+
   @each $key, $value in $red-series {
     &.#{$key}-o {
       @include heading-bg-variant-o($value,$value);
@@ -301,11 +307,193 @@
   }
 }
 
+.#{$heading} {
+  @each $key, $value in $black-white-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $red-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $pink-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $purple-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $deep-purple-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $indigo-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $blue-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $light-blue-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $cyan-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $teal-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $green-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $light-green-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $lime-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $yellow-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $amber-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $orange-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $deep-orange-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $brown-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $grey-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+
+  @each $key, $value in $blue-grey-series {
+    &.through.#{$key} {
+      &::before,
+      &::after {
+        @include heading-through-variant($value);
+      }
+    }
+  }
+}
+
 //responsive-pc
 
 @media (max-width: 1199px) {
   //Extra large devices (large desktops, 992px and 1200px)
-  .#{$heading} {
+  .#{$heading}:not(.through) {
     @each $key, $value in $black-white-series {
       &.#{$key}-lg {
         @include heading-bg-variant($value,$value);
@@ -427,7 +615,13 @@
     }
   }
 
-  .#{$heading} {
+  .#{$heading}:not(.through) {
+    @each $key, $value in $black-white-series {
+      &.#{$key}-o-lg {
+        @include heading-bg-variant-o($value,$value);
+      }
+    }
+
     @each $key, $value in $red-series {
       &.#{$key}-o-lg {
         @include heading-bg-variant-o($value,$value);
@@ -539,6 +733,188 @@
     @each $key, $value in $blue-grey-series {
       &.#{$key}-o-lg {
         @include heading-bg-variant-o($value,$value);
+      }
+    }
+  }
+
+  .#{$heading} {
+    @each $key, $value in $black-white-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $red-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $pink-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $purple-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $deep-purple-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $indigo-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $blue-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $light-blue-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $cyan-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $teal-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $green-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $light-green-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $lime-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $yellow-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $amber-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $orange-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $deep-orange-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $brown-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $grey-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $blue-grey-series {
+      &.through.#{$key}-lg {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
       }
     }
   }
@@ -546,7 +922,7 @@
 
 @media (max-width: 991px) {
   //Large devices (desktops, 768px and 992px)
-  .#{$heading} {
+  .#{$heading}:not(.through) {
     @each $key, $value in $black-white-series {
       &.#{$key}-md {
         @include heading-bg-variant($value,$value);
@@ -668,7 +1044,13 @@
     }
   }
 
-  .#{$heading} {
+  .#{$heading}:not(.through) {
+    @each $key, $value in $black-white-series {
+      &.#{$key}-o-md {
+        @include heading-bg-variant-o($value,$value);
+      }
+    }
+
     @each $key, $value in $red-series {
       &.#{$key}-o-md {
         @include heading-bg-variant-o($value,$value);
@@ -780,6 +1162,188 @@
     @each $key, $value in $blue-grey-series {
       &.#{$key}-o-md {
         @include heading-bg-variant-o($value,$value);
+      }
+    }
+  }
+
+  .#{$heading} {
+    @each $key, $value in $black-white-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $red-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $pink-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $purple-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $deep-purple-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $indigo-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $blue-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $light-blue-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $cyan-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $teal-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $green-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $light-green-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $lime-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $yellow-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $amber-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $orange-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $deep-orange-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $brown-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $grey-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $blue-grey-series {
+      &.through.#{$key}-md {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
       }
     }
   }
@@ -787,7 +1351,7 @@
 
 @media (max-width: 767px) {
   //Medium devices (tablets, 576px and 768px)
-  .#{$heading} {
+  .#{$heading}:not(.through) {
     @each $key, $value in $black-white-series {
       &.#{$key}-sm {
         @include heading-bg-variant($value,$value);
@@ -909,7 +1473,13 @@
     }
   }
 
-  .#{$heading} {
+  .#{$heading}:not(.through) {
+    @each $key, $value in $black-white-series {
+      &.#{$key}-o-sm {
+        @include heading-bg-variant-o($value,$value);
+      }
+    }
+
     @each $key, $value in $red-series {
       &.#{$key}-o-sm {
         @include heading-bg-variant-o($value,$value);
@@ -1021,6 +1591,188 @@
     @each $key, $value in $blue-grey-series {
       &.#{$key}-o-sm {
         @include heading-bg-variant-o($value,$value);
+      }
+    }
+  }
+
+  .#{$heading} {
+    @each $key, $value in $black-white-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $red-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $pink-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $purple-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $deep-purple-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $indigo-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $blue-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $light-blue-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $cyan-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $teal-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $green-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $light-green-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $lime-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $yellow-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $amber-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $orange-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $deep-orange-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $brown-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $grey-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $blue-grey-series {
+      &.through.#{$key}-sm {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
       }
     }
   }
@@ -1028,7 +1780,7 @@
 
 @media (max-width: 575px) {
   //Small devices (landscape phones, max-width 576px)
-  .#{$heading} {
+  .#{$heading}:not(.through) {
     @each $key, $value in $black-white-series {
       &.#{$key}-xs {
         @include heading-bg-variant($value,$value);
@@ -1150,7 +1902,13 @@
     }
   }
 
-  .#{$heading} {
+  .#{$heading}:not(.through) {
+    @each $key, $value in $black-white-series {
+      &.#{$key}-o-xs {
+        @include heading-bg-variant-o($value,$value);
+      }
+    }
+
     @each $key, $value in $red-series {
       &.#{$key}-o-xs {
         @include heading-bg-variant-o($value,$value);
@@ -1262,6 +2020,188 @@
     @each $key, $value in $blue-grey-series {
       &.#{$key}-o-xs {
         @include heading-bg-variant-o($value,$value);
+      }
+    }
+  }
+
+  .#{$heading} {
+    @each $key, $value in $black-white-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $red-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $pink-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $purple-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $deep-purple-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $indigo-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $blue-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $light-blue-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $cyan-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $teal-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $green-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $light-green-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $lime-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $yellow-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $amber-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $orange-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $deep-orange-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $brown-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $grey-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
+      }
+    }
+
+    @each $key, $value in $blue-grey-series {
+      &.through.#{$key}-xs {
+        &::before,
+        &::after {
+          @include heading-through-variant($value);
+        }
       }
     }
   }

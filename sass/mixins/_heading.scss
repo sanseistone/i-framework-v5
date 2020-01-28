@@ -17,3 +17,7 @@
   border: 1px solid $border;
   background: transparent;
 }
+
+@mixin heading-through-variant($background) {
+  @include gradient-bg($background);
+}
