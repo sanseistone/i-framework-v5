@@ -18,22 +18,53 @@
   }
 }
 
+
+//修复了样式.row等具有的显示值为flex的样式的权重问题，在默认排序下，.row的显示属性为flex的值覆盖了display.scss中的其他显示属性，导致追加的display属性无效。
+
+//display
+
+@each $key, $value in $display-series {
+  .#{$key} {
+    @include display-variant($value);
+  }
+}
+
 //responsive-pc
 
 @media (max-width: 1199px) {
   //Extra large devices (large desktops, 992px and 1200px)
+  @each $key, $value in $display-series {
+    .#{$key}-lg {
+      @include display-variant($value);
+    }
+  }
 }
 
 @media (max-width: 991px) {
   //Large devices (desktops, 768px and 992px)
+  @each $key, $value in $display-series {
+    .#{$key}-md {
+      @include display-variant($value);
+    }
+  }
 }
 
 @media (max-width: 767px) {
   //Medium devices (tablets, 576px and 768px)
+  @each $key, $value in $display-series {
+    .#{$key}-sm {
+      @include display-variant($value);
+    }
+  }
 }
 
 @media (max-width: 575px) {
   //Small devices (landscape phones, max-width 576px)
+  @each $key, $value in $display-series {
+    .#{$key}-xs {
+      @include display-variant($value);
+    }
+  }
 }
 
 //responsive-mobile
