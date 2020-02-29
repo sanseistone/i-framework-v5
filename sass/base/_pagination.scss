@@ -28,16 +28,10 @@
     }
   }
 
-  @each $key, $value in $namespace-color {
-    &.#{$key} {
-      @include pagination-variant($value, $value, $value);
-    }
-  }
-
   &.space {
     > li {
-      display: inline-block;
-      float: left;
+      //display: inline-block;
+      //float: left;
 
       & + li {
         margin-left: 4px;
@@ -51,6 +45,12 @@
         color: $color-3;
         border: 1px solid $color-9;
       }
+    }
+  }
+
+  @each $key, $value in $namespace-color {
+    &.#{$key} {
+      @include pagination-variant($value, $value, $value);
     }
   }
 }
