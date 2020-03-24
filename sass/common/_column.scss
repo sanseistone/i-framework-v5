@@ -8,14 +8,20 @@
   }
 
   & {
-    -moz-column-gap: 30px;
-    -webkit-column-gap: 30px;
-    column-gap: 30px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+    column-gap: 20px;
   }
 
   @each $key, $value in $column-count-series {
     &.#{$key} {
       @include column-count-variant($value);
+    }
+  }
+
+  @each $key, $value in $column-gap-series {
+    &.#{$key} {
+      @include column-gap-variant($value);
     }
   }
 }
@@ -31,6 +37,12 @@
       }
     }
   }
+
+  @each $key, $value in $column-gap-series {
+    &.#{$key}-lg {
+      @include column-gap-variant($value);
+    }
+  }
 }
 
 @media (max-width: 991px) {
@@ -40,6 +52,12 @@
       &.#{$key}-md {
         @include column-count-variant($value);
       }
+    }
+  }
+
+  @each $key, $value in $column-gap-series {
+    &.#{$key}-md {
+      @include column-gap-variant($value);
     }
   }
 }
@@ -53,6 +71,12 @@
       }
     }
   }
+
+  @each $key, $value in $column-gap-series {
+    &.#{$key}-sm {
+      @include column-gap-variant($value);
+    }
+  }
 }
 
 @media (max-width: 575px) {
@@ -62,6 +86,12 @@
       &.#{$key}-xs {
         @include column-count-variant($value);
       }
+    }
+  }
+
+  @each $key, $value in $column-gap-series {
+    &.#{$key}-xs {
+      @include column-gap-variant($value);
     }
   }
 }

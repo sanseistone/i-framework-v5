@@ -16,19 +16,19 @@
   &-center {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) !important;
   }
 
   &-x-center {
     /*top: inherit;*/
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) !important;
   }
 
   &-y-center {
     top: 50%;
     /*left: inherit;*/
-    transform: translateY(-50%);
+    transform: translateY(-50%) !important;
   }
 }
 
@@ -132,19 +132,19 @@
     &-center-lg {
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%) !important;
     }
 
     &-x-center-lg {
       /*top: inherit;*/
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-50%) !important;
     }
 
     &-y-center-lg {
       top: 50%;
       /*left: inherit;*/
-      transform: translateY(-50%);
+      transform: translateY(-50%) !important;
     }
   }
 
@@ -247,19 +247,19 @@
     &-center-md {
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%) !important;
     }
 
     &-x-center-md {
       /*top: inherit;*/
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-50%) !important;
     }
 
     &-y-center-md {
       top: 50%;
       /*left: inherit;*/
-      transform: translateY(-50%);
+      transform: translateY(-50%) !important;
     }
   }
 
@@ -362,19 +362,19 @@
     &-center-sm {
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%) !important;
     }
 
     &-x-center-sm {
       /*top: inherit;*/
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-50%) !important;
     }
 
     &-y-center-sm {
       top: 50%;
       /*left: inherit;*/
-      transform: translateY(-50%);
+      transform: translateY(-50%) !important;
     }
   }
 
@@ -477,19 +477,19 @@
     &-center-xs {
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%) !important;
     }
 
     &-x-center-xs {
       /*top: inherit;*/
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-50%) !important;
     }
 
     &-y-center-xs {
       top: 50%;
       /*left: inherit;*/
-      transform: translateY(-50%);
+      transform: translateY(-50%) !important;
     }
   }
 

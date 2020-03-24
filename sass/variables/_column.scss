@@ -20,3 +20,23 @@ $column-count-series: map_merge(
                 ),
                 $column-count-series
 );
+
+$column-gap-series: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$column-gap-series: map_merge(
+                (
+                        "gap-5": ($pixel-1 * 5),
+                        "gap-10": ($pixel-1 * 10),
+                        "gap-15": ($pixel-1 * 15),
+                        "gap-20": ($pixel-1 * 20),
+                        "gap-25": ($pixel-1 * 25),
+                        "gap-30": ($pixel-1 * 30),
+                        "gap-35": ($pixel-1 * 35),
+                        "gap-40": ($pixel-1 * 40),
+                        "gap-45": ($pixel-1 * 45),
+                        "gap-50": ($pixel-1 * 50),
+                        "gap-55": ($pixel-1 * 55),
+                        "gap-60": ($pixel-1 * 60),
+                ),
+                $column-gap-series
+);
