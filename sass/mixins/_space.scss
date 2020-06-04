@@ -8,7 +8,7 @@
   }
 
   & > *, &-all * {
-    padding-left: $padding-left;
-    padding-right: $padding-right;
+    padding-left: $padding-left !important;
+    padding-right: $padding-right !important;
   }
 }

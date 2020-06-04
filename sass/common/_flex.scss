@@ -251,6 +251,38 @@ align-self属性允许单个项目有与其他项目不一样的对齐方式，�
   flex-flow: row nowrap;
 }
 
+.flex-flow-rw {
+  flex-flow: row wrap;
+}
+
+.flex-flow-rwr {
+  flex-flow: row wrap-reverse;
+}
+
+.flex-flow-cnw {
+  flex-flow: column nowrap;
+}
+
+.flex-flow-cw {
+  flex-flow: column wrap;
+}
+
+.flex-flow-cwr {
+  flex-flow: column wrap-reverse;
+}
+
+.flex-flow-crnw {
+  flex-flow: column-reverse nowrap;
+}
+
+.flex-flow-crw {
+  flex-flow: column-reverse wrap;
+}
+
+.flex-flow-crwr {
+  flex-flow: column-reverse wrap-reverse;
+}
+
 //justify-content
 
 .justify-start {
@@ -445,6 +477,38 @@ align-self属性允许单个项目有与其他项目不一样的对齐方式，�
     flex-flow: row nowrap;
   }
 
+  .flex-flow-rw-lg {
+    flex-flow: row wrap;
+  }
+
+  .flex-flow-rwr-lg {
+    flex-flow: row wrap-reverse;
+  }
+
+  .flex-flow-cnw-lg {
+    flex-flow: column nowrap;
+  }
+
+  .flex-flow-cw-lg {
+    flex-flow: column wrap;
+  }
+
+  .flex-flow-cwr-lg {
+    flex-flow: column wrap-reverse;
+  }
+
+  .flex-flow-crnw-lg {
+    flex-flow: column-reverse nowrap;
+  }
+
+  .flex-flow-crw-lg {
+    flex-flow: column-reverse wrap;
+  }
+
+  .flex-flow-crwr-lg {
+    flex-flow: column-reverse wrap-reverse;
+  }
+
   .justify-start-lg {
     justify-content: flex-start;
   }
@@ -618,6 +682,38 @@ align-self属性允许单个项目有与其他项目不一样的对齐方式，�
 
   .flex-flow-md {
     flex-flow: row nowrap;
+  }
+
+  .flex-flow-rw-md {
+    flex-flow: row wrap;
+  }
+
+  .flex-flow-rwr-md {
+    flex-flow: row wrap-reverse;
+  }
+
+  .flex-flow-cnw-md {
+    flex-flow: column nowrap;
+  }
+
+  .flex-flow-cw-md {
+    flex-flow: column wrap;
+  }
+
+  .flex-flow-cwr-md {
+    flex-flow: column wrap-reverse;
+  }
+
+  .flex-flow-crnw-md {
+    flex-flow: column-reverse nowrap;
+  }
+
+  .flex-flow-crw-md {
+    flex-flow: column-reverse wrap;
+  }
+
+  .flex-flow-crwr-md {
+    flex-flow: column-reverse wrap-reverse;
   }
 
   .justify-start-md {
@@ -795,6 +891,38 @@ align-self属性允许单个项目有与其他项目不一样的对齐方式，�
     flex-flow: row nowrap;
   }
 
+  .flex-flow-rw-sm {
+    flex-flow: row wrap;
+  }
+
+  .flex-flow-rwr-sm {
+    flex-flow: row wrap-reverse;
+  }
+
+  .flex-flow-cnw-sm {
+    flex-flow: column nowrap;
+  }
+
+  .flex-flow-cw-sm {
+    flex-flow: column wrap;
+  }
+
+  .flex-flow-cwr-sm {
+    flex-flow: column wrap-reverse;
+  }
+
+  .flex-flow-crnw-sm {
+    flex-flow: column-reverse nowrap;
+  }
+
+  .flex-flow-crw-sm {
+    flex-flow: column-reverse wrap;
+  }
+
+  .flex-flow-crwr-sm {
+    flex-flow: column-reverse wrap-reverse;
+  }
+
   .justify-start-sm {
     justify-content: flex-start;
   }
@@ -968,6 +1096,38 @@ align-self属性允许单个项目有与其他项目不一样的对齐方式，�
 
   .flex-flow-xs {
     flex-flow: row nowrap;
+  }
+
+  .flex-flow-rw-xs {
+    flex-flow: row wrap;
+  }
+
+  .flex-flow-rwr-xs {
+    flex-flow: row wrap-reverse;
+  }
+
+  .flex-flow-cnw-xs {
+    flex-flow: column nowrap;
+  }
+
+  .flex-flow-cw-xs {
+    flex-flow: column wrap;
+  }
+
+  .flex-flow-cwr-xs {
+    flex-flow: column wrap-reverse;
+  }
+
+  .flex-flow-crnw-xs {
+    flex-flow: column-reverse nowrap;
+  }
+
+  .flex-flow-crw-xs {
+    flex-flow: column-reverse wrap;
+  }
+
+  .flex-flow-crwr-xs {
+    flex-flow: column-reverse wrap-reverse;
   }
 
   .justify-start-xs {
