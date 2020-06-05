@@ -32,13 +32,13 @@
   //Extra large devices (large desktops, 992px and 1200px)
   .#{$column-count} {
     @each $key, $value in $column-count-series {
-      .#{$key}-lg {
+      &.#{$key}-lg {
         @include column-count-variant($value);
       }
     }
 
     @each $key, $value in $column-gap-series {
-      .#{$key}-lg {
+      &.#{$key}-lg {
         @include column-gap-variant($value);
       }
     }
@@ -49,13 +49,13 @@
   //Large devices (desktops, 768px and 992px)
   .#{$column-count} {
     @each $key, $value in $column-count-series {
-      .#{$key}-md {
+      &.#{$key}-md {
         @include column-count-variant($value);
       }
     }
 
     @each $key, $value in $column-gap-series {
-      .#{$key}-md {
+      &.#{$key}-md {
         @include column-gap-variant($value);
       }
     }
@@ -66,13 +66,13 @@
   //Medium devices (tablets, 576px and 768px)
   .#{$column-count} {
     @each $key, $value in $column-count-series {
-      .#{$key}-sm {
+      &.#{$key}-sm {
         @include column-count-variant($value);
       }
     }
 
     @each $key, $value in $column-gap-series {
-      .#{$key}-sm {
+      &.#{$key}-sm {
         @include column-gap-variant($value);
       }
     }
@@ -83,13 +83,13 @@
   //Small devices (landscape phones, max-width 576px)
   .#{$column-count} {
     @each $key, $value in $column-count-series {
-      .#{$key}-xs {
+      &.#{$key}-xs {
         @include column-count-variant($value);
       }
     }
 
     @each $key, $value in $column-gap-series {
-      .#{$key}-xs {
+      &.#{$key}-xs {
         @include column-gap-variant($value);
       }
     }

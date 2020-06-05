@@ -45286,396 +45286,396 @@ align-self属性允许单个项目有与其他项目不一样的对齐方式，�
 }
 
 @media (max-width: 1199px) {
-  .column .one-lg {
+  .column.one-lg {
     -moz-column-count: 1;
          column-count: 1;
   }
-  .column .two-lg {
+  .column.two-lg {
     -moz-column-count: 2;
          column-count: 2;
   }
-  .column .three-lg {
+  .column.three-lg {
     -moz-column-count: 3;
          column-count: 3;
   }
-  .column .four-lg {
+  .column.four-lg {
     -moz-column-count: 4;
          column-count: 4;
   }
-  .column .five-lg {
+  .column.five-lg {
     -moz-column-count: 5;
          column-count: 5;
   }
-  .column .six-lg {
+  .column.six-lg {
     -moz-column-count: 6;
          column-count: 6;
   }
-  .column .seven-lg {
+  .column.seven-lg {
     -moz-column-count: 7;
          column-count: 7;
   }
-  .column .eight-lg {
+  .column.eight-lg {
     -moz-column-count: 8;
          column-count: 8;
   }
-  .column .nine-lg {
+  .column.nine-lg {
     -moz-column-count: 9;
          column-count: 9;
   }
-  .column .ten-lg {
+  .column.ten-lg {
     -moz-column-count: 10;
          column-count: 10;
   }
-  .column .eleven-lg {
+  .column.eleven-lg {
     -moz-column-count: 11;
          column-count: 11;
   }
-  .column .twelve-lg {
+  .column.twelve-lg {
     -moz-column-count: 12;
          column-count: 12;
   }
-  .column .gap-5-lg {
+  .column.gap-5-lg {
     -moz-column-gap: 5px;
     column-gap: 5px;
   }
-  .column .gap-10-lg {
+  .column.gap-10-lg {
     -moz-column-gap: 10px;
     column-gap: 10px;
   }
-  .column .gap-15-lg {
+  .column.gap-15-lg {
     -moz-column-gap: 15px;
     column-gap: 15px;
   }
-  .column .gap-20-lg {
+  .column.gap-20-lg {
     -moz-column-gap: 20px;
     column-gap: 20px;
   }
-  .column .gap-25-lg {
+  .column.gap-25-lg {
     -moz-column-gap: 25px;
     column-gap: 25px;
   }
-  .column .gap-30-lg {
+  .column.gap-30-lg {
     -moz-column-gap: 30px;
     column-gap: 30px;
   }
-  .column .gap-35-lg {
+  .column.gap-35-lg {
     -moz-column-gap: 35px;
     column-gap: 35px;
   }
-  .column .gap-40-lg {
+  .column.gap-40-lg {
     -moz-column-gap: 40px;
     column-gap: 40px;
   }
-  .column .gap-45-lg {
+  .column.gap-45-lg {
     -moz-column-gap: 45px;
     column-gap: 45px;
   }
-  .column .gap-50-lg {
+  .column.gap-50-lg {
     -moz-column-gap: 50px;
     column-gap: 50px;
   }
-  .column .gap-55-lg {
+  .column.gap-55-lg {
     -moz-column-gap: 55px;
     column-gap: 55px;
   }
-  .column .gap-60-lg {
+  .column.gap-60-lg {
     -moz-column-gap: 60px;
     column-gap: 60px;
   }
 }
 
 @media (max-width: 991px) {
-  .column .one-md {
+  .column.one-md {
     -moz-column-count: 1;
          column-count: 1;
   }
-  .column .two-md {
+  .column.two-md {
     -moz-column-count: 2;
          column-count: 2;
   }
-  .column .three-md {
+  .column.three-md {
     -moz-column-count: 3;
          column-count: 3;
   }
-  .column .four-md {
+  .column.four-md {
     -moz-column-count: 4;
          column-count: 4;
   }
-  .column .five-md {
+  .column.five-md {
     -moz-column-count: 5;
          column-count: 5;
   }
-  .column .six-md {
+  .column.six-md {
     -moz-column-count: 6;
          column-count: 6;
   }
-  .column .seven-md {
+  .column.seven-md {
     -moz-column-count: 7;
          column-count: 7;
   }
-  .column .eight-md {
+  .column.eight-md {
     -moz-column-count: 8;
          column-count: 8;
   }
-  .column .nine-md {
+  .column.nine-md {
     -moz-column-count: 9;
          column-count: 9;
   }
-  .column .ten-md {
+  .column.ten-md {
     -moz-column-count: 10;
          column-count: 10;
   }
-  .column .eleven-md {
+  .column.eleven-md {
     -moz-column-count: 11;
          column-count: 11;
   }
-  .column .twelve-md {
+  .column.twelve-md {
     -moz-column-count: 12;
          column-count: 12;
   }
-  .column .gap-5-md {
+  .column.gap-5-md {
     -moz-column-gap: 5px;
     column-gap: 5px;
   }
-  .column .gap-10-md {
+  .column.gap-10-md {
     -moz-column-gap: 10px;
     column-gap: 10px;
   }
-  .column .gap-15-md {
+  .column.gap-15-md {
     -moz-column-gap: 15px;
     column-gap: 15px;
   }
-  .column .gap-20-md {
+  .column.gap-20-md {
     -moz-column-gap: 20px;
     column-gap: 20px;
   }
-  .column .gap-25-md {
+  .column.gap-25-md {
     -moz-column-gap: 25px;
     column-gap: 25px;
   }
-  .column .gap-30-md {
+  .column.gap-30-md {
     -moz-column-gap: 30px;
     column-gap: 30px;
   }
-  .column .gap-35-md {
+  .column.gap-35-md {
     -moz-column-gap: 35px;
     column-gap: 35px;
   }
-  .column .gap-40-md {
+  .column.gap-40-md {
     -moz-column-gap: 40px;
     column-gap: 40px;
   }
-  .column .gap-45-md {
+  .column.gap-45-md {
     -moz-column-gap: 45px;
     column-gap: 45px;
   }
-  .column .gap-50-md {
+  .column.gap-50-md {
     -moz-column-gap: 50px;
     column-gap: 50px;
   }
-  .column .gap-55-md {
+  .column.gap-55-md {
     -moz-column-gap: 55px;
     column-gap: 55px;
   }
-  .column .gap-60-md {
+  .column.gap-60-md {
     -moz-column-gap: 60px;
     column-gap: 60px;
   }
 }
 
 @media (max-width: 767px) {
-  .column .one-sm {
+  .column.one-sm {
     -moz-column-count: 1;
          column-count: 1;
   }
-  .column .two-sm {
+  .column.two-sm {
     -moz-column-count: 2;
          column-count: 2;
   }
-  .column .three-sm {
+  .column.three-sm {
     -moz-column-count: 3;
          column-count: 3;
   }
-  .column .four-sm {
+  .column.four-sm {
     -moz-column-count: 4;
          column-count: 4;
   }
-  .column .five-sm {
+  .column.five-sm {
     -moz-column-count: 5;
          column-count: 5;
   }
-  .column .six-sm {
+  .column.six-sm {
     -moz-column-count: 6;
          column-count: 6;
   }
-  .column .seven-sm {
+  .column.seven-sm {
     -moz-column-count: 7;
          column-count: 7;
   }
-  .column .eight-sm {
+  .column.eight-sm {
     -moz-column-count: 8;
          column-count: 8;
   }
-  .column .nine-sm {
+  .column.nine-sm {
     -moz-column-count: 9;
          column-count: 9;
   }
-  .column .ten-sm {
+  .column.ten-sm {
     -moz-column-count: 10;
          column-count: 10;
   }
-  .column .eleven-sm {
+  .column.eleven-sm {
     -moz-column-count: 11;
          column-count: 11;
   }
-  .column .twelve-sm {
+  .column.twelve-sm {
     -moz-column-count: 12;
          column-count: 12;
   }
-  .column .gap-5-sm {
+  .column.gap-5-sm {
     -moz-column-gap: 5px;
     column-gap: 5px;
   }
-  .column .gap-10-sm {
+  .column.gap-10-sm {
     -moz-column-gap: 10px;
     column-gap: 10px;
   }
-  .column .gap-15-sm {
+  .column.gap-15-sm {
     -moz-column-gap: 15px;
     column-gap: 15px;
   }
-  .column .gap-20-sm {
+  .column.gap-20-sm {
     -moz-column-gap: 20px;
     column-gap: 20px;
   }
-  .column .gap-25-sm {
+  .column.gap-25-sm {
     -moz-column-gap: 25px;
     column-gap: 25px;
   }
-  .column .gap-30-sm {
+  .column.gap-30-sm {
     -moz-column-gap: 30px;
     column-gap: 30px;
   }
-  .column .gap-35-sm {
+  .column.gap-35-sm {
     -moz-column-gap: 35px;
     column-gap: 35px;
   }
-  .column .gap-40-sm {
+  .column.gap-40-sm {
     -moz-column-gap: 40px;
     column-gap: 40px;
   }
-  .column .gap-45-sm {
+  .column.gap-45-sm {
     -moz-column-gap: 45px;
     column-gap: 45px;
   }
-  .column .gap-50-sm {
+  .column.gap-50-sm {
     -moz-column-gap: 50px;
     column-gap: 50px;
   }
-  .column .gap-55-sm {
+  .column.gap-55-sm {
     -moz-column-gap: 55px;
     column-gap: 55px;
   }
-  .column .gap-60-sm {
+  .column.gap-60-sm {
     -moz-column-gap: 60px;
     column-gap: 60px;
   }
 }
 
 @media (max-width: 575px) {
-  .column .one-xs {
+  .column.one-xs {
     -moz-column-count: 1;
          column-count: 1;
   }
-  .column .two-xs {
+  .column.two-xs {
     -moz-column-count: 2;
          column-count: 2;
   }
-  .column .three-xs {
+  .column.three-xs {
     -moz-column-count: 3;
          column-count: 3;
   }
-  .column .four-xs {
+  .column.four-xs {
     -moz-column-count: 4;
          column-count: 4;
   }
-  .column .five-xs {
+  .column.five-xs {
     -moz-column-count: 5;
          column-count: 5;
   }
-  .column .six-xs {
+  .column.six-xs {
     -moz-column-count: 6;
          column-count: 6;
   }
-  .column .seven-xs {
+  .column.seven-xs {
     -moz-column-count: 7;
          column-count: 7;
   }
-  .column .eight-xs {
+  .column.eight-xs {
     -moz-column-count: 8;
          column-count: 8;
   }
-  .column .nine-xs {
+  .column.nine-xs {
     -moz-column-count: 9;
          column-count: 9;
   }
-  .column .ten-xs {
+  .column.ten-xs {
     -moz-column-count: 10;
          column-count: 10;
   }
-  .column .eleven-xs {
+  .column.eleven-xs {
     -moz-column-count: 11;
          column-count: 11;
   }
-  .column .twelve-xs {
+  .column.twelve-xs {
     -moz-column-count: 12;
          column-count: 12;
   }
-  .column .gap-5-xs {
+  .column.gap-5-xs {
     -moz-column-gap: 5px;
     column-gap: 5px;
   }
-  .column .gap-10-xs {
+  .column.gap-10-xs {
     -moz-column-gap: 10px;
     column-gap: 10px;
   }
-  .column .gap-15-xs {
+  .column.gap-15-xs {
     -moz-column-gap: 15px;
     column-gap: 15px;
   }
-  .column .gap-20-xs {
+  .column.gap-20-xs {
     -moz-column-gap: 20px;
     column-gap: 20px;
   }
-  .column .gap-25-xs {
+  .column.gap-25-xs {
     -moz-column-gap: 25px;
     column-gap: 25px;
   }
-  .column .gap-30-xs {
+  .column.gap-30-xs {
     -moz-column-gap: 30px;
     column-gap: 30px;
   }
-  .column .gap-35-xs {
+  .column.gap-35-xs {
     -moz-column-gap: 35px;
     column-gap: 35px;
   }
-  .column .gap-40-xs {
+  .column.gap-40-xs {
     -moz-column-gap: 40px;
     column-gap: 40px;
   }
-  .column .gap-45-xs {
+  .column.gap-45-xs {
     -moz-column-gap: 45px;
     column-gap: 45px;
   }
-  .column .gap-50-xs {
+  .column.gap-50-xs {
     -moz-column-gap: 50px;
     column-gap: 50px;
   }
-  .column .gap-55-xs {
+  .column.gap-55-xs {
     -moz-column-gap: 55px;
     column-gap: 55px;
   }
-  .column .gap-60-xs {
+  .column.gap-60-xs {
     -moz-column-gap: 60px;
     column-gap: 60px;
   }
