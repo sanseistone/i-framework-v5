@@ -133,6 +133,15 @@
 
 @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
   .#{$multiple-lines} {
+    &.#{$lines-number}.#{$font-r100} {
+      height: calc(#{$rem-1} * 1 * #{$line-height-default} * #{$lines-line});
+      -webkit-line-clamp: $lines-line;
+    }
+  }
+}
+
+@each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+  .#{$multiple-lines} {
     &.#{$lines-number}.#{$font-r125} {
       height: calc(#{$rem-1} * 1.25 * #{$line-height-default} * #{$lines-line});
       -webkit-line-clamp: $lines-line;
@@ -270,6 +279,15 @@
 
   @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
     .#{$multiple-lines} {
+      &.#{$lines-number}-lg.#{$font-r100} {
+        height: calc(#{$rem-1} * 1 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
       &.#{$lines-number}-lg.#{$font-r125} {
         height: calc(#{$rem-1} * 1.25 * #{$line-height-default} * #{$lines-line});
         -webkit-line-clamp: $lines-line;
@@ -280,6 +298,51 @@
   @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
     .#{$multiple-lines} {
       &.#{$lines-number}-lg.#{$font-r150} {
+        height: calc(#{$rem-1} * 1.5 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r075}-lg {
+        height: calc(#{$rem-1} * .75 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r0875}-lg {
+        height: calc(#{$rem-1} * .875 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r100}-lg {
+        height: calc(#{$rem-1} * 1 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r125}-lg {
+        height: calc(#{$rem-1} * 1.25 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r150}-lg {
         height: calc(#{$rem-1} * 1.5 * #{$line-height-default} * #{$lines-line});
         -webkit-line-clamp: $lines-line;
       }
@@ -406,6 +469,15 @@
 
   @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
     .#{$multiple-lines} {
+      &.#{$lines-number}-md.#{$font-r100} {
+        height: calc(#{$rem-1} * 1 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
       &.#{$lines-number}-md.#{$font-r125} {
         height: calc(#{$rem-1} * 1.25 * #{$line-height-default} * #{$lines-line});
         -webkit-line-clamp: $lines-line;
@@ -416,6 +488,51 @@
   @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
     .#{$multiple-lines} {
       &.#{$lines-number}-md.#{$font-r150} {
+        height: calc(#{$rem-1} * 1.5 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r075}-md {
+        height: calc(#{$rem-1} * .75 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r0875}-md {
+        height: calc(#{$rem-1} * .875 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r100}-md {
+        height: calc(#{$rem-1} * 1 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r125}-md {
+        height: calc(#{$rem-1} * 1.25 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r150}-md {
         height: calc(#{$rem-1} * 1.5 * #{$line-height-default} * #{$lines-line});
         -webkit-line-clamp: $lines-line;
       }
@@ -542,6 +659,15 @@
 
   @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
     .#{$multiple-lines} {
+      &.#{$lines-number}-sm.#{$font-r100} {
+        height: calc(#{$rem-1} * 1 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
       &.#{$lines-number}-sm.#{$font-r125} {
         height: calc(#{$rem-1} * 1.25 * #{$line-height-default} * #{$lines-line});
         -webkit-line-clamp: $lines-line;
@@ -552,6 +678,51 @@
   @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
     .#{$multiple-lines} {
       &.#{$lines-number}-sm.#{$font-r150} {
+        height: calc(#{$rem-1} * 1.5 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r075}-sm {
+        height: calc(#{$rem-1} * .75 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r0875}-sm {
+        height: calc(#{$rem-1} * .875 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r100}-sm {
+        height: calc(#{$rem-1} * 1 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r125}-sm {
+        height: calc(#{$rem-1} * 1.25 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r150}-sm {
         height: calc(#{$rem-1} * 1.5 * #{$line-height-default} * #{$lines-line});
         -webkit-line-clamp: $lines-line;
       }
@@ -678,6 +849,15 @@
 
   @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
     .#{$multiple-lines} {
+      &.#{$lines-number}-xs.#{$font-r100} {
+        height: calc(#{$rem-1} * 1 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
       &.#{$lines-number}-xs.#{$font-r125} {
         height: calc(#{$rem-1} * 1.25 * #{$line-height-default} * #{$lines-line});
         -webkit-line-clamp: $lines-line;
@@ -688,6 +868,51 @@
   @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
     .#{$multiple-lines} {
       &.#{$lines-number}-xs.#{$font-r150} {
+        height: calc(#{$rem-1} * 1.5 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r075}-xs {
+        height: calc(#{$rem-1} * .75 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r0875}-xs {
+        height: calc(#{$rem-1} * .875 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r100}-xs {
+        height: calc(#{$rem-1} * 1 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r125}-xs {
+        height: calc(#{$rem-1} * 1.25 * #{$line-height-default} * #{$lines-line});
+        -webkit-line-clamp: $lines-line;
+      }
+    }
+  }
+
+  @each $lines-number, $lines-line in (one:1, two:2, three:3, four:4, five:5, six:6) {
+    .#{$multiple-lines} {
+      &.#{$lines-number}.#{$font-r150}-xs {
         height: calc(#{$rem-1} * 1.5 * #{$line-height-default} * #{$lines-line});
         -webkit-line-clamp: $lines-line;
       }
